@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-14T19:50:34.8073688+08:00",
+  "title": "Design System: Classical Music Timeline",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(96.8% 0.018 84)",
+        "tonalRamp": [
+          "oklch(18% 0.012 84)",
+          "oklch(30% 0.014 84)",
+          "oklch(42% 0.016 84)",
+          "oklch(56% 0.018 84)",
+          "oklch(70% 0.018 84)",
+          "oklch(84% 0.018 84)",
+          "oklch(92% 0.018 84)",
+          "oklch(96.8% 0.018 84)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Quiet Ink Blue",
+        "canonical": "oklch(25% 0.045 238)",
+        "tonalRamp": [
+          "oklch(15% 0.03 238)",
+          "oklch(25% 0.045 238)",
+          "oklch(38% 0.045 238)",
+          "oklch(50% 0.04 238)",
+          "oklch(62% 0.035 238)",
+          "oklch(74% 0.03 238)",
+          "oklch(86% 0.02 238)",
+          "oklch(94% 0.012 238)"
+        ]
+      },
+      "concert-red": {
+        "role": "secondary",
+        "displayName": "Concert Red",
+        "canonical": "oklch(45% 0.118 24)",
+        "tonalRamp": [
+          "oklch(18% 0.05 24)",
+          "oklch(30% 0.09 24)",
+          "oklch(45% 0.118 24)",
+          "oklch(56% 0.1 24)",
+          "oklch(68% 0.08 24)",
+          "oklch(80% 0.05 24)",
+          "oklch(90% 0.03 24)",
+          "oklch(96% 0.015 24)"
+        ]
+      },
+      "renaissance": {
+        "role": "tertiary",
+        "displayName": "Renaissance Green",
+        "canonical": "oklch(88% 0.032 152)",
+        "tonalRamp": [
+          "oklch(18% 0.02 152)",
+          "oklch(30% 0.026 152)",
+          "oklch(44% 0.03 152)",
+          "oklch(58% 0.032 152)",
+          "oklch(72% 0.032 152)",
+          "oklch(84% 0.032 152)",
+          "oklch(90% 0.024 152)",
+          "oklch(96% 0.014 152)"
+        ]
+      },
+      "baroque": {
+        "role": "tertiary",
+        "displayName": "Baroque Ochre",
+        "canonical": "oklch(88% 0.038 75)",
+        "tonalRamp": [
+          "oklch(18% 0.022 75)",
+          "oklch(30% 0.03 75)",
+          "oklch(44% 0.036 75)",
+          "oklch(58% 0.038 75)",
+          "oklch(72% 0.038 75)",
+          "oklch(84% 0.038 75)",
+          "oklch(90% 0.028 75)",
+          "oklch(96% 0.014 75)"
+        ]
+      },
+      "classical": {
+        "role": "tertiary",
+        "displayName": "Classical Violet",
+        "canonical": "oklch(88% 0.03 288)",
+        "tonalRamp": [
+          "oklch(18% 0.018 288)",
+          "oklch(30% 0.024 288)",
+          "oklch(44% 0.028 288)",
+          "oklch(58% 0.03 288)",
+          "oklch(72% 0.03 288)",
+          "oklch(84% 0.03 288)",
+          "oklch(90% 0.022 288)",
+          "oklch(96% 0.012 288)"
+        ]
+      },
+      "romantic": {
+        "role": "tertiary",
+        "displayName": "Romantic Rose",
+        "canonical": "oklch(88% 0.04 29)",
+        "tonalRamp": [
+          "oklch(18% 0.022 29)",
+          "oklch(30% 0.03 29)",
+          "oklch(44% 0.038 29)",
+          "oklch(58% 0.04 29)",
+          "oklch(72% 0.04 29)",
+          "oklch(84% 0.04 29)",
+          "oklch(90% 0.03 29)",
+          "oklch(96% 0.014 29)"
+        ]
+      },
+      "modern": {
+        "role": "tertiary",
+        "displayName": "Modern Blue",
+        "canonical": "oklch(87% 0.032 210)",
+        "tonalRamp": [
+          "oklch(18% 0.02 210)",
+          "oklch(30% 0.026 210)",
+          "oklch(44% 0.03 210)",
+          "oklch(58% 0.032 210)",
+          "oklch(72% 0.032 210)",
+          "oklch(84% 0.032 210)",
+          "oklch(90% 0.024 210)",
+          "oklch(96% 0.014 210)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Homepage title and large map-facing headings only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Timeline panel titles, route section headings, and detail headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Readable prose, listening notes, controls, and route copy."
+      },
+      "label": {
+        "displayName": "Map Label",
+        "purpose": "Kickers, year marks, metadata, and map annotations."
+      }
+    },
+    "shadows": [
+      {
+        "name": "preview-lift",
+        "value": "0 1rem 3rem oklch(26% 0.045 238 / 0.12)",
+        "purpose": "Soft paper lift for the homepage atlas panel."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px oklch(58% 0.1 24 / 0.15)",
+        "purpose": "Active and focused composer bars."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Default state-change easing for buttons, chips, cards, and composer bars."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "48rem"
+      },
+      {
+        "name": "desktop",
+        "value": "64rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action into the full timeline.",
+      "html": "<button class=\"ds-btn-primary\">进入完整 timeline</button>",
+      "css": ".ds-btn-primary { min-height: 2.75rem; border: 1px solid oklch(25% 0.045 238); border-radius: 0.25rem; background: oklch(25% 0.045 238); color: oklch(98% 0.012 84); padding: 0.7rem 1rem; font: 400 1rem/1.6 Aptos, Segoe UI, sans-serif; transition: background-color 180ms cubic-bezier(0.22, 1, 0.36, 1), border-color 180ms cubic-bezier(0.22, 1, 0.36, 1), transform 180ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-btn-primary:hover { background: oklch(45% 0.118 24); border-color: oklch(45% 0.118 24); transform: translateY(-1px); } .ds-btn-primary:focus-visible { outline: 3px solid oklch(55% 0.12 24); outline-offset: 3px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Period and listening-mood filter chip.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">浪漫主义</button>",
+      "css": ".ds-chip { min-height: 2.5rem; border: 1px solid oklch(76% 0.018 86); border-radius: 0.25rem; background: oklch(98% 0.012 84); color: oklch(44% 0.032 235); padding: 0.45rem 0.7rem; font: 400 1rem/1.6 Aptos, Segoe UI, sans-serif; transition: border-color 160ms cubic-bezier(0.22, 1, 0.36, 1), color 160ms cubic-bezier(0.22, 1, 0.36, 1), background-color 160ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-chip:hover, .ds-chip[aria-pressed=\"true\"] { border-color: oklch(45% 0.118 24); color: oklch(45% 0.118 24); } .ds-chip[aria-pressed=\"true\"] { background: oklch(92% 0.03 24); } .ds-chip:focus-visible { outline: 3px solid oklch(55% 0.12 24); outline-offset: 3px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Composer search input styled as an index lookup.",
+      "html": "<label class=\"ds-search\"><span>搜索作曲家</span><input placeholder=\"例如：巴赫 / Debussy\"></label>",
+      "css": ".ds-search { display: grid; gap: 0.5rem; color: oklch(44% 0.032 235); font: 400 0.9rem/1.6 Aptos, Segoe UI, sans-serif; } .ds-search input { width: 100%; min-height: 2.75rem; border: 1px solid oklch(60% 0.025 230); border-radius: 0.25rem; background: oklch(98% 0.012 84); color: oklch(25% 0.045 238); padding: 0 0.75rem; font: 400 1rem/1.6 Aptos, Segoe UI, sans-serif; } .ds-search input:focus-visible { outline: 3px solid oklch(55% 0.12 24); outline-offset: 3px; }"
+    },
+    {
+      "name": "Composer Bar",
+      "kind": "custom",
+      "refersTo": "timeline",
+      "description": "Interactive life-span bar inside the timeline map.",
+      "html": "<button class=\"ds-composer-bar\">德彪西</button>",
+      "css": ".ds-composer-bar { min-width: 3.5rem; min-height: 1.7rem; border: 1px solid oklch(25% 0.045 238); border-radius: 0.25rem; background: linear-gradient(90deg, oklch(87% 0.032 210), oklch(98% 0.012 84)); color: oklch(25% 0.045 238); padding: 0 0.5rem; font: 600 0.78rem/1.15 Aptos, Segoe UI, sans-serif; white-space: nowrap; transition: transform 160ms cubic-bezier(0.22, 1, 0.36, 1), border-color 160ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 160ms cubic-bezier(0.22, 1, 0.36, 1); } .ds-composer-bar:hover, .ds-composer-bar:focus-visible { border-color: oklch(45% 0.118 24); box-shadow: 0 0 0 3px oklch(58% 0.1 24 / 0.15); transform: translateY(-2px); outline: none; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Private Listening Atlas",
+    "overview": "The interface is a serious listener's annotated desk map: a warm paper surface, quiet ink lines, sparse red marks, and timeline bands that behave like information rather than decoration. It should feel collected and usable, not nostalgic theater.",
+    "keyCharacteristics": [
+      "Map-first composition with the timeline as the dominant visual object.",
+      "Dense enough for serious listeners, edited enough for calm browsing.",
+      "Period color used as structured information.",
+      "Chinese and English names treated as first-class content.",
+      "Gentle motion that supports discovery without becoming theatrical.",
+      "Static-first execution so the full experience can ship cleanly on GitHub Pages."
+    ],
+    "rules": [
+      {
+        "name": "The Timeline Legibility Rule",
+        "body": "Period color never competes with composer bars, labels, or date marks. If the timeline needs effort to read, the palette is wrong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red Rarity Rule",
+        "body": "Concert red is for selection, navigation emphasis, and annotation. Do not spread it across decorative elements.",
+        "section": "colors"
+      },
+      {
+        "name": "The No Faux-Antique Rule",
+        "body": "Historical does not mean sepia, gold trim, distressed textures, or decorative frames.",
+        "section": "colors"
+      },
+      {
+        "name": "The Annotation Rule",
+        "body": "Labels should feel like map annotations: concise, placed with care, and never repeated as decorative filler.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Costume Rule",
+        "body": "Do not use ornate fonts just because the subject is classical music.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Map Rule",
+        "body": "The timeline is a map, not a stack of cards. Depth supports inspection, it does not decorate the page.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do make the timeline the dominant first-viewport object.",
+      "Do preserve enough density for serious classical listeners.",
+      "Do use period color as structured information.",
+      "Do provide small listening cues for newcomers without lowering the tone.",
+      "Do support Chinese and English names, long labels, keyboard access, and reduced motion.",
+      "Do design interactions that can run from static assets and client-side data on GitHub Pages.",
+      "Do use OKLCH tokens from the stylesheet as the design source of truth."
+    ],
+    "donts": [
+      "Don't make it look like a generic streaming homepage.",
+      "Don't use training-course sales language or anxiety-based beginner messaging.",
+      "Don't turn the first screen into an encyclopedia database.",
+      "Don't use gold trim, distressed paper, ornate borders, or heavy faux-antique styling.",
+      "Don't use purple-blue gradients, glassmorphism, floating light blobs, gradient text, or template hero metrics.",
+      "Don't use colored side-stripe borders as accents.",
+      "Don't rely on server-only rendering, backend APIs, or runtime services for the core timeline experience."
+    ]
+  }
+}

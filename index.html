@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="一张面向古典音乐爱好者的互动时间地图。">
+    <title>古典音乐时间地图</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <header class="site-header" aria-label="站点导航">
+      <a class="brand-mark" href="index.html" aria-label="古典音乐时间地图首页">
+        <span class="brand-mark__glyph" aria-hidden="true">CT</span>
+        <span>
+          <span class="brand-mark__title">古典音乐时间地图</span>
+          <span class="brand-mark__subtitle">Classical Timeline</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="timeline.html">Timeline</a>
+        <a href="timeline.html?period=Romantic">浪漫主义</a>
+        <a href="timeline.html?mood=水光">听感索引</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero-shell" aria-labelledby="home-title">
+        <div class="hero-copy">
+          <p class="kicker">Annotated Concert Map</p>
+          <h1 id="home-title">把作曲家放回时间里听。</h1>
+          <p class="hero-lede">
+            面向已经在听古典音乐的人：用一张可漫游的时间地图，把时代、作曲家、作品和下一首推荐连起来。
+          </p>
+          <div class="hero-actions" aria-label="主要入口">
+            <a class="button button--primary" href="timeline.html">进入完整 timeline</a>
+            <a class="button button--quiet" href="#routes">选择探索路径</a>
+          </div>
+          <dl class="listening-note" aria-label="本页定位">
+            <div>
+              <dt>核心视角</dt>
+              <dd>作曲家生平与音乐时期的时间关系</dd>
+            </div>
+            <div>
+              <dt>内容密度</dt>
+              <dd>给懂行者看，也给入门者一点赏析线索</dd>
+            </div>
+          </dl>
+        </div>
+
+        <section class="atlas-panel" aria-labelledby="preview-title">
+          <div class="atlas-panel__head">
+            <div>
+              <p class="kicker">Preview</p>
+              <h2 id="preview-title">私人听乐地图</h2>
+            </div>
+            <a class="text-link" href="timeline.html">展开全图</a>
+          </div>
+          <div class="timeline-frame timeline-frame--preview">
+            <div class="timeline" data-timeline="preview" aria-label="古典音乐作曲家时间线预览"></div>
+          </div>
+          <p class="map-caption">
+            悬停或聚焦作曲家条目可查看赏析线索。首页只展示局部，完整页面支持筛选和搜索。
+          </p>
+        </section>
+      </section>
+
+      <section id="routes" class="route-section" aria-labelledby="routes-title">
+        <div class="section-heading">
+          <p class="kicker">Four entries</p>
+          <h2 id="routes-title">从一种熟悉的方式进入。</h2>
+        </div>
+        <div class="route-grid">
+          <a class="route-card" href="timeline.html">
+            <span class="route-card__index">01</span>
+            <span class="route-card__title">按时代</span>
+            <span class="route-card__body">从巴洛克到现代主义，先看历史层次，再听代表作品。</span>
+          </a>
+          <a class="route-card" href="timeline.html?focus=composer">
+            <span class="route-card__index">02</span>
+            <span class="route-card__title">按作曲家</span>
+            <span class="route-card__body">找到熟悉的人，再顺着同时代和相邻风格继续听。</span>
+          </a>
+          <a class="route-card" href="timeline.html?mood=水光">
+            <span class="route-card__index">03</span>
+            <span class="route-card__title">按听感</span>
+            <span class="route-card__body">从庄严、梦境、水光、戏剧性这些直觉词进入作品。</span>
+          </a>
+          <a class="route-card" href="timeline.html?path=starter">
+            <span class="route-card__index">04</span>
+            <span class="route-card__title">入门路线</span>
+            <span class="route-card__body">不是课程，而是一组能继续听下去的第一批曲目。</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

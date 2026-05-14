@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="按时代、作曲家和听感探索古典音乐时间线。">
+    <title>Timeline | 古典音乐时间地图</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="module" src="assets/app.js"></script>
+  </head>
+  <body data-page="timeline">
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <header class="site-header" aria-label="站点导航">
+      <a class="brand-mark" href="index.html" aria-label="古典音乐时间地图首页">
+        <span class="brand-mark__glyph" aria-hidden="true">CT</span>
+        <span>
+          <span class="brand-mark__title">古典音乐时间地图</span>
+          <span class="brand-mark__subtitle">Classical Timeline</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="timeline.html" aria-current="page">Timeline</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="timeline-page">
+      <section class="timeline-intro" aria-labelledby="timeline-title">
+        <div>
+          <p class="kicker">Full map</p>
+          <h1 id="timeline-title">从 1500 到 1990 的听乐坐标。</h1>
+        </div>
+        <p>
+          用时间轴看作曲家之间的距离，再从每个节点进入代表作品。第一版先保留核心人物和轻量筛选，后续可扩展国家、乐器、版本和作品页。
+        </p>
+      </section>
+
+      <section class="explorer-shell" aria-label="时间线探索器">
+        <aside class="explorer-controls" aria-label="筛选作曲家">
+          <label class="search-field">
+            <span>搜索作曲家</span>
+            <input type="search" data-search placeholder="例如：巴赫 / Debussy" autocomplete="off">
+          </label>
+
+          <div class="filter-group" aria-label="按时期筛选">
+            <p class="filter-group__label">时期</p>
+            <div class="chip-row" data-period-filters></div>
+          </div>
+
+          <div class="filter-group" aria-label="按听感筛选">
+            <p class="filter-group__label">听感</p>
+            <div class="chip-row">
+              <button class="chip" type="button" data-mood="庄严">庄严</button>
+              <button class="chip" type="button" data-mood="水光">水光</button>
+              <button class="chip" type="button" data-mood="戏剧性">戏剧性</button>
+              <button class="chip" type="button" data-mood="田园">田园</button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="timeline-workspace" aria-labelledby="workspace-title">
+          <div class="workspace-head">
+            <div>
+              <p class="kicker">Composer atlas</p>
+              <h2 id="workspace-title">作曲家生命条</h2>
+            </div>
+            <p class="workspace-count" data-result-count aria-live="polite"></p>
+          </div>
+          <div class="timeline-frame">
+            <div class="timeline" data-timeline="full" aria-label="古典音乐作曲家完整时间线"></div>
+          </div>
+        </section>
+
+        <aside class="composer-detail" aria-live="polite" aria-label="作曲家赏析线索">
+          <p class="kicker">Listening note</p>
+          <div data-detail>
+            <h2>选择一个作曲家</h2>
+            <p>点击或聚焦时间线上的生命条，查看风格判断、代表作品和相邻聆听线索。</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
