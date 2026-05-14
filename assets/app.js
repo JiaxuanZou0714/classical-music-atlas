@@ -50,7 +50,6 @@ function initHome() {
   const preview = document.querySelector('[data-timeline="preview"]');
   const previewData = composers.filter((composer) => PREVIEW_IDS.includes(composer.id));
   renderTimeline(preview, previewData, { preview: true });
-  renderPreviewNote(previewData[0]);
   bindTimelineNavigation("preview", { min: 1600, max: 1950 });
 }
 
@@ -211,14 +210,6 @@ function bindTimelineNavigation(mode, range) {
   if (!frame || frame.dataset.navigationReady === "true") return;
 
   frame.dataset.navigationReady = "true";
-  renderEraJumps(mode, range, frame);
-
-  document.querySelectorAll(`[data-pan="${mode}"]`).forEach((button) => {
-    button.addEventListener("click", () => {
-      const direction = Number(button.dataset.direction);
-      frame.scrollBy({ left: direction * frame.clientWidth * 0.72, behavior: getScrollBehavior() });
-    });
-  });
 
   frame.addEventListener("keydown", (event) => {
     if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
@@ -228,23 +219,6 @@ function bindTimelineNavigation(mode, range) {
   });
 
   bindDragPan(frame);
-}
-
-function renderEraJumps(mode, range, frame) {
-  const row = document.querySelector(`[data-era-jumps="${mode}"]`);
-  if (!row) return;
-
-  row.innerHTML = PERIODS
-    .filter((period) => period.end > range.min && period.start < range.max)
-    .map((period) => `<button class="era-jump" type="button" data-jump-year="${Math.max(period.start, range.min)}">${period.label}</button>`)
-    .join("");
-
-  row.querySelectorAll("[data-jump-year]").forEach((button) => {
-    button.addEventListener("click", () => {
-      const year = Number(button.dataset.jumpYear);
-      scrollFrameToYear(frame, year, range, 0.08);
-    });
-  });
 }
 
 function bindDragPan(frame) {

@@ -32,22 +32,11 @@
           <p class="kicker">Annotated Concert Map</p>
           <h1 id="home-title">把作曲家放回时间里听。</h1>
           <p class="hero-lede">
-            面向已经在听古典音乐的人：用一张可漫游的时间地图，把时代、作曲家、作品和下一首推荐连起来。
+            一张可漫游的时间地图，把作曲家、时代和下一首推荐连起来。
           </p>
           <div class="hero-actions" aria-label="主要入口">
-            <a class="button button--primary" href="timeline.html">进入完整 timeline</a>
-            <a class="button button--quiet" href="#routes">选择探索路径</a>
+            <a class="button button--primary" href="timeline.html">进入 timeline</a>
           </div>
-          <dl class="listening-note" aria-label="本页定位">
-            <div>
-              <dt>核心视角</dt>
-              <dd>作曲家生平与音乐时期的时间关系</dd>
-            </div>
-            <div>
-              <dt>内容密度</dt>
-              <dd>给懂行者看，也给入门者一点赏析线索</dd>
-            </div>
-          </dl>
         </div>
 
         <section class="atlas-panel" aria-labelledby="preview-title">
@@ -61,48 +50,10 @@
           <div class="timeline-frame timeline-frame--preview" data-timeline-frame="preview" tabindex="0" aria-label="时间线预览，可拖拽或用方向键平移">
             <div class="timeline" data-timeline="preview" aria-label="古典音乐作曲家时间线预览"></div>
           </div>
-          <div class="timeline-controls" aria-label="预览时间线导航">
-            <button class="timeline-pan" type="button" data-pan="preview" data-direction="-1" aria-label="向早期平移">‹</button>
-            <div class="era-jump-row" data-era-jumps="preview" aria-label="跳转到时期"></div>
-            <button class="timeline-pan" type="button" data-pan="preview" data-direction="1" aria-label="向晚期平移">›</button>
-          </div>
           <div class="timeline-note" data-preview-note aria-live="polite">
-            <p class="timeline-note__name">选择一位作曲家</p>
-            <p>悬停或聚焦生命条，查看一句赏析线索；点击进入完整地图。</p>
+            <p>拖拽时间轴，悬停作曲家。</p>
           </div>
-          <p class="map-caption">
-            拖拽地图、使用左右按钮，或按时期跳转。完整页面支持筛选和搜索。
-          </p>
         </section>
-      </section>
-
-      <section id="routes" class="route-section" aria-labelledby="routes-title">
-        <div class="section-heading">
-          <p class="kicker">Four entries</p>
-          <h2 id="routes-title">从一种熟悉的方式进入。</h2>
-        </div>
-        <div class="route-grid">
-          <a class="route-card" href="timeline.html">
-            <span class="route-card__index">01</span>
-            <span class="route-card__title">按时代</span>
-            <span class="route-card__body">从巴洛克到现代主义，先看历史层次，再听代表作品。</span>
-          </a>
-          <a class="route-card" href="timeline.html?focus=composer">
-            <span class="route-card__index">02</span>
-            <span class="route-card__title">按作曲家</span>
-            <span class="route-card__body">找到熟悉的人，再顺着同时代和相邻风格继续听。</span>
-          </a>
-          <a class="route-card" href="timeline.html?mood=水光">
-            <span class="route-card__index">03</span>
-            <span class="route-card__title">按听感</span>
-            <span class="route-card__body">从庄严、梦境、水光、戏剧性这些直觉词进入作品。</span>
-          </a>
-          <a class="route-card" href="timeline.html?path=starter">
-            <span class="route-card__index">04</span>
-            <span class="route-card__title">入门路线</span>
-            <span class="route-card__body">不是课程，而是一组能继续听下去的第一批曲目。</span>
-          </a>
-        </div>
       </section>
     </main>
   </body>

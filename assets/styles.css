@@ -242,39 +242,6 @@ h2 {
   border-color: var(--concert-red);
 }
 
-.button--quiet {
-  color: var(--ink);
-}
-
-.button--quiet:hover {
-  border-color: var(--concert-red);
-  color: var(--concert-red);
-}
-
-.listening-note {
-  display: grid;
-  gap: var(--space-3);
-  max-width: 34rem;
-  margin: 0;
-  padding-block-start: var(--space-6);
-  border-block-start: 1px solid var(--rule);
-}
-
-.listening-note div {
-  display: grid;
-  gap: var(--space-1);
-}
-
-.listening-note dt {
-  color: var(--concert-red);
-  font-size: 0.82rem;
-}
-
-.listening-note dd {
-  margin: 0;
-  color: var(--ink-soft);
-}
-
 .atlas-panel,
 .composer-detail,
 .explorer-controls {
@@ -290,8 +257,7 @@ h2 {
 }
 
 .atlas-panel__head,
-.workspace-head,
-.section-heading {
+.workspace-head {
   display: flex;
   align-items: end;
   justify-content: space-between;
@@ -310,12 +276,6 @@ h2 {
   display: inline-flex;
   align-items: center;
   color: var(--concert-red);
-  font-size: 0.9rem;
-}
-
-.map-caption {
-  margin-block: var(--space-3) 0;
-  color: var(--ink-soft);
   font-size: 0.9rem;
 }
 
@@ -346,63 +306,6 @@ h2 {
 
 .timeline-frame--preview {
   max-height: 34rem;
-}
-
-.timeline-controls {
-  display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1fr) 2.5rem;
-  align-items: center;
-  gap: var(--space-2);
-  width: 100%;
-  min-width: 0;
-  margin-block-start: var(--space-3);
-}
-
-.timeline-pan,
-.era-jump {
-  min-height: 2.5rem;
-  border: 1px solid var(--rule);
-  border-radius: var(--radius-sm);
-  background: var(--paper-lift);
-  color: var(--ink-soft);
-  transition:
-    border-color 160ms var(--ease-out),
-    color 160ms var(--ease-out),
-    transform 160ms var(--ease-out);
-}
-
-.timeline-pan {
-  display: grid;
-  place-items: center;
-  width: 2.5rem;
-  font-family: var(--font-display);
-  font-size: 1.45rem;
-  line-height: 1;
-}
-
-.era-jump-row {
-  display: flex;
-  gap: var(--space-2);
-  min-width: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-
-.era-jump-row::-webkit-scrollbar {
-  display: none;
-}
-
-.era-jump {
-  flex: 0 0 auto;
-  padding: 0.45rem 0.7rem;
-  white-space: nowrap;
-}
-
-.timeline-pan:hover,
-.era-jump:hover {
-  border-color: var(--concert-red);
-  color: var(--concert-red);
-  transform: translateY(-1px);
 }
 
 .timeline-note {
@@ -508,59 +411,6 @@ h2 {
 
 .composer-bar.is-hidden {
   display: none;
-}
-
-.route-section {
-  padding: var(--space-12) clamp(var(--space-4), 4vw, var(--space-12));
-}
-
-.section-heading {
-  align-items: start;
-}
-
-.section-heading h2 {
-  max-width: 13ch;
-}
-
-.route-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
-  gap: var(--space-3);
-}
-
-.route-card {
-  display: grid;
-  gap: var(--space-3);
-  min-height: 13rem;
-  border: 1px solid var(--rule);
-  background: color-mix(in oklch, var(--paper-lift) 70%, var(--paper) 30%);
-  padding: var(--space-4);
-  transition:
-    border-color 180ms var(--ease-out),
-    transform 180ms var(--ease-out),
-    background-color 180ms var(--ease-out);
-}
-
-.route-card:hover {
-  border-color: var(--concert-red);
-  transform: translateY(-2px);
-}
-
-.route-card__index {
-  color: var(--concert-red);
-  font-family: var(--font-display);
-  font-size: 1.6rem;
-}
-
-.route-card__title {
-  font-family: var(--font-display);
-  font-size: 1.6rem;
-  line-height: 1.1;
-}
-
-.route-card__body {
-  color: var(--ink-soft);
-  max-width: 30ch;
 }
 
 .timeline-page {
@@ -720,10 +570,6 @@ h2 {
     display: flex;
   }
 
-  .listening-note {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .timeline-intro {
     grid-template-columns: minmax(18rem, 0.8fr) minmax(20rem, 1fr);
     align-items: end;
@@ -753,9 +599,18 @@ h2 {
     align-items: flex-start;
   }
 
+  .hero-shell {
+    gap: var(--space-16);
+    min-height: auto;
+    padding-block-start: var(--space-12);
+  }
+
+  .hero-copy {
+    align-self: start;
+  }
+
   .hero-shell,
   .timeline-page,
-  .route-section,
   .site-header {
     max-width: 100vw;
     overflow-x: clip;
@@ -793,31 +648,9 @@ h2 {
   }
 
   .atlas-panel__head,
-  .workspace-head,
-  .section-heading {
+  .workspace-head {
     align-items: start;
     flex-direction: column;
-  }
-
-  .timeline-controls {
-    grid-template-areas:
-      "prev . next"
-      "eras eras eras";
-    row-gap: var(--space-2);
-  }
-
-  .timeline-pan[data-direction="-1"] {
-    grid-area: prev;
-  }
-
-  .timeline-pan[data-direction="1"] {
-    grid-area: next;
-    justify-self: end;
-  }
-
-  .era-jump-row {
-    grid-area: eras;
-    width: 100%;
   }
 
   .timeline {

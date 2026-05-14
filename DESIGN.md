@@ -203,7 +203,7 @@ The system is flat by default. Depth is conveyed through paper tones, grid field
 - **Period Bands:** Muted color blocks from the period palette, always behind the data.
 - **Composer Bars:** Real interactive buttons, positioned by birth and death year, with keyboard focus and click behavior.
 - **Listening Notes:** Concise赏析 copy lives outside the map surface, in the homepage note strip or the detail panel. Do not place prose over composer bars.
-- **Navigation:** Hide native scrollbars. Use drag-to-pan, keyboard arrows, left/right buttons, and period jump controls instead.
+- **Navigation:** Hide native scrollbars. Prefer direct manipulation: drag with pointer, swipe on touch, and keyboard arrows for focus users. Avoid visible pan controls unless the map becomes impossible to discover without them.
 - **Mobile:** Timeline remains horizontally pannable inside its own frame so the page itself does not become horizontally unstable.
 
 ## 6. Do's and Don'ts
