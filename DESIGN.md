@@ -134,7 +134,7 @@ The palette is a low-chroma Full palette: a warm paper base, quiet ink structure
 
 **The Timeline Legibility Rule.** Period color never competes with composer bars, labels, or date marks. If the timeline needs effort to read, the palette is wrong.
 
-**The Red Rarity Rule.** Concert red is for selection, navigation emphasis, and annotation. Do not spread it across decorative elements.
+**The Red Rarity Rule.** Concert red is for selection, navigation emphasis, and listening-note accents. Do not spread it across decorative elements.
 
 **The No Faux-Antique Rule.** Historical does not mean sepia, gold trim, distressed textures, or decorative frames.
 
@@ -151,11 +151,11 @@ The palette is a low-chroma Full palette: a warm paper base, quiet ink structure
 - **Headline** (500, `clamp(1.7rem, 4vw, 3rem)`, 1.05): Timeline panel titles, section headings, and route openings.
 - **Title** (500, 1.6rem to 2rem, tight line-height): Composer names, route titles, detail panel headings.
 - **Body** (400, 1rem, 1.6): Prose, listening notes, route copy, and explanatory text. Keep long prose near 65 to 75 characters per line on wide screens.
-- **Label** (400, 0.76rem, 0.08em tracking): Kicker labels, year marks, metadata, and map annotations. Use uppercase Latin sparingly.
+- **Label** (400, 0.76rem, 0.08em tracking): Kicker labels, year marks, metadata, and map controls. Use uppercase Latin sparingly.
 
 ### Named Rules
 
-**The Annotation Rule.** Labels should feel like map annotations: concise, placed with care, and never repeated as decorative filler.
+**The Map Label Rule.** Labels should read like map labels: concise, placed with care, and separate from prose listening notes.
 
 **The No Costume Rule.** Do not use ornate fonts just because the subject is classical music.
 
@@ -202,8 +202,9 @@ The system is flat by default. Depth is conveyed through paper tones, grid field
 - **Role:** Signature component and primary product surface.
 - **Period Bands:** Muted color blocks from the period palette, always behind the data.
 - **Composer Bars:** Real interactive buttons, positioned by birth and death year, with keyboard focus and click behavior.
-- **Annotations:** Thin red connector marks and concise listening notes.
-- **Mobile:** Timeline remains horizontally scrollable inside its own frame so the page itself does not become horizontally unstable.
+- **Listening Notes:** Concise赏析 copy lives outside the map surface, in the homepage note strip or the detail panel. Do not place prose over composer bars.
+- **Navigation:** Hide native scrollbars. Use drag-to-pan, keyboard arrows, left/right buttons, and period jump controls instead.
+- **Mobile:** Timeline remains horizontally pannable inside its own frame so the page itself does not become horizontally unstable.
 
 ## 6. Do's and Don'ts
 

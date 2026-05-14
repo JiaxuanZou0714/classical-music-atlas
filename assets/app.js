@@ -50,6 +50,8 @@ function initHome() {
   const preview = document.querySelector('[data-timeline="preview"]');
   const previewData = composers.filter((composer) => PREVIEW_IDS.includes(composer.id));
   renderTimeline(preview, previewData, { preview: true });
+  renderPreviewNote(previewData[0]);
+  bindTimelineNavigation("preview", { min: 1600, max: 1950 });
 }
 
 function initTimelinePage() {
@@ -59,6 +61,7 @@ function initTimelinePage() {
 
   renderPeriodFilters();
   bindTimelineControls();
+  bindTimelineNavigation("full", { min: MIN_YEAR, max: MAX_YEAR });
   updateTimeline();
 }
 
@@ -114,9 +117,11 @@ function updateTimeline() {
   });
 
   const target = document.querySelector('[data-timeline="full"]');
-  renderTimeline(target, filtered, { preview: false });
+  const selectedComposer = getSelectedComposer(filtered);
+  renderTimeline(target, filtered, { preview: false, selectedId: selectedComposer?.id });
   updateResultCount(filtered.length);
-  renderDetail(filtered[0]);
+  renderDetail(selectedComposer);
+  panTimelineToComposer(selectedComposer, "full", { min: MIN_YEAR, max: MAX_YEAR });
 }
 
 function renderTimeline(target, data, options) {
@@ -183,8 +188,11 @@ function renderTimeline(target, data, options) {
     bar.style.setProperty("--period-color", getPeriodColor(composer.period));
     bar.textContent = composer.nameZh;
     bar.setAttribute("aria-label", `${composer.nameZh}，${composer.birth} 到 ${composer.death}`);
+    bar.classList.toggle("is-active", composer.id === options.selectedId);
 
     if (options.preview) {
+      bar.addEventListener("mouseenter", () => renderPreviewNote(composer));
+      bar.addEventListener("focus", () => renderPreviewNote(composer));
       bar.addEventListener("click", () => {
         window.location.href = `timeline.html?focus=${encodeURIComponent(composer.id)}`;
       });
@@ -196,32 +204,117 @@ function renderTimeline(target, data, options) {
     target.append(bar);
   });
 
-  renderAnnotations(target, data, options.preview, toPercent);
-
-  if (!options.preview) {
-    const focusId = new URLSearchParams(window.location.search).get("focus");
-    if (focusId && data.some((composer) => composer.id === focusId)) {
-      selectComposer(focusId);
-    }
-  }
 }
 
-function renderAnnotations(target, data, preview, toPercent) {
-  const picks = preview
-    ? ["bach", "beethoven", "debussy"]
-    : ["monteverdi", "beethoven", "debussy", "stravinsky"];
+function bindTimelineNavigation(mode, range) {
+  const frame = document.querySelector(`[data-timeline-frame="${mode}"]`);
+  if (!frame || frame.dataset.navigationReady === "true") return;
 
-  picks
-    .map((id) => data.find((composer) => composer.id === id))
-    .filter(Boolean)
-    .forEach((composer, index) => {
-      const annotation = document.createElement("p");
-      annotation.className = "annotation";
-      annotation.style.left = `${Math.min(82, toPercent(composer.birth) + 8)}%`;
-      annotation.style.top = `${preview ? 140 + index * 82 : 150 + index * 96}px`;
-      annotation.textContent = `${composer.nameZh}: ${composer.vibe}`;
-      target.append(annotation);
+  frame.dataset.navigationReady = "true";
+  renderEraJumps(mode, range, frame);
+
+  document.querySelectorAll(`[data-pan="${mode}"]`).forEach((button) => {
+    button.addEventListener("click", () => {
+      const direction = Number(button.dataset.direction);
+      frame.scrollBy({ left: direction * frame.clientWidth * 0.72, behavior: getScrollBehavior() });
     });
+  });
+
+  frame.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    event.preventDefault();
+    const direction = event.key === "ArrowRight" ? 1 : -1;
+    frame.scrollBy({ left: direction * frame.clientWidth * 0.5, behavior: getScrollBehavior() });
+  });
+
+  bindDragPan(frame);
+}
+
+function renderEraJumps(mode, range, frame) {
+  const row = document.querySelector(`[data-era-jumps="${mode}"]`);
+  if (!row) return;
+
+  row.innerHTML = PERIODS
+    .filter((period) => period.end > range.min && period.start < range.max)
+    .map((period) => `<button class="era-jump" type="button" data-jump-year="${Math.max(period.start, range.min)}">${period.label}</button>`)
+    .join("");
+
+  row.querySelectorAll("[data-jump-year]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const year = Number(button.dataset.jumpYear);
+      scrollFrameToYear(frame, year, range, 0.08);
+    });
+  });
+}
+
+function bindDragPan(frame) {
+  let isDragging = false;
+  let startX = 0;
+  let startScrollLeft = 0;
+
+  frame.addEventListener("pointerdown", (event) => {
+    if (event.target.closest("button, a, input")) return;
+    isDragging = true;
+    startX = event.clientX;
+    startScrollLeft = frame.scrollLeft;
+    frame.classList.add("is-dragging");
+    frame.setPointerCapture(event.pointerId);
+  });
+
+  frame.addEventListener("pointermove", (event) => {
+    if (!isDragging) return;
+    frame.scrollLeft = startScrollLeft - (event.clientX - startX);
+  });
+
+  frame.addEventListener("pointerup", (event) => {
+    if (!isDragging) return;
+    isDragging = false;
+    frame.classList.remove("is-dragging");
+    frame.releasePointerCapture(event.pointerId);
+  });
+
+  frame.addEventListener("pointercancel", () => {
+    isDragging = false;
+    frame.classList.remove("is-dragging");
+  });
+}
+
+function renderPreviewNote(composer) {
+  const target = document.querySelector("[data-preview-note]");
+  if (!target || !composer) return;
+
+  target.innerHTML = `
+    <p class="timeline-note__name">${composer.nameZh} · ${composer.birth}-${composer.death}</p>
+    <p>${composer.vibe}</p>
+  `;
+}
+
+function getSelectedComposer(filtered) {
+  const focusId = new URLSearchParams(window.location.search).get("focus");
+  return filtered.find((composer) => composer.id === focusId) || filtered[0];
+}
+
+function panTimelineToComposer(composer, mode, range) {
+  const frame = document.querySelector(`[data-timeline-frame="${mode}"]`);
+  if (!frame || !composer) return;
+
+  window.requestAnimationFrame(() => {
+    scrollFrameToYear(frame, composer.birth, range, 0.32);
+  });
+}
+
+function scrollFrameToYear(frame, year, range, alignRatio) {
+  const percent = yearToPercent(year, range.min, range.max) / 100;
+  const maxScroll = frame.scrollWidth - frame.clientWidth;
+  const targetLeft = frame.scrollWidth * percent - frame.clientWidth * alignRatio;
+  frame.scrollTo({
+    left: Math.min(maxScroll, Math.max(0, targetLeft)),
+    behavior: getScrollBehavior()
+  });
+}
+
+function getScrollBehavior() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
 }
 
 function assignLanes(data, maxLanes) {

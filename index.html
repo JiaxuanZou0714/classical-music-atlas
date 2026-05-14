@@ -58,11 +58,20 @@
             </div>
             <a class="text-link" href="timeline.html">展开全图</a>
           </div>
-          <div class="timeline-frame timeline-frame--preview">
+          <div class="timeline-frame timeline-frame--preview" data-timeline-frame="preview" tabindex="0" aria-label="时间线预览，可拖拽或用方向键平移">
             <div class="timeline" data-timeline="preview" aria-label="古典音乐作曲家时间线预览"></div>
           </div>
+          <div class="timeline-controls" aria-label="预览时间线导航">
+            <button class="timeline-pan" type="button" data-pan="preview" data-direction="-1" aria-label="向早期平移">‹</button>
+            <div class="era-jump-row" data-era-jumps="preview" aria-label="跳转到时期"></div>
+            <button class="timeline-pan" type="button" data-pan="preview" data-direction="1" aria-label="向晚期平移">›</button>
+          </div>
+          <div class="timeline-note" data-preview-note aria-live="polite">
+            <p class="timeline-note__name">选择一位作曲家</p>
+            <p>悬停或聚焦生命条，查看一句赏析线索；点击进入完整地图。</p>
+          </div>
           <p class="map-caption">
-            悬停或聚焦作曲家条目可查看赏析线索。首页只展示局部，完整页面支持筛选和搜索。
+            拖拽地图、使用左右按钮，或按时期跳转。完整页面支持筛选和搜索。
           </p>
         </section>
       </section>

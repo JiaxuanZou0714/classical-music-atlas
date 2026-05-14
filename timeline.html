@@ -67,8 +67,13 @@
             </div>
             <p class="workspace-count" data-result-count aria-live="polite"></p>
           </div>
-          <div class="timeline-frame">
+          <div class="timeline-frame" data-timeline-frame="full" tabindex="0" aria-label="完整时间线，可拖拽或用方向键平移">
             <div class="timeline" data-timeline="full" aria-label="古典音乐作曲家完整时间线"></div>
+          </div>
+          <div class="timeline-controls" aria-label="完整时间线导航">
+            <button class="timeline-pan" type="button" data-pan="full" data-direction="-1" aria-label="向早期平移">‹</button>
+            <div class="era-jump-row" data-era-jumps="full" aria-label="跳转到时期"></div>
+            <button class="timeline-pan" type="button" data-pan="full" data-direction="1" aria-label="向晚期平移">›</button>
           </div>
         </section>
 

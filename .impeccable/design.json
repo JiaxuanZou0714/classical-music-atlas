@@ -140,7 +140,7 @@
       },
       "label": {
         "displayName": "Map Label",
-        "purpose": "Kickers, year marks, metadata, and map annotations."
+        "purpose": "Kickers, year marks, metadata, and map controls."
       }
     },
     "shadows": [
@@ -226,7 +226,7 @@
       },
       {
         "name": "The Red Rarity Rule",
-        "body": "Concert red is for selection, navigation emphasis, and annotation. Do not spread it across decorative elements.",
+        "body": "Concert red is for selection, navigation emphasis, and listening-note accents. Do not spread it across decorative elements.",
         "section": "colors"
       },
       {
@@ -235,8 +235,8 @@
         "section": "colors"
       },
       {
-        "name": "The Annotation Rule",
-        "body": "Labels should feel like map annotations: concise, placed with care, and never repeated as decorative filler.",
+        "name": "The Map Label Rule",
+        "body": "Labels should read like map labels: concise, placed with care, and separate from prose listening notes.",
         "section": "typography"
       },
       {

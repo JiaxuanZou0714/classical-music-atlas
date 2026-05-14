@@ -320,17 +320,108 @@ h2 {
 }
 
 .timeline-frame {
+  position: relative;
   width: 100%;
   max-width: 100%;
   min-width: 0;
   overflow: auto;
   border: 1px solid var(--rule);
   background: var(--paper-deep);
-  scrollbar-color: var(--rule-strong) var(--paper-deep);
+  cursor: grab;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  overscroll-behavior-inline: contain;
+  touch-action: pan-y;
+}
+
+.timeline-frame::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-frame.is-dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+  user-select: none;
 }
 
 .timeline-frame--preview {
   max-height: 34rem;
+}
+
+.timeline-controls {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) 2.5rem;
+  align-items: center;
+  gap: var(--space-2);
+  width: 100%;
+  min-width: 0;
+  margin-block-start: var(--space-3);
+}
+
+.timeline-pan,
+.era-jump {
+  min-height: 2.5rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  background: var(--paper-lift);
+  color: var(--ink-soft);
+  transition:
+    border-color 160ms var(--ease-out),
+    color 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+
+.timeline-pan {
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.era-jump-row {
+  display: flex;
+  gap: var(--space-2);
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.era-jump-row::-webkit-scrollbar {
+  display: none;
+}
+
+.era-jump {
+  flex: 0 0 auto;
+  padding: 0.45rem 0.7rem;
+  white-space: nowrap;
+}
+
+.timeline-pan:hover,
+.era-jump:hover {
+  border-color: var(--concert-red);
+  color: var(--concert-red);
+  transform: translateY(-1px);
+}
+
+.timeline-note {
+  display: grid;
+  gap: var(--space-1);
+  margin-block-start: var(--space-3);
+  border-block-start: 1px solid var(--rule);
+  padding-block-start: var(--space-3);
+  color: var(--ink-soft);
+}
+
+.timeline-note__name {
+  margin: 0;
+  color: var(--concert-red);
+  font-weight: 700;
+}
+
+.timeline-note p {
+  margin: 0;
 }
 
 .timeline {
@@ -417,25 +508,6 @@ h2 {
 
 .composer-bar.is-hidden {
   display: none;
-}
-
-.annotation {
-  position: absolute;
-  z-index: 3;
-  max-width: 18rem;
-  border-inline-start: 1px solid var(--concert-red);
-  padding-inline-start: var(--space-3);
-  color: var(--ink-soft);
-  font-size: 0.82rem;
-}
-
-.annotation::before {
-  content: "";
-  position: absolute;
-  inset-inline-start: -3.2rem;
-  inset-block-start: 0.75rem;
-  width: 3rem;
-  border-block-start: 1px solid var(--concert-red);
 }
 
 .route-section {
@@ -700,6 +772,13 @@ h2 {
     max-width: calc(100vw - (var(--space-4) * 2));
   }
 
+  .atlas-panel,
+  .timeline-workspace,
+  .explorer-controls,
+  .composer-detail {
+    width: calc(100vw - (var(--space-4) * 2));
+  }
+
   .hero-lede,
   .timeline-intro p {
     max-width: 29ch;
@@ -718,6 +797,27 @@ h2 {
   .section-heading {
     align-items: start;
     flex-direction: column;
+  }
+
+  .timeline-controls {
+    grid-template-areas:
+      "prev . next"
+      "eras eras eras";
+    row-gap: var(--space-2);
+  }
+
+  .timeline-pan[data-direction="-1"] {
+    grid-area: prev;
+  }
+
+  .timeline-pan[data-direction="1"] {
+    grid-area: next;
+    justify-self: end;
+  }
+
+  .era-jump-row {
+    grid-area: eras;
+    width: 100%;
   }
 
   .timeline {
