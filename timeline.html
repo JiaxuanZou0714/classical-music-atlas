@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="按时代、作曲家和听感探索古典音乐时间线。">
     <title>Timeline | 古典音乐时间地图</title>
+    <link rel="icon" href="data:,">
     <link rel="stylesheet" href="assets/styles.css">
     <script type="module" src="assets/app.js"></script>
   </head>
@@ -28,12 +29,8 @@
     <main id="main-content" class="timeline-page">
       <section class="timeline-intro" aria-labelledby="timeline-title">
         <div>
-          <p class="kicker">Full map</p>
-          <h1 id="timeline-title">从 1500 到 1990 的听乐坐标。</h1>
+          <h1 id="timeline-title">时间地图</h1>
         </div>
-        <p>
-          拖拽时间轴，选中作曲家。
-        </p>
       </section>
 
       <section class="explorer-shell" aria-label="时间线探索器">
@@ -59,12 +56,8 @@
           </div>
         </aside>
 
-        <section class="timeline-workspace" aria-labelledby="workspace-title">
+        <section class="timeline-workspace" aria-label="作曲家生命条">
           <div class="workspace-head">
-            <div>
-              <p class="kicker">Composer atlas</p>
-              <h2 id="workspace-title">作曲家生命条</h2>
-            </div>
             <p class="workspace-count" data-result-count aria-live="polite"></p>
           </div>
           <div class="timeline-frame" data-timeline-frame="full" tabindex="0" aria-label="完整时间线，可拖拽或用方向键平移">
@@ -73,7 +66,6 @@
         </section>
 
         <aside class="composer-detail" aria-live="polite" aria-label="作曲家赏析线索">
-          <p class="kicker">Listening note</p>
           <div data-detail>
             <h2>选择一个作曲家</h2>
             <p>查看作品与相邻聆听。</p>

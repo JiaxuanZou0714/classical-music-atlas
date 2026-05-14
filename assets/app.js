@@ -171,10 +171,10 @@ function renderTimeline(target, data, options) {
   }
 
   const lanes = assignLanes(data, options.preview ? 15 : 24);
-  const laneHeight = options.preview ? 26 : 28;
-  const topOffset = options.preview ? 70 : 86;
+  const laneHeight = options.preview ? 24 : 22;
+  const topOffset = options.preview ? 58 : 68;
   const height = topOffset + (Math.max(...lanes.map((item) => item.lane)) + 2) * laneHeight;
-  target.style.minHeight = `${Math.max(options.preview ? 420 : 620, height)}px`;
+  target.style.minHeight = `${Math.max(options.preview ? 250 : 560, height)}px`;
 
   lanes.forEach(({ composer, lane }) => {
     const bar = document.createElement("button");
@@ -186,7 +186,7 @@ function renderTimeline(target, data, options) {
     bar.style.top = `${topOffset + lane * laneHeight}px`;
     bar.style.setProperty("--period-color", getPeriodColor(composer.period));
     bar.textContent = composer.nameZh;
-    bar.setAttribute("aria-label", `${composer.nameZh}，${composer.birth} 到 ${composer.death}`);
+    bar.setAttribute("aria-label", `${composer.nameZh}，${composer.birth} 至 ${composer.death}`);
     bar.classList.toggle("is-active", composer.id === options.selectedId);
 
     if (options.preview) {
@@ -258,8 +258,7 @@ function renderPreviewNote(composer) {
   if (!target || !composer) return;
 
   target.innerHTML = `
-    <p class="timeline-note__name">${composer.nameZh} · ${composer.birth}-${composer.death}</p>
-    <p>${composer.vibe}</p>
+    <p><span class="timeline-note__name">${composer.nameZh}</span><span>${composer.birth}-${composer.death}</span><span>${composer.works[0]}</span></p>
   `;
 }
 
@@ -330,17 +329,11 @@ function renderDetail(composer) {
       <span>${composer.birth}-${composer.death}</span>
       <span>${composer.country}</span>
     </p>
-    <p>${composer.vibe}</p>
-    <div class="detail-section">
-      <h3>先听这三首</h3>
-      <ul>
-        ${composer.works.map((work) => `<li>${work}</li>`).join("")}
-      </ul>
+    <p class="detail-vibe">${composer.vibe}</p>
+    <div class="detail-works" aria-label="先听这三首">
+      ${composer.works.map((work) => `<span>${work}</span>`).join("")}
     </div>
-    <div class="detail-section">
-      <h3>继续相邻地听</h3>
-      <p>${composer.next}</p>
-    </div>
+    <p class="detail-next">${composer.next}</p>
   `;
 }
 
