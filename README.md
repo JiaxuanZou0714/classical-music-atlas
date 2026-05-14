@@ -38,7 +38,23 @@ timeline.html          完整 timeline 页面
 assets/styles.css      视觉系统和响应式样式
 assets/app.js          前端渲染与筛选交互
 data/composers.json    作曲家静态数据
+DATA_SOURCES.md        数据来源和校验规则
+scripts/               数据校验脚本
 PRODUCT.md             产品上下文
 DESIGN.md              设计系统
 .impeccable/design.json 设计 sidecar
+```
+
+## 数据校验
+
+作曲家生卒年和外部 ID 可用 Wikidata 复核：
+
+```powershell
+node scripts\verify-composer-facts.mjs
+```
+
+校验通过后，需要刷新 `sourceIds` 和 `verifiedAt` 时运行：
+
+```powershell
+node scripts\verify-composer-facts.mjs --write-source-ids
 ```

@@ -7,10 +7,23 @@
     "death": 1594,
     "period": "Renaissance",
     "country": "意大利",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "复调线条清澈，像教堂空间里缓慢展开的光。",
-    "works": ["Missa Papae Marcelli", "Stabat Mater", "Sicut cervus"],
-    "next": "可以接着听蒙特威尔第，感受复调秩序如何走向戏剧性。"
+    "works": [
+      "Missa Papae Marcelli",
+      "Stabat Mater",
+      "Sicut cervus"
+    ],
+    "next": "可以接着听蒙特威尔第，感受复调秩序如何走向戏剧性。",
+    "sourceIds": {
+      "wikidata": "Q179277",
+      "musicBrainzArtist": "4daeb526-6c4c-4f77-bdf5-4a0fcb714bfe",
+      "viaf": "92280854",
+      "loc": "n50051776"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "byrd",
@@ -20,10 +33,23 @@
     "death": 1623,
     "period": "Renaissance",
     "country": "英国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "克制、虔敬，但声部之间有细密的私人情绪。",
-    "works": ["Ave verum corpus", "Mass for Four Voices", "The Bells"],
-    "next": "从伯德转向珀塞尔，会听到英国声乐传统进入舞台。"
+    "works": [
+      "Ave verum corpus",
+      "Mass for Four Voices",
+      "The Bells"
+    ],
+    "next": "从伯德转向珀塞尔，会听到英国声乐传统进入舞台。",
+    "sourceIds": {
+      "wikidata": "Q208375",
+      "musicBrainzArtist": "d1cf7a39-f268-45e8-bbc0-6cea5c0272cf",
+      "viaf": "112781480",
+      "loc": "n50032948"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "monteverdi",
@@ -33,10 +59,23 @@
     "death": 1643,
     "period": "Baroque",
     "country": "意大利",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "把文艺复兴的声部织体推向歌剧和人声戏剧。",
-    "works": ["L'Orfeo", "Vespro della Beata Vergine", "Lamento d'Arianna"],
-    "next": "接着听吕利或珀塞尔，比较早期歌剧在法国和英国的走向。"
+    "works": [
+      "L'Orfeo",
+      "Vespro della Beata Vergine",
+      "Lamento d'Arianna"
+    ],
+    "next": "接着听吕利或珀塞尔，比较早期歌剧在法国和英国的走向。",
+    "sourceIds": {
+      "wikidata": "Q53068",
+      "musicBrainzArtist": "9a33a7ad-f725-473a-b50a-1d1796183af1",
+      "viaf": "44485902",
+      "loc": "n79074370"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "lully",
@@ -46,10 +85,24 @@
     "death": 1687,
     "period": "Baroque",
     "country": "法国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "宫廷秩序、舞蹈节奏和法式歌剧的仪式感。",
-    "works": ["Armide", "Atys", "Te Deum"],
-    "next": "听完吕利再听拉莫，法式巴洛克的和声色彩会更明显。"
+    "works": [
+      "Armide",
+      "Atys",
+      "Te Deum"
+    ],
+    "next": "听完吕利再听拉莫，法式巴洛克的和声色彩会更明显。",
+    "sourceIds": {
+      "wikidata": "Q1192",
+      "musicBrainzArtist": "7f9989b0-8f5e-41dd-bbab-1fff052609e3",
+      "viaf": "13099537",
+      "loc": "n79072787"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "corelli",
@@ -59,10 +112,23 @@
     "death": 1713,
     "period": "Baroque",
     "country": "意大利",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "弦乐线条端正而温润，是协奏和奏鸣曲传统的骨架。",
-    "works": ["Concerti Grossi, Op. 6", "La Folia", "Sonate da chiesa, Op. 3"],
-    "next": "从科雷利接维瓦尔第，能听出弦乐语言变得更明亮。"
+    "works": [
+      "Concerti Grossi, Op. 6",
+      "La Folia",
+      "Sonate da chiesa, Op. 3"
+    ],
+    "next": "从科雷利接维瓦尔第，能听出弦乐语言变得更明亮。",
+    "sourceIds": {
+      "wikidata": "Q164475",
+      "musicBrainzArtist": "a3546087-fe59-47d3-a3a8-42d58e2573c7",
+      "viaf": "69124242",
+      "loc": "n79059471"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "purcell",
@@ -72,10 +138,24 @@
     "death": 1695,
     "period": "Baroque",
     "country": "英国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "短小、锐利、带有英式哀歌的阴影。",
-    "works": ["Dido and Aeneas", "Music for the Funeral of Queen Mary", "King Arthur"],
-    "next": "可以接亨德尔的清唱剧，听英国舞台和宗教音乐的扩展。"
+    "works": [
+      "Dido and Aeneas",
+      "Music for the Funeral of Queen Mary",
+      "King Arthur"
+    ],
+    "next": "可以接亨德尔的清唱剧，听英国舞台和宗教音乐的扩展。",
+    "sourceIds": {
+      "wikidata": "Q9695",
+      "musicBrainzArtist": "ddea5540-2c7d-4266-8507-b367c2635d35",
+      "viaf": "5118737",
+      "loc": "n79095298"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "rameau",
@@ -85,10 +165,24 @@
     "death": 1764,
     "period": "Baroque",
     "country": "法国",
-    "moods": ["戏剧性", "田园"],
+    "moods": [
+      "戏剧性",
+      "田园"
+    ],
     "vibe": "装饰华丽但结构清醒，和声色彩比吕利更大胆。",
-    "works": ["Hippolyte et Aricie", "Les Indes galantes", "Pieces de clavecin"],
-    "next": "接德彪西的钢琴小品，会听到法国色彩传统的远回声。"
+    "works": [
+      "Hippolyte et Aricie",
+      "Les Indes galantes",
+      "Pieces de clavecin"
+    ],
+    "next": "接德彪西的钢琴小品，会听到法国色彩传统的远回声。",
+    "sourceIds": {
+      "wikidata": "Q1145",
+      "musicBrainzArtist": "b29a3b55-785c-4072-9daf-0153cac864b6",
+      "viaf": "39563041",
+      "loc": "n50000571"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "vivaldi",
@@ -98,10 +192,24 @@
     "death": 1741,
     "period": "Baroque",
     "country": "意大利",
-    "moods": ["田园", "戏剧性"],
+    "moods": [
+      "田园",
+      "戏剧性"
+    ],
     "vibe": "节奏像箭一样向前，旋律有鲜明的光线和季节感。",
-    "works": ["The Four Seasons", "Gloria", "L'estro armonico"],
-    "next": "接巴赫的协奏曲改编，能听见德意志结构如何吸收意大利动力。"
+    "works": [
+      "The Four Seasons",
+      "Gloria",
+      "L'estro armonico"
+    ],
+    "next": "接巴赫的协奏曲改编，能听见德意志结构如何吸收意大利动力。",
+    "sourceIds": {
+      "wikidata": "Q1340",
+      "musicBrainzArtist": "ad79836d-9849-44df-8789-180bbc823f3c",
+      "viaf": "42027007",
+      "loc": "n79021280"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "bach",
@@ -111,10 +219,23 @@
     "death": 1750,
     "period": "Baroque",
     "country": "德国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "像建筑一样的声部秩序，也像祈祷一样向内延伸。",
-    "works": ["Brandenburg Concertos", "Goldberg Variations", "St Matthew Passion"],
-    "next": "从巴赫转向海顿和莫扎特，能听到复调密度如何让位给古典句法。"
+    "works": [
+      "Brandenburg Concertos",
+      "Goldberg Variations",
+      "St Matthew Passion"
+    ],
+    "next": "从巴赫转向海顿和莫扎特，能听到复调密度如何让位给古典句法。",
+    "sourceIds": {
+      "wikidata": "Q1339",
+      "musicBrainzArtist": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+      "viaf": "12304462",
+      "loc": "n79021425"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "handel",
@@ -124,10 +245,24 @@
     "death": 1759,
     "period": "Baroque",
     "country": "德国 / 英国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "公共性很强，合唱和咏叹调都有剧场尺度。",
-    "works": ["Messiah", "Water Music", "Giulio Cesare"],
-    "next": "接格鲁克或海顿，听歌剧和清唱剧之后的古典转向。"
+    "works": [
+      "Messiah",
+      "Water Music",
+      "Giulio Cesare"
+    ],
+    "next": "接格鲁克或海顿，听歌剧和清唱剧之后的古典转向。",
+    "sourceIds": {
+      "wikidata": "Q7302",
+      "musicBrainzArtist": "27870d47-bb98-42d1-bf2b-c7e972e6befc",
+      "viaf": "5126950",
+      "loc": "n79129204"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "scarlatti",
@@ -137,10 +272,23 @@
     "death": 1757,
     "period": "Baroque",
     "country": "意大利 / 西班牙",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "键盘像吉他和舞步，短小却充满机敏转折。",
-    "works": ["Keyboard Sonata K. 141", "Keyboard Sonata K. 380", "Keyboard Sonata K. 466"],
-    "next": "接莫扎特钢琴奏鸣曲，比较键盘语言从机敏到歌唱的变化。"
+    "works": [
+      "Keyboard Sonata K. 141",
+      "Keyboard Sonata K. 380",
+      "Keyboard Sonata K. 466"
+    ],
+    "next": "接莫扎特钢琴奏鸣曲，比较键盘语言从机敏到歌唱的变化。",
+    "sourceIds": {
+      "wikidata": "Q167837",
+      "musicBrainzArtist": "95c7a1d1-5cfd-41d5-99f9-0611262de8e1",
+      "viaf": "71579203",
+      "loc": "n79070071"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "gluck",
@@ -150,10 +298,24 @@
     "death": 1787,
     "period": "Classical",
     "country": "德国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "把歌剧从炫技拉回戏剧和清晰的情感线。",
-    "works": ["Orfeo ed Euridice", "Alceste", "Iphigenie en Tauride"],
-    "next": "接莫扎特歌剧，能听到改革之后的戏剧弹性。"
+    "works": [
+      "Orfeo ed Euridice",
+      "Alceste",
+      "Iphigenie en Tauride"
+    ],
+    "next": "接莫扎特歌剧，能听到改革之后的戏剧弹性。",
+    "sourceIds": {
+      "wikidata": "Q130759",
+      "musicBrainzArtist": "22790383-30ea-4dcc-a8d6-882fb1eb4669",
+      "viaf": "37101876",
+      "loc": "n79135399"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "haydn",
@@ -163,10 +325,23 @@
     "death": 1809,
     "period": "Classical",
     "country": "奥地利",
-    "moods": ["田园"],
+    "moods": [
+      "田园"
+    ],
     "vibe": "结构清楚，幽默常藏在句法和节奏的转弯处。",
-    "works": ["Symphony No. 104", "The Creation", "String Quartets, Op. 76"],
-    "next": "接莫扎特和贝多芬，古典结构会逐渐变得更歌唱或更冲突。"
+    "works": [
+      "Symphony No. 104",
+      "The Creation",
+      "String Quartets, Op. 76"
+    ],
+    "next": "接莫扎特和贝多芬，古典结构会逐渐变得更歌唱或更冲突。",
+    "sourceIds": {
+      "wikidata": "Q7349",
+      "musicBrainzArtist": "c130b0fb-5dce-449d-9f40-1437f889f7fe",
+      "viaf": "95146280",
+      "loc": "n79091193"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "mozart",
@@ -176,10 +351,24 @@
     "death": 1791,
     "period": "Classical",
     "country": "奥地利",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "透明、均衡，但明亮表面下经常有复杂的人情。",
-    "works": ["The Marriage of Figaro", "Piano Concerto No. 23", "Requiem"],
-    "next": "接贝多芬，听古典句法如何被推向个人意志。"
+    "works": [
+      "The Marriage of Figaro",
+      "Piano Concerto No. 23",
+      "Requiem"
+    ],
+    "next": "接贝多芬，听古典句法如何被推向个人意志。",
+    "sourceIds": {
+      "wikidata": "Q254",
+      "musicBrainzArtist": "b972f589-fb0e-474e-b64a-803b0364fa75",
+      "viaf": "32197206",
+      "loc": "n80022788"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "beethoven",
@@ -189,10 +378,24 @@
     "death": 1827,
     "period": "Classical",
     "country": "德国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "古典结构被意志和冲突撑开，像从室内走向广场。",
-    "works": ["Symphony No. 5", "Piano Sonata No. 14", "String Quartet No. 14"],
-    "next": "接舒伯特、柏辽兹和勃拉姆斯，听浪漫主义的三种不同入口。"
+    "works": [
+      "Symphony No. 5",
+      "Piano Sonata No. 14",
+      "String Quartet No. 14"
+    ],
+    "next": "接舒伯特、柏辽兹和勃拉姆斯，听浪漫主义的三种不同入口。",
+    "sourceIds": {
+      "wikidata": "Q255",
+      "musicBrainzArtist": "1f9df192-a621-4f54-8850-2c5373b7eac9",
+      "viaf": "32182557",
+      "loc": "n79107741"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "schubert",
@@ -202,10 +405,23 @@
     "death": 1828,
     "period": "Romantic",
     "country": "奥地利",
-    "moods": ["田园"],
+    "moods": [
+      "田园"
+    ],
     "vibe": "旋律像走路时忽然改变的光线，亲密又遥远。",
-    "works": ["Winterreise", "String Quintet in C major", "Symphony No. 8"],
-    "next": "接舒曼和勃拉姆斯，听德奥浪漫主义如何保留内省。"
+    "works": [
+      "Winterreise",
+      "String Quintet in C major",
+      "Symphony No. 8"
+    ],
+    "next": "接舒曼和勃拉姆斯，听德奥浪漫主义如何保留内省。",
+    "sourceIds": {
+      "wikidata": "Q7312",
+      "musicBrainzArtist": "f91e3a88-24ee-4563-8963-fab73d2765ed",
+      "viaf": "29719275",
+      "loc": "n50000561"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "berlioz",
@@ -215,10 +431,23 @@
     "death": 1869,
     "period": "Romantic",
     "country": "法国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "管弦乐像剧场机器，梦境、执念和幻觉都被放大。",
-    "works": ["Symphonie fantastique", "Harold en Italie", "Grande messe des morts"],
-    "next": "接李斯特和瓦格纳，浪漫主义会继续走向标题性和总体艺术。"
+    "works": [
+      "Symphonie fantastique",
+      "Harold en Italie",
+      "Grande messe des morts"
+    ],
+    "next": "接李斯特和瓦格纳，浪漫主义会继续走向标题性和总体艺术。",
+    "sourceIds": {
+      "wikidata": "Q1151",
+      "musicBrainzArtist": "274774a7-1cde-486a-bc3d-375ec54d552d",
+      "viaf": "71577105",
+      "loc": "n79091197"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "mendelssohn",
@@ -228,10 +457,23 @@
     "death": 1847,
     "period": "Romantic",
     "country": "德国",
-    "moods": ["田园"],
+    "moods": [
+      "田园"
+    ],
     "vibe": "轻盈、清澈，浪漫情绪仍有古典骨架。",
-    "works": ["A Midsummer Night's Dream", "Violin Concerto", "Songs Without Words"],
-    "next": "接舒曼或格里格，听抒情小品和民族色彩的分叉。"
+    "works": [
+      "A Midsummer Night's Dream",
+      "Violin Concerto",
+      "Songs Without Words"
+    ],
+    "next": "接舒曼或格里格，听抒情小品和民族色彩的分叉。",
+    "sourceIds": {
+      "wikidata": "Q46096",
+      "musicBrainzArtist": "0e85eb79-1c05-44ba-827c-7b259a3d941a",
+      "viaf": "2665666",
+      "loc": "n79139515"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "chopin",
@@ -241,10 +483,23 @@
     "death": 1849,
     "period": "Romantic",
     "country": "波兰 / 法国",
-    "moods": ["水光"],
+    "moods": [
+      "水光"
+    ],
     "vibe": "钢琴像呼吸，装饰音和和声阴影构成私密剧场。",
-    "works": ["Nocturnes, Op. 9", "Ballade No. 1", "Preludes, Op. 28"],
-    "next": "接李斯特和德彪西，分别听钢琴的炫技扩张和色彩转向。"
+    "works": [
+      "Nocturnes, Op. 9",
+      "Ballade No. 1",
+      "Preludes, Op. 28"
+    ],
+    "next": "接李斯特和德彪西，分别听钢琴的炫技扩张和色彩转向。",
+    "sourceIds": {
+      "wikidata": "Q1268",
+      "musicBrainzArtist": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7",
+      "viaf": "71319254",
+      "loc": "n79127769"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "schumann",
@@ -254,10 +509,23 @@
     "death": 1856,
     "period": "Romantic",
     "country": "德国",
-    "moods": ["水光"],
+    "moods": [
+      "水光"
+    ],
     "vibe": "文学性很强，情绪像由多个内心角色轮流说话。",
-    "works": ["Carnaval", "Dichterliebe", "Piano Quintet"],
-    "next": "接勃拉姆斯，听同一德奥语境里更厚重的结构回应。"
+    "works": [
+      "Carnaval",
+      "Dichterliebe",
+      "Piano Quintet"
+    ],
+    "next": "接勃拉姆斯，听同一德奥语境里更厚重的结构回应。",
+    "sourceIds": {
+      "wikidata": "Q7351",
+      "musicBrainzArtist": "3cd3882c-00f8-4362-a0c2-ad89ed248533",
+      "viaf": "7575259",
+      "loc": "n50000565"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "liszt",
@@ -267,10 +535,23 @@
     "death": 1886,
     "period": "Romantic",
     "country": "匈牙利",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "钢琴和管弦乐都被推向舞台中心，光辉里有神秘感。",
-    "works": ["Piano Sonata in B minor", "Les Preludes", "Annees de pelerinage"],
-    "next": "接瓦格纳和拉赫玛尼诺夫，听和声与炫技的长期影响。"
+    "works": [
+      "Piano Sonata in B minor",
+      "Les Preludes",
+      "Annees de pelerinage"
+    ],
+    "next": "接瓦格纳和拉赫玛尼诺夫，听和声与炫技的长期影响。",
+    "sourceIds": {
+      "wikidata": "Q41309",
+      "musicBrainzArtist": "2cd475bb-1abd-40c4-9904-6d4b691c752c",
+      "viaf": "64199483",
+      "loc": "n79079048"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "wagner",
@@ -280,10 +561,23 @@
     "death": 1883,
     "period": "Romantic",
     "country": "德国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "和声悬置、动机织网，音乐像没有边界的神话剧场。",
-    "works": ["Tristan und Isolde", "Der Ring des Nibelungen", "Parsifal"],
-    "next": "接布鲁克纳、马勒和理查德·施特劳斯，听后瓦格纳时代的扩张。"
+    "works": [
+      "Tristan und Isolde",
+      "Der Ring des Nibelungen",
+      "Parsifal"
+    ],
+    "next": "接布鲁克纳、马勒和理查德·施特劳斯，听后瓦格纳时代的扩张。",
+    "sourceIds": {
+      "wikidata": "Q1511",
+      "musicBrainzArtist": "eefd7c1e-abcf-4ccc-ba60-0fd435c9061f",
+      "viaf": "29732107",
+      "loc": "n79089831"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "verdi",
@@ -293,10 +587,23 @@
     "death": 1901,
     "period": "Romantic",
     "country": "意大利",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "人声直指戏剧核心，旋律总能落在舞台冲突上。",
-    "works": ["La traviata", "Aida", "Requiem"],
-    "next": "接普契尼，听意大利歌剧如何走向更电影化的情感线。"
+    "works": [
+      "La traviata",
+      "Aida",
+      "Requiem"
+    ],
+    "next": "接普契尼，听意大利歌剧如何走向更电影化的情感线。",
+    "sourceIds": {
+      "wikidata": "Q7317",
+      "musicBrainzArtist": "f1bedf1f-4445-4651-9c35-f4a3f3860a13",
+      "viaf": "22329110",
+      "loc": "n79038460"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "franck",
@@ -306,10 +613,23 @@
     "death": 1890,
     "period": "Romantic",
     "country": "比利时 / 法国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "循环动机和管风琴式和声带来沉静的宗教感。",
-    "works": ["Symphony in D minor", "Violin Sonata", "Prelude, Chorale and Fugue"],
-    "next": "接福雷和德彪西，法国传统会从厚重走向透明。"
+    "works": [
+      "Symphony in D minor",
+      "Violin Sonata",
+      "Prelude, Chorale and Fugue"
+    ],
+    "next": "接福雷和德彪西，法国传统会从厚重走向透明。",
+    "sourceIds": {
+      "wikidata": "Q50187",
+      "musicBrainzArtist": "69802473-e361-4e15-bbd8-53fe83cd1587",
+      "viaf": "66651702",
+      "loc": "n79130762"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "bruckner",
@@ -319,10 +639,23 @@
     "death": 1896,
     "period": "Romantic",
     "country": "奥地利",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "交响乐像管风琴拱顶，沉默和爆发一样重要。",
-    "works": ["Symphony No. 4", "Symphony No. 7", "Te Deum"],
-    "next": "接马勒，听同样庞大的交响体量如何转向个人世界。"
+    "works": [
+      "Symphony No. 4",
+      "Symphony No. 7",
+      "Te Deum"
+    ],
+    "next": "接马勒，听同样庞大的交响体量如何转向个人世界。",
+    "sourceIds": {
+      "wikidata": "Q81752",
+      "musicBrainzArtist": "9debb4c3-dc10-440f-9c96-b777d51ea998",
+      "viaf": "61731160",
+      "loc": "n79145901"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "brahms",
@@ -332,10 +665,23 @@
     "death": 1897,
     "period": "Romantic",
     "country": "德国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "厚重、内敛，把浪漫情感压进古典结构。",
-    "works": ["Symphony No. 1", "German Requiem", "Clarinet Quintet"],
-    "next": "接德沃夏克和勋伯格，分别听传统的民族化与裂变。"
+    "works": [
+      "Symphony No. 1",
+      "German Requiem",
+      "Clarinet Quintet"
+    ],
+    "next": "接德沃夏克和勋伯格，分别听传统的民族化与裂变。",
+    "sourceIds": {
+      "wikidata": "Q7294",
+      "musicBrainzArtist": "c70d12a2-24fe-4f83-a6e6-57d84f8efb51",
+      "viaf": "7573295",
+      "loc": "n79077221"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "bizet",
@@ -345,10 +691,23 @@
     "death": 1875,
     "period": "Romantic",
     "country": "法国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "色彩直接、节奏鲜明，舞台感有强烈身体性。",
-    "works": ["Carmen", "L'Arlesienne Suites", "Symphony in C"],
-    "next": "接柴科夫斯基或德彪西，比较戏剧色彩与法式色彩的差异。"
+    "works": [
+      "Carmen",
+      "L'Arlesienne Suites",
+      "Symphony in C"
+    ],
+    "next": "接柴科夫斯基或德彪西，比较戏剧色彩与法式色彩的差异。",
+    "sourceIds": {
+      "wikidata": "Q56158",
+      "musicBrainzArtist": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235",
+      "viaf": "10032551",
+      "loc": "n79116212"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "mussorgsky",
@@ -358,10 +717,23 @@
     "death": 1881,
     "period": "Romantic",
     "country": "俄罗斯",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "粗粝、民间、带有黑土地一样的重量。",
-    "works": ["Pictures at an Exhibition", "Boris Godunov", "Night on Bald Mountain"],
-    "next": "接里姆斯基-科萨科夫和肖斯塔科维奇，听俄罗斯色彩的两种方向。"
+    "works": [
+      "Pictures at an Exhibition",
+      "Boris Godunov",
+      "Night on Bald Mountain"
+    ],
+    "next": "接里姆斯基-科萨科夫和肖斯塔科维奇，听俄罗斯色彩的两种方向。",
+    "sourceIds": {
+      "wikidata": "Q132682",
+      "musicBrainzArtist": "c1380b12-3909-47d8-a5fd-d20e76123310",
+      "viaf": "49408900",
+      "loc": "n79127149"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "tchaikovsky",
@@ -371,10 +743,24 @@
     "death": 1893,
     "period": "Romantic",
     "country": "俄罗斯",
-    "moods": ["戏剧性", "水光"],
+    "moods": [
+      "戏剧性",
+      "水光"
+    ],
     "vibe": "旋律情绪外放，个人痛感常被舞台和交响放大。",
-    "works": ["Symphony No. 6", "Swan Lake", "Violin Concerto"],
-    "next": "接拉赫玛尼诺夫和普罗科菲耶夫，俄罗斯抒情会进入新的世纪。"
+    "works": [
+      "Symphony No. 6",
+      "Swan Lake",
+      "Violin Concerto"
+    ],
+    "next": "接拉赫玛尼诺夫和普罗科菲耶夫，俄罗斯抒情会进入新的世纪。",
+    "sourceIds": {
+      "wikidata": "Q7315",
+      "musicBrainzArtist": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9",
+      "viaf": "99258155",
+      "loc": "n79072979"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "dvorak",
@@ -384,10 +770,23 @@
     "death": 1904,
     "period": "Romantic",
     "country": "捷克",
-    "moods": ["田园"],
+    "moods": [
+      "田园"
+    ],
     "vibe": "旋律朴素有弹性，民族舞曲感和交响结构结合得自然。",
-    "works": ["Symphony No. 9", "Cello Concerto", "Slavonic Dances"],
-    "next": "接斯美塔那和雅纳切克，听捷克音乐从田园到语言节奏。"
+    "works": [
+      "Symphony No. 9",
+      "Cello Concerto",
+      "Slavonic Dances"
+    ],
+    "next": "接斯美塔那和雅纳切克，听捷克音乐从田园到语言节奏。",
+    "sourceIds": {
+      "wikidata": "Q7298",
+      "musicBrainzArtist": "819eaeb2-8dd8-48a5-ad07-0bcd137985ef",
+      "viaf": "71577743",
+      "loc": "n81033190"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "grieg",
@@ -397,10 +796,23 @@
     "death": 1907,
     "period": "Romantic",
     "country": "挪威",
-    "moods": ["田园"],
+    "moods": [
+      "田园"
+    ],
     "vibe": "小型曲式里有北方风景和民歌轮廓。",
-    "works": ["Peer Gynt Suites", "Piano Concerto", "Lyric Pieces"],
-    "next": "接西贝柳斯，北欧色彩会变得更辽阔、更冷峻。"
+    "works": [
+      "Peer Gynt Suites",
+      "Piano Concerto",
+      "Lyric Pieces"
+    ],
+    "next": "接西贝柳斯，北欧色彩会变得更辽阔、更冷峻。",
+    "sourceIds": {
+      "wikidata": "Q80621",
+      "musicBrainzArtist": "013c8e5b-d72a-4cd3-8dee-6c64d6125823",
+      "viaf": "46946549",
+      "loc": "n79046495"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "rimsky",
@@ -410,10 +822,23 @@
     "death": 1908,
     "period": "Romantic",
     "country": "俄罗斯",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "管弦乐色彩明亮，故事性和异域想象很强。",
-    "works": ["Scheherazade", "Russian Easter Festival Overture", "The Snow Maiden"],
-    "next": "接斯特拉文斯基，能听见俄罗斯色彩被切成更锋利的节奏。"
+    "works": [
+      "Scheherazade",
+      "Russian Easter Festival Overture",
+      "The Snow Maiden"
+    ],
+    "next": "接斯特拉文斯基，能听见俄罗斯色彩被切成更锋利的节奏。",
+    "sourceIds": {
+      "wikidata": "Q93227",
+      "musicBrainzArtist": "4cfe7051-f649-4d07-83b3-7a732abe7249",
+      "viaf": "73859252",
+      "loc": "n79107991"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "faure",
@@ -423,10 +848,23 @@
     "death": 1924,
     "period": "Romantic",
     "country": "法国",
-    "moods": ["水光"],
+    "moods": [
+      "水光"
+    ],
     "vibe": "克制、柔和，和声像室内光线慢慢转暗。",
-    "works": ["Requiem", "Pavane", "Piano Quartet No. 1"],
-    "next": "接德彪西和拉威尔，法国音乐会从柔和调性进入色彩空间。"
+    "works": [
+      "Requiem",
+      "Pavane",
+      "Piano Quartet No. 1"
+    ],
+    "next": "接德彪西和拉威尔，法国音乐会从柔和调性进入色彩空间。",
+    "sourceIds": {
+      "wikidata": "Q104919",
+      "musicBrainzArtist": "fa19a8b6-e7f4-40d4-af15-7a7c41ac7d8f",
+      "viaf": "27064267",
+      "loc": "n81018450"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "elgar",
@@ -436,10 +874,23 @@
     "death": 1934,
     "period": "Romantic",
     "country": "英国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "有贵族式的宽阔线条，也有私人而不外露的忧郁。",
-    "works": ["Enigma Variations", "Cello Concerto", "Pomp and Circumstance"],
-    "next": "接沃恩·威廉斯和布里顿，英国音乐会从帝国气质转向田园和现代。"
+    "works": [
+      "Enigma Variations",
+      "Cello Concerto",
+      "Pomp and Circumstance"
+    ],
+    "next": "接沃恩·威廉斯和布里顿，英国音乐会从帝国气质转向田园和现代。",
+    "sourceIds": {
+      "wikidata": "Q179631",
+      "musicBrainzArtist": "4e60a56a-514a-4a19-a3cc-49927c96b3cb",
+      "viaf": "76499978",
+      "loc": "n50026227"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "mahler",
@@ -449,10 +900,24 @@
     "death": 1911,
     "period": "Romantic",
     "country": "奥地利",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "交响乐容纳葬礼、民歌、讽刺和宇宙尺度。",
-    "works": ["Symphony No. 2", "Das Lied von der Erde", "Symphony No. 9"],
-    "next": "接勋伯格和肖斯塔科维奇，听大交响传统如何进入现代焦虑。"
+    "works": [
+      "Symphony No. 2",
+      "Das Lied von der Erde",
+      "Symphony No. 9"
+    ],
+    "next": "接勋伯格和肖斯塔科维奇，听大交响传统如何进入现代焦虑。",
+    "sourceIds": {
+      "wikidata": "Q7304",
+      "musicBrainzArtist": "8d610e51-64b4-4654-b8df-064b0fb7a9d9",
+      "viaf": "61732497",
+      "loc": "n80067106"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "debussy",
@@ -462,10 +927,23 @@
     "death": 1918,
     "period": "Modern",
     "country": "法国",
-    "moods": ["水光"],
+    "moods": [
+      "水光"
+    ],
     "vibe": "像光落在水面上，不讲故事，但制造空气。",
-    "works": ["Prelude to the Afternoon of a Faun", "La mer", "Clair de lune"],
-    "next": "接拉威尔、萨蒂和福雷，听法国音乐的色彩、线条和留白。"
+    "works": [
+      "Prelude to the Afternoon of a Faun",
+      "La mer",
+      "Clair de lune"
+    ],
+    "next": "接拉威尔、萨蒂和福雷，听法国音乐的色彩、线条和留白。",
+    "sourceIds": {
+      "wikidata": "Q4700",
+      "musicBrainzArtist": "be50643c-0377-4968-b48c-47e06b2e2a3b",
+      "viaf": "6219636",
+      "loc": "n79132137"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "strauss",
@@ -475,10 +953,23 @@
     "death": 1949,
     "period": "Modern",
     "country": "德国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "管弦乐极度精密，辉煌表面下有世纪末的危险感。",
-    "works": ["Also sprach Zarathustra", "Der Rosenkavalier", "Four Last Songs"],
-    "next": "接马勒或勋伯格，听后浪漫主义在现代门口的两条路。"
+    "works": [
+      "Also sprach Zarathustra",
+      "Der Rosenkavalier",
+      "Four Last Songs"
+    ],
+    "next": "接马勒或勋伯格，听后浪漫主义在现代门口的两条路。",
+    "sourceIds": {
+      "wikidata": "Q13894",
+      "musicBrainzArtist": "4cb43d82-824e-4034-b03d-1a98f36f6e16",
+      "viaf": "24796264",
+      "loc": "n79041680"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "sibelius",
@@ -488,10 +979,24 @@
     "death": 1957,
     "period": "Modern",
     "country": "芬兰",
-    "moods": ["田园", "庄严"],
+    "moods": [
+      "田园",
+      "庄严"
+    ],
     "vibe": "音乐像冰面和森林，动机在辽阔空间中缓慢聚合。",
-    "works": ["Symphony No. 5", "Finlandia", "Violin Concerto"],
-    "next": "接尼尔森或肖斯塔科维奇，听北方交响如何保留张力。"
+    "works": [
+      "Symphony No. 5",
+      "Finlandia",
+      "Violin Concerto"
+    ],
+    "next": "接尼尔森或肖斯塔科维奇，听北方交响如何保留张力。",
+    "sourceIds": {
+      "wikidata": "Q45682",
+      "musicBrainzArtist": "691b0e9d-9e57-41cf-932d-a3d21b068e75",
+      "viaf": "59270886",
+      "loc": "n79068399"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "satie",
@@ -501,10 +1006,23 @@
     "death": 1925,
     "period": "Modern",
     "country": "法国",
-    "moods": ["水光"],
+    "moods": [
+      "水光"
+    ],
     "vibe": "简短、偏斜、带一点反学院的冷幽默。",
-    "works": ["Gymnopedies", "Gnossiennes", "Parade"],
-    "next": "接德彪西和普朗克，听法国现代性里的留白与机智。"
+    "works": [
+      "Gymnopedies",
+      "Gnossiennes",
+      "Parade"
+    ],
+    "next": "接德彪西和普朗克，听法国现代性里的留白与机智。",
+    "sourceIds": {
+      "wikidata": "Q187192",
+      "musicBrainzArtist": "e1d521ea-5b97-4981-987c-ba988b2a87d7",
+      "viaf": "88805508",
+      "loc": "n79139256"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "rachmaninoff",
@@ -514,10 +1032,24 @@
     "death": 1943,
     "period": "Romantic",
     "country": "俄罗斯",
-    "moods": ["水光", "戏剧性"],
+    "moods": [
+      "水光",
+      "戏剧性"
+    ],
     "vibe": "旋律宽阔而怀旧，钢琴像深色河流。",
-    "works": ["Piano Concerto No. 2", "Rhapsody on a Theme of Paganini", "All-Night Vigil"],
-    "next": "接普罗科菲耶夫，听同一俄罗斯传统如何变得更锋利。"
+    "works": [
+      "Piano Concerto No. 2",
+      "Rhapsody on a Theme of Paganini",
+      "All-Night Vigil"
+    ],
+    "next": "接普罗科菲耶夫，听同一俄罗斯传统如何变得更锋利。",
+    "sourceIds": {
+      "wikidata": "Q131861",
+      "musicBrainzArtist": "44b16e44-da77-4580-b851-0d765904573e",
+      "viaf": "60326614",
+      "loc": "n50054908"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "schoenberg",
@@ -527,10 +1059,23 @@
     "death": 1951,
     "period": "Modern",
     "country": "奥地利 / 美国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "从晚期浪漫的浓度走向无调性和十二音秩序。",
-    "works": ["Verklarte Nacht", "Pierrot lunaire", "Suite for Piano, Op. 25"],
-    "next": "接韦伯恩和贝尔格，听第二维也纳乐派的压缩与抒情。"
+    "works": [
+      "Verklarte Nacht",
+      "Pierrot lunaire",
+      "Suite for Piano, Op. 25"
+    ],
+    "next": "接韦伯恩和贝尔格，听第二维也纳乐派的压缩与抒情。",
+    "sourceIds": {
+      "wikidata": "Q154770",
+      "musicBrainzArtist": "9b490b96-ad82-4d7b-9055-f0a196ad64cc",
+      "viaf": "12492826",
+      "loc": "n80032780"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "ravel",
@@ -540,10 +1085,24 @@
     "death": 1937,
     "period": "Modern",
     "country": "法国",
-    "moods": ["水光", "戏剧性"],
+    "moods": [
+      "水光",
+      "戏剧性"
+    ],
     "vibe": "精密、冷静、像钟表装置里的色彩魔术。",
-    "works": ["Daphnis et Chloe", "Bolero", "Gaspard de la nuit"],
-    "next": "接德彪西和斯特拉文斯基，比较色彩的柔化与节奏的锋利。"
+    "works": [
+      "Daphnis et Chloe",
+      "Bolero",
+      "Gaspard de la nuit"
+    ],
+    "next": "接德彪西和斯特拉文斯基，比较色彩的柔化与节奏的锋利。",
+    "sourceIds": {
+      "wikidata": "Q1178",
+      "musicBrainzArtist": "6fdd3b3e-1ea6-4da9-8d6f-8f8de01c133a",
+      "viaf": "2657495",
+      "loc": "n79108396"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "bartok",
@@ -553,10 +1112,23 @@
     "death": 1945,
     "period": "Modern",
     "country": "匈牙利",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "民间节奏被打磨成现代结构，粗粝又精确。",
-    "works": ["Concerto for Orchestra", "Music for Strings, Percussion and Celesta", "Mikrokosmos"],
-    "next": "接斯特拉文斯基和普罗科菲耶夫，听节奏如何成为现代音乐的骨骼。"
+    "works": [
+      "Concerto for Orchestra",
+      "Music for Strings, Percussion and Celesta",
+      "Mikrokosmos"
+    ],
+    "next": "接斯特拉文斯基和普罗科菲耶夫，听节奏如何成为现代音乐的骨骼。",
+    "sourceIds": {
+      "wikidata": "Q83326",
+      "musicBrainzArtist": "fd14da1b-3c2d-4cc8-9ca6-fc8c62ce6988",
+      "viaf": "89006617",
+      "loc": "n79109330"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "stravinsky",
@@ -566,10 +1138,23 @@
     "death": 1971,
     "period": "Modern",
     "country": "俄罗斯 / 法国 / 美国",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "节奏切面锋利，风格不断换壳但骨架清楚。",
-    "works": ["The Rite of Spring", "The Firebird", "Symphony of Psalms"],
-    "next": "接巴托克和普罗科菲耶夫，听现代节奏的不同硬度。"
+    "works": [
+      "The Rite of Spring",
+      "The Firebird",
+      "Symphony of Psalms"
+    ],
+    "next": "接巴托克和普罗科菲耶夫，听现代节奏的不同硬度。",
+    "sourceIds": {
+      "wikidata": "Q7314",
+      "musicBrainzArtist": "c278de2c-9696-4fdf-a919-0781cd945e2c",
+      "viaf": "17309155",
+      "loc": "n79070061"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "webern",
@@ -579,10 +1164,23 @@
     "death": 1945,
     "period": "Modern",
     "country": "奥地利",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "极短、极薄，每个音都像被放在显微镜下。",
-    "works": ["Five Movements for String Quartet", "Symphony, Op. 21", "Variations for Piano"],
-    "next": "接勋伯格和战后先锋派，听密度如何被压缩到极限。"
+    "works": [
+      "Five Movements for String Quartet",
+      "Symphony, Op. 21",
+      "Variations for Piano"
+    ],
+    "next": "接勋伯格和战后先锋派，听密度如何被压缩到极限。",
+    "sourceIds": {
+      "wikidata": "Q190933",
+      "musicBrainzArtist": "7be0b588-030c-4904-836f-71ff43a2dfec",
+      "viaf": "22329168",
+      "loc": "n79075510"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "prokofiev",
@@ -592,10 +1190,23 @@
     "death": 1953,
     "period": "Modern",
     "country": "俄罗斯",
-    "moods": ["戏剧性"],
+    "moods": [
+      "戏剧性"
+    ],
     "vibe": "锋利、讽刺、又能突然给出清澈的旋律。",
-    "works": ["Romeo and Juliet", "Piano Concerto No. 3", "Classical Symphony"],
-    "next": "接肖斯塔科维奇，听苏联时代下更黑暗的戏剧张力。"
+    "works": [
+      "Romeo and Juliet",
+      "Piano Concerto No. 3",
+      "Classical Symphony"
+    ],
+    "next": "接肖斯塔科维奇，听苏联时代下更黑暗的戏剧张力。",
+    "sourceIds": {
+      "wikidata": "Q49481",
+      "musicBrainzArtist": "0e43fe9d-c472-4b62-be9e-55f971a023e1",
+      "viaf": "71579098",
+      "loc": "n80020330"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "hindemith",
@@ -605,10 +1216,23 @@
     "death": 1963,
     "period": "Modern",
     "country": "德国",
-    "moods": ["庄严"],
+    "moods": [
+      "庄严"
+    ],
     "vibe": "工艺感很强，现代和声被放进清晰、实用的结构。",
-    "works": ["Mathis der Maler", "Symphonic Metamorphosis", "Ludus Tonalis"],
-    "next": "接巴托克或布里顿，听现代主义如何保持手工艺质感。"
+    "works": [
+      "Mathis der Maler",
+      "Symphonic Metamorphosis",
+      "Ludus Tonalis"
+    ],
+    "next": "接巴托克或布里顿，听现代主义如何保持手工艺质感。",
+    "sourceIds": {
+      "wikidata": "Q57244",
+      "musicBrainzArtist": "4068eaba-ca03-4c34-9172-2b709b8050e6",
+      "viaf": "24622167",
+      "loc": "n79077225"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "gershwin",
@@ -618,10 +1242,24 @@
     "death": 1937,
     "period": "Modern",
     "country": "美国",
-    "moods": ["水光", "戏剧性"],
+    "moods": [
+      "水光",
+      "戏剧性"
+    ],
     "vibe": "爵士、百老汇和交响语言在城市光线里相遇。",
-    "works": ["Rhapsody in Blue", "An American in Paris", "Porgy and Bess"],
-    "next": "接科普兰和伯恩斯坦，听美国音乐如何继续进入音乐厅。"
+    "works": [
+      "Rhapsody in Blue",
+      "An American in Paris",
+      "Porgy and Bess"
+    ],
+    "next": "接科普兰和伯恩斯坦，听美国音乐如何继续进入音乐厅。",
+    "sourceIds": {
+      "wikidata": "Q123829",
+      "musicBrainzArtist": "65744963-191a-44ef-a3c7-b693a808a158",
+      "viaf": "61554329",
+      "loc": "n79077265"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "poulenc",
@@ -631,10 +1269,24 @@
     "death": 1963,
     "period": "Modern",
     "country": "法国",
-    "moods": ["水光", "庄严"],
+    "moods": [
+      "水光",
+      "庄严"
+    ],
     "vibe": "机智和虔敬并存，轻巧表面下常有突然的真诚。",
-    "works": ["Gloria", "Dialogues des Carmelites", "Concerto for Two Pianos"],
-    "next": "接萨蒂和拉威尔，听法国现代音乐的轻、准与转身。"
+    "works": [
+      "Gloria",
+      "Dialogues des Carmelites",
+      "Concerto for Two Pianos"
+    ],
+    "next": "接萨蒂和拉威尔，听法国现代音乐的轻、准与转身。",
+    "sourceIds": {
+      "wikidata": "Q191408",
+      "musicBrainzArtist": "5e1ef22b-310a-46ad-885b-4897b8c9c85a",
+      "viaf": "71579067",
+      "loc": "n80015508"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "copland",
@@ -644,10 +1296,24 @@
     "death": 1990,
     "period": "Modern",
     "country": "美国",
-    "moods": ["田园", "庄严"],
+    "moods": [
+      "田园",
+      "庄严"
+    ],
     "vibe": "开阔、明亮，像把美国平原放进管弦乐。",
-    "works": ["Appalachian Spring", "Fanfare for the Common Man", "Billy the Kid"],
-    "next": "接伯恩斯坦和格什温，听美国声音在舞台和交响之间移动。"
+    "works": [
+      "Appalachian Spring",
+      "Fanfare for the Common Man",
+      "Billy the Kid"
+    ],
+    "next": "接伯恩斯坦和格什温，听美国声音在舞台和交响之间移动。",
+    "sourceIds": {
+      "wikidata": "Q192185",
+      "musicBrainzArtist": "aad3af83-5b59-4b86-a569-1a8409149b09",
+      "viaf": "51874819",
+      "loc": "n79089419"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "shostakovich",
@@ -657,10 +1323,24 @@
     "death": 1975,
     "period": "Modern",
     "country": "俄罗斯",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "讽刺、恐惧和庄严并置，笑声常带着冷意。",
-    "works": ["Symphony No. 5", "String Quartet No. 8", "Piano Trio No. 2"],
-    "next": "接马勒、普罗科菲耶夫和布里顿，听二十世纪的公共压力和私人声音。"
+    "works": [
+      "Symphony No. 5",
+      "String Quartet No. 8",
+      "Piano Trio No. 2"
+    ],
+    "next": "接马勒、普罗科菲耶夫和布里顿，听二十世纪的公共压力和私人声音。",
+    "sourceIds": {
+      "wikidata": "Q80135",
+      "musicBrainzArtist": "519dd32e-8f30-4380-8826-7aa99169e1bb",
+      "viaf": "89612684",
+      "loc": "n79140959"
+    },
+    "verifiedAt": "2026-05-14"
   },
   {
     "id": "britten",
@@ -670,9 +1350,23 @@
     "death": 1976,
     "period": "Modern",
     "country": "英国",
-    "moods": ["庄严", "戏剧性"],
+    "moods": [
+      "庄严",
+      "戏剧性"
+    ],
     "vibe": "清晰、冷峻，戏剧和室内乐都有强烈心理线条。",
-    "works": ["War Requiem", "Peter Grimes", "Young Person's Guide to the Orchestra"],
-    "next": "接肖斯塔科维奇和普朗克，听战争之后的宗教感与舞台心理。"
+    "works": [
+      "War Requiem",
+      "Peter Grimes",
+      "Young Person's Guide to the Orchestra"
+    ],
+    "next": "接肖斯塔科维奇和普朗克，听战争之后的宗教感与舞台心理。",
+    "sourceIds": {
+      "wikidata": "Q150767",
+      "musicBrainzArtist": "49ae5227-605a-47a8-9b8e-cd89bf01a97c",
+      "viaf": "2655519",
+      "loc": "n79105791"
+    },
+    "verifiedAt": "2026-05-14"
   }
 ]
