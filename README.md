@@ -58,3 +58,15 @@ node scripts\verify-composer-facts.mjs
 ```powershell
 node scripts\verify-composer-facts.mjs --write-source-ids
 ```
+
+推荐曲目可用 MusicBrainz 复核：
+
+```powershell
+node scripts\verify-composer-works.mjs
+```
+
+需要保存曲目核查报告时运行：
+
+```powershell
+node scripts\verify-composer-works.mjs --write-work-sources
+```

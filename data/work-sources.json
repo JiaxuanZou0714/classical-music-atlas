@@ -1,0 +1,2406 @@
+{
+  "verifiedAt": "2026-05-14",
+  "source": "MusicBrainz work search by work title and composer artist ID",
+  "totalWorks": 156,
+  "summary": {
+    "OK": 68,
+    "MISS": 22,
+    "CHECK": 66
+  },
+  "composers": [
+    {
+      "composerId": "palestrina",
+      "composerName": "Giovanni Pierluigi da Palestrina",
+      "musicBrainzArtist": "4daeb526-6c4c-4f77-bdf5-4a0fcb714bfe",
+      "works": [
+        {
+          "title": "Missa Papae Marcelli",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "15e9d772-6411-4063-9bfa-1fbdd3dd4de5",
+            "url": "https://musicbrainz.org/work/15e9d772-6411-4063-9bfa-1fbdd3dd4de5",
+            "title": "Missa Papae Marcelli",
+            "score": 100,
+            "type": "Mass",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Stabat Mater",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "98807788-b44f-4a13-9cb6-4e579f0e3430",
+            "url": "https://musicbrainz.org/work/98807788-b44f-4a13-9cb6-4e579f0e3430",
+            "title": "Stabat Mater",
+            "score": 100,
+            "type": "Motet",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Sicut cervus",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "bd648383-7c67-4ca1-be72-dd12a9276699",
+            "url": "https://musicbrainz.org/work/bd648383-7c67-4ca1-be72-dd12a9276699",
+            "title": "Sicut cervus",
+            "score": 100,
+            "type": "Motet",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "byrd",
+      "composerName": "William Byrd",
+      "musicBrainzArtist": "d1cf7a39-f268-45e8-bbc0-6cea5c0272cf",
+      "works": [
+        {
+          "title": "Ave verum corpus",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "cc6dbabc-ff83-37db-a862-0f5055787991",
+            "url": "https://musicbrainz.org/work/cc6dbabc-ff83-37db-a862-0f5055787991",
+            "title": "Ave verum corpus, T 92",
+            "score": 100,
+            "type": "Motet",
+            "disambiguation": "à 4, Gradualia I (1605)"
+          }
+        },
+        {
+          "title": "Mass for Four Voices",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "The Bells",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "143d3e4a-678f-35fc-9cfb-745a2bc98c50",
+            "url": "https://musicbrainz.org/work/143d3e4a-678f-35fc-9cfb-745a2bc98c50",
+            "title": "The Bells",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "monteverdi",
+      "composerName": "Claudio Monteverdi",
+      "musicBrainzArtist": "9a33a7ad-f725-473a-b50a-1d1796183af1",
+      "works": [
+        {
+          "title": "L'Orfeo",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "5ad5e970-1653-4421-a52b-d227629450e6",
+            "url": "https://musicbrainz.org/work/5ad5e970-1653-4421-a52b-d227629450e6",
+            "title": "Suite from L’Orfeo",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Vespro della Beata Vergine",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c05338ae-3457-49fb-a042-fed834a34411",
+            "url": "https://musicbrainz.org/work/c05338ae-3457-49fb-a042-fed834a34411",
+            "title": "Vespro della Beata Vergine, SV 206",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for chorus & instruments"
+          }
+        },
+        {
+          "title": "Lamento d'Arianna",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "85926888-c6a4-32ef-99ee-6d1bc9a9d8e0",
+            "url": "https://musicbrainz.org/work/85926888-c6a4-32ef-99ee-6d1bc9a9d8e0",
+            "title": "Lamento d'Arianna \"Lasciatemi morire\", SV 107",
+            "score": 100,
+            "type": "Madrigal",
+            "disambiguation": "a 5"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "lully",
+      "composerName": "Jean-Baptiste Lully",
+      "musicBrainzArtist": "7f9989b0-8f5e-41dd-bbab-1fff052609e3",
+      "works": [
+        {
+          "title": "Armide",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "2bee35eb-02dc-4232-b390-5c1d9c3c81b4",
+            "url": "https://musicbrainz.org/work/2bee35eb-02dc-4232-b390-5c1d9c3c81b4",
+            "title": "Premier Air (Armide)",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Atys",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "803d8c92-ad5d-4c0d-a3cd-e78b2de4ad1b",
+            "url": "https://musicbrainz.org/work/803d8c92-ad5d-4c0d-a3cd-e78b2de4ad1b",
+            "title": "Atys",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Te Deum",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "91725590-e66b-4767-b4a3-59ca00304ccc",
+            "url": "https://musicbrainz.org/work/91725590-e66b-4767-b4a3-59ca00304ccc",
+            "title": "Te Deum",
+            "score": 100,
+            "type": "Motet",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "corelli",
+      "composerName": "Arcangelo Corelli",
+      "musicBrainzArtist": "a3546087-fe59-47d3-a3a8-42d58e2573c7",
+      "works": [
+        {
+          "title": "Concerti Grossi, Op. 6",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "f5155e79-1086-4359-bdf3-2c0757114ddb",
+            "url": "https://musicbrainz.org/work/f5155e79-1086-4359-bdf3-2c0757114ddb",
+            "title": "12 concerti grossi, op. 6",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "La Folia",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 2,
+          "musicBrainzWork": {
+            "id": "046e3f64-467c-49f0-bb40-9b2d9c10a2c9",
+            "url": "https://musicbrainz.org/work/046e3f64-467c-49f0-bb40-9b2d9c10a2c9",
+            "title": "Sonata in D Minor 'La Folia', Op.5 No.12",
+            "score": 100,
+            "type": "Sonata",
+            "disambiguation": "Recorder arrangements"
+          }
+        },
+        {
+          "title": "Sonate da chiesa, Op. 3",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "d2a0e142-ef43-4dfc-a4a8-0d255bdafc67",
+            "url": "https://musicbrainz.org/work/d2a0e142-ef43-4dfc-a4a8-0d255bdafc67",
+            "title": "12 sonate da chiesa, op. 3",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "purcell",
+      "composerName": "Henry Purcell",
+      "musicBrainzArtist": "ddea5540-2c7d-4266-8507-b367c2635d35",
+      "works": [
+        {
+          "title": "Dido and Aeneas",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "31dba112-f412-30ec-8337-50ed271ae980",
+            "url": "https://musicbrainz.org/work/31dba112-f412-30ec-8337-50ed271ae980",
+            "title": "Dido and Aeneas, Z. 626: Overture",
+            "score": 100,
+            "type": "Overture",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Music for the Funeral of Queen Mary",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "0f07e744-d38f-4913-91a1-ca1bffef94ee",
+            "url": "https://musicbrainz.org/work/0f07e744-d38f-4913-91a1-ca1bffef94ee",
+            "title": "Music for the Funeral of Queen Mary, Z. 860",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "King Arthur",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "09124d62-296b-4e80-907d-5fc0a95c9111",
+            "url": "https://musicbrainz.org/work/09124d62-296b-4e80-907d-5fc0a95c9111",
+            "title": "King Arthur: Aire",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "rameau",
+      "composerName": "Jean-Philippe Rameau",
+      "musicBrainzArtist": "b29a3b55-785c-4072-9daf-0153cac864b6",
+      "works": [
+        {
+          "title": "Hippolyte et Aricie",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "856d4cbb-98a0-4df7-8ce8-64c0db7a2864",
+            "url": "https://musicbrainz.org/work/856d4cbb-98a0-4df7-8ce8-64c0db7a2864",
+            "title": "Hippolyte et Aricie",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Les Indes galantes",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "b407211e-3002-39b2-ae06-f6d1311c3b1a",
+            "url": "https://musicbrainz.org/work/b407211e-3002-39b2-ae06-f6d1311c3b1a",
+            "title": "Les Indes galantes",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Pieces de clavecin",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "8f4b070b-3573-4f6c-a409-cf3bf786486d",
+            "url": "https://musicbrainz.org/work/8f4b070b-3573-4f6c-a409-cf3bf786486d",
+            "title": "Pièces de clavecin",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "vivaldi",
+      "composerName": "Antonio Vivaldi",
+      "musicBrainzArtist": "ad79836d-9849-44df-8789-180bbc823f3c",
+      "works": [
+        {
+          "title": "The Four Seasons",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "5087c2d5-31a2-40f4-b69b-db6ed55706c0",
+            "url": "https://musicbrainz.org/work/5087c2d5-31a2-40f4-b69b-db6ed55706c0",
+            "title": "The Four Seasons: Spring 1",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Gloria",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "a30cd3ee-7277-3c9f-a696-93622e257e1c",
+            "url": "https://musicbrainz.org/work/a30cd3ee-7277-3c9f-a696-93622e257e1c",
+            "title": "Gloria",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "L'estro armonico",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "161dd98a-9b6b-46b1-863b-1899af0d06f9",
+            "url": "https://musicbrainz.org/work/161dd98a-9b6b-46b1-863b-1899af0d06f9",
+            "title": "L’estro armonico, op. 3",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "bach",
+      "composerName": "Johann Sebastian Bach",
+      "musicBrainzArtist": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+      "works": [
+        {
+          "title": "Brandenburg Concertos",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Goldberg Variations",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "bcaac927-da8f-4370-9683-0cf8ebe6a16f",
+            "url": "https://musicbrainz.org/work/bcaac927-da8f-4370-9683-0cf8ebe6a16f",
+            "title": "Goldberg Variations, BWV 988: Aria",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for string trio, Sitkovetsky"
+          }
+        },
+        {
+          "title": "St Matthew Passion",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7c430602-46d9-4568-a6ca-5e8ec721fb1e",
+            "url": "https://musicbrainz.org/work/7c430602-46d9-4568-a6ca-5e8ec721fb1e",
+            "title": "St. Matthew Passion",
+            "score": 100,
+            "type": "Oratorio",
+            "disambiguation": "arr. Elgar & Atkins"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "handel",
+      "composerName": "George Frideric Handel",
+      "musicBrainzArtist": "27870d47-bb98-42d1-bf2b-c7e972e6befc",
+      "works": [
+        {
+          "title": "Messiah",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "f6fe8fe2-0d4e-4cdc-b32b-1af2c3ef501f",
+            "url": "https://musicbrainz.org/work/f6fe8fe2-0d4e-4cdc-b32b-1af2c3ef501f",
+            "title": "Messiah, K. 572",
+            "score": 100,
+            "type": "Oratorio",
+            "disambiguation": "arr. W.A. Mozart, English version"
+          }
+        },
+        {
+          "title": "Water Music",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "15e21391-7388-47e8-9468-0a9766c347f3",
+            "url": "https://musicbrainz.org/work/15e21391-7388-47e8-9468-0a9766c347f3",
+            "title": "Water Music",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for organ, Peasgood"
+          }
+        },
+        {
+          "title": "Giulio Cesare",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "811f8bc0-7199-4a2b-94a9-f6eb894ecd94",
+            "url": "https://musicbrainz.org/work/811f8bc0-7199-4a2b-94a9-f6eb894ecd94",
+            "title": "Giulio Cesare",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": "© Julius Rudel 1967"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "scarlatti",
+      "composerName": "Domenico Scarlatti",
+      "musicBrainzArtist": "95c7a1d1-5cfd-41d5-99f9-0611262de8e1",
+      "works": [
+        {
+          "title": "Keyboard Sonata K. 141",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Keyboard Sonata K. 380",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Keyboard Sonata K. 466",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "gluck",
+      "composerName": "Christoph Willibald Gluck",
+      "musicBrainzArtist": "22790383-30ea-4dcc-a8d6-882fb1eb4669",
+      "works": [
+        {
+          "title": "Orfeo ed Euridice",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "89d3eaa1-c9b9-4352-97ff-7eac83239623",
+            "url": "https://musicbrainz.org/work/89d3eaa1-c9b9-4352-97ff-7eac83239623",
+            "title": "Orfeo ed Euridice, Wq. 30",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": "Italian version"
+          }
+        },
+        {
+          "title": "Alceste",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c7651c9c-0c7b-4986-8243-e2b7e0fd8519",
+            "url": "https://musicbrainz.org/work/c7651c9c-0c7b-4986-8243-e2b7e0fd8519",
+            "title": "Alceste, Wq. 37: Atto II. “Consorte! Alceste!” (Admeto, Alceste)",
+            "score": 100,
+            "type": "",
+            "disambiguation": "original italian version"
+          }
+        },
+        {
+          "title": "Iphigenie en Tauride",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "6c4c4b5c-0f9b-4ed8-989e-ace86e1a6d42",
+            "url": "https://musicbrainz.org/work/6c4c4b5c-0f9b-4ed8-989e-ace86e1a6d42",
+            "title": "Iphigénie en Tauride, Wq. 46",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "haydn",
+      "composerName": "Joseph Haydn",
+      "musicBrainzArtist": "c130b0fb-5dce-449d-9f40-1437f889f7fe",
+      "works": [
+        {
+          "title": "Symphony No. 104",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "4b05322b-bb6e-3ada-958c-a7703e43615c",
+            "url": "https://musicbrainz.org/work/4b05322b-bb6e-3ada-958c-a7703e43615c",
+            "title": "Symphony no. 104 in D major, Hob. I:104 “London”: II. Andante",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "The Creation",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "String Quartets, Op. 76",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "c6360a27-dbf6-4065-9989-633405b96538",
+            "url": "https://musicbrainz.org/work/c6360a27-dbf6-4065-9989-633405b96538",
+            "title": "String Quartets, op. 76",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "mozart",
+      "composerName": "Wolfgang Amadeus Mozart",
+      "musicBrainzArtist": "b972f589-fb0e-474e-b64a-803b0364fa75",
+      "works": [
+        {
+          "title": "The Marriage of Figaro",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "0bb8236f-de4f-4b9d-9fcd-05f55edb0f5f",
+            "url": "https://musicbrainz.org/work/0bb8236f-de4f-4b9d-9fcd-05f55edb0f5f",
+            "title": "The Marriage of Figaro",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": "English translation by Sams"
+          }
+        },
+        {
+          "title": "Piano Concerto No. 23",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Requiem",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "e27bda6e-531e-36d3-9cd7-b8ebc18e8c53",
+            "url": "https://musicbrainz.org/work/e27bda6e-531e-36d3-9cd7-b8ebc18e8c53",
+            "title": "Requiem in D minor, K. 626: I. Introitus: Requiem aeternam",
+            "score": 100,
+            "type": "",
+            "disambiguation": "Süßmayr Edition; choir and soprano solo"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "beethoven",
+      "composerName": "Ludwig van Beethoven",
+      "musicBrainzArtist": "1f9df192-a621-4f54-8850-2c5373b7eac9",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7eacabfd-c702-3eb6-8738-322555d6a521",
+            "url": "https://musicbrainz.org/work/7eacabfd-c702-3eb6-8738-322555d6a521",
+            "title": "Symphony no. 5 in C minor, op. 67: IV. Allegro",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Piano Sonata No. 14",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "String Quartet No. 14",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "0846cac6-a5b1-3f9a-b770-71158936bb90",
+            "url": "https://musicbrainz.org/work/0846cac6-a5b1-3f9a-b770-71158936bb90",
+            "title": "String Quartet no. 14 in C‐sharp minor, op. 131: VII. Allegro",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "schubert",
+      "composerName": "Franz Schubert",
+      "musicBrainzArtist": "f91e3a88-24ee-4563-8963-fab73d2765ed",
+      "works": [
+        {
+          "title": "Winterreise",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7b7e76cc-4cdf-316f-9088-910a0032a8f1",
+            "url": "https://musicbrainz.org/work/7b7e76cc-4cdf-316f-9088-910a0032a8f1",
+            "title": "Winterreise, op. 89, D. 911: XI. Frühlingstraum",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "String Quintet in C major",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "5967ab1e-1023-3fe9-98a6-5e21dae8085d",
+            "url": "https://musicbrainz.org/work/5967ab1e-1023-3fe9-98a6-5e21dae8085d",
+            "title": "String Quintet in C major, D. 956: II. Adagio",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Symphony No. 8",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "1b190927-c343-347b-853f-26a2a4920e65",
+            "url": "https://musicbrainz.org/work/1b190927-c343-347b-853f-26a2a4920e65",
+            "title": "Symphony no. 8 in B minor, D. 759 “Unfinished”: I. Allegro moderato",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "berlioz",
+      "composerName": "Hector Berlioz",
+      "musicBrainzArtist": "274774a7-1cde-486a-bc3d-375ec54d552d",
+      "works": [
+        {
+          "title": "Symphonie fantastique",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "ccb5e986-fc9f-4019-819c-527a87bf4215",
+            "url": "https://musicbrainz.org/work/ccb5e986-fc9f-4019-819c-527a87bf4215",
+            "title": "Symphonie fantastique",
+            "score": 100,
+            "type": "",
+            "disambiguation": "catch-all for arrangements"
+          }
+        },
+        {
+          "title": "Harold en Italie",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "f1add72b-eb01-407b-8b92-a227a13caee4",
+            "url": "https://musicbrainz.org/work/f1add72b-eb01-407b-8b92-a227a13caee4",
+            "title": "Harold en Italie, op. 16",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": "Symphonie en 4 parties avec un alto principal"
+          }
+        },
+        {
+          "title": "Grande messe des morts",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "f67ae3bd-22a9-418c-9624-e52410c4d3ec",
+            "url": "https://musicbrainz.org/work/f67ae3bd-22a9-418c-9624-e52410c4d3ec",
+            "title": "Requiem, op. 5 « Grande Messe des Morts »",
+            "score": 100,
+            "type": "Mass",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "mendelssohn",
+      "composerName": "Felix Mendelssohn",
+      "musicBrainzArtist": "0e85eb79-1c05-44ba-827c-7b259a3d941a",
+      "works": [
+        {
+          "title": "A Midsummer Night's Dream",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "dbe3664c-315d-4eea-839c-85a012bcefd8",
+            "url": "https://musicbrainz.org/work/dbe3664c-315d-4eea-839c-85a012bcefd8",
+            "title": "A Midsummer Night’s Dream: Overture",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for organ, Warren"
+          }
+        },
+        {
+          "title": "Violin Concerto",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "69fabc36-4b75-4e25-a5b2-4d7251c6b53e",
+            "url": "https://musicbrainz.org/work/69fabc36-4b75-4e25-a5b2-4d7251c6b53e",
+            "title": "Finale from the Violin Concerto",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for horn and band, Hopkinson"
+          }
+        },
+        {
+          "title": "Songs Without Words",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "chopin",
+      "composerName": "Frederic Chopin",
+      "musicBrainzArtist": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7",
+      "works": [
+        {
+          "title": "Nocturnes, Op. 9",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "660d0d25-4253-4d30-a818-61fc94e375bf",
+            "url": "https://musicbrainz.org/work/660d0d25-4253-4d30-a818-61fc94e375bf",
+            "title": "Nocturnes, op. 9",
+            "score": 100,
+            "type": "",
+            "disambiguation": "original for piano"
+          }
+        },
+        {
+          "title": "Ballade No. 1",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 3,
+          "musicBrainzWork": {
+            "id": "f94364c5-b4ca-3555-af9e-86dff67757af",
+            "url": "https://musicbrainz.org/work/f94364c5-b4ca-3555-af9e-86dff67757af",
+            "title": "Ballade no. 1 in G minor, op. 23",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Preludes, Op. 28",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "cfaad147-1f25-471c-8be0-4d2b8bdecb94",
+            "url": "https://musicbrainz.org/work/cfaad147-1f25-471c-8be0-4d2b8bdecb94",
+            "title": "24 Préludes, op. 28: No. 9 in E major. Largo",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for orchestra, Françaix"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "schumann",
+      "composerName": "Robert Schumann",
+      "musicBrainzArtist": "3cd3882c-00f8-4362-a0c2-ad89ed248533",
+      "works": [
+        {
+          "title": "Carnaval",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "cea4364b-5e48-3457-a112-29507b422a45",
+            "url": "https://musicbrainz.org/work/cea4364b-5e48-3457-a112-29507b422a45",
+            "title": "Carnaval, op. 9: XII. Chopin",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Dichterliebe",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "564410f4-ebfc-3646-9560-3e020cc0dfd9",
+            "url": "https://musicbrainz.org/work/564410f4-ebfc-3646-9560-3e020cc0dfd9",
+            "title": "Dichterliebe, op. 48: VII. Ich grolle nicht",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Piano Quintet",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "a4ca91dd-b768-31ce-9b51-c9265ca4d7a3",
+            "url": "https://musicbrainz.org/work/a4ca91dd-b768-31ce-9b51-c9265ca4d7a3",
+            "title": "Piano Quintet in E-flat major, op. 44: I. Allegro brillante",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "liszt",
+      "composerName": "Franz Liszt",
+      "musicBrainzArtist": "2cd475bb-1abd-40c4-9904-6d4b691c752c",
+      "works": [
+        {
+          "title": "Piano Sonata in B minor",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Les Preludes",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "5e852053-64ba-3013-a86b-daf146791dda",
+            "url": "https://musicbrainz.org/work/5e852053-64ba-3013-a86b-daf146791dda",
+            "title": "Les Préludes, S. 97",
+            "score": 100,
+            "type": "Symphonic poem",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Annees de pelerinage",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "29954628-3a98-41f9-87a1-14dc00bcfbe6",
+            "url": "https://musicbrainz.org/work/29954628-3a98-41f9-87a1-14dc00bcfbe6",
+            "title": "Années de pèlerinage",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "wagner",
+      "composerName": "Richard Wagner",
+      "musicBrainzArtist": "eefd7c1e-abcf-4ccc-ba60-0fd435c9061f",
+      "works": [
+        {
+          "title": "Tristan und Isolde",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "b76a48f8-9f47-4cf4-a0da-1de898f4c5ee",
+            "url": "https://musicbrainz.org/work/b76a48f8-9f47-4cf4-a0da-1de898f4c5ee",
+            "title": "Tristan und Isolde: Liebestod",
+            "score": 100,
+            "type": "",
+            "disambiguation": "catch-all for arrangements"
+          }
+        },
+        {
+          "title": "Der Ring des Nibelungen",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "597e017a-2c97-40c0-9eeb-430a0461e4ad",
+            "url": "https://musicbrainz.org/work/597e017a-2c97-40c0-9eeb-430a0461e4ad",
+            "title": "Der Ring des Nibelungen, WWV 86",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Parsifal",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "9181dd6e-2106-4651-9cb7-b1eff046c879",
+            "url": "https://musicbrainz.org/work/9181dd6e-2106-4651-9cb7-b1eff046c879",
+            "title": "Parsifal",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": "sung in italian"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "verdi",
+      "composerName": "Giuseppe Verdi",
+      "musicBrainzArtist": "f1bedf1f-4445-4651-9c35-f4a3f3860a13",
+      "works": [
+        {
+          "title": "La traviata",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "f9b14267-0661-346a-a7f9-7c923b93e6f6",
+            "url": "https://musicbrainz.org/work/f9b14267-0661-346a-a7f9-7c923b93e6f6",
+            "title": "La traviata: Preludio",
+            "score": 100,
+            "type": "Overture",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Aida",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "6675ed9c-9b8b-43f0-9cd7-3df843b6e8d8",
+            "url": "https://musicbrainz.org/work/6675ed9c-9b8b-43f0-9cd7-3df843b6e8d8",
+            "title": "Aida",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Requiem",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e",
+            "url": "https://musicbrainz.org/work/09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e",
+            "title": "Messa da requiem: Ia. Requiem: Requiem aeternam",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "franck",
+      "composerName": "Cesar Franck",
+      "musicBrainzArtist": "69802473-e361-4e15-bbd8-53fe83cd1587",
+      "works": [
+        {
+          "title": "Symphony in D minor",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Violin Sonata",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Prelude, Chorale and Fugue",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "bruckner",
+      "composerName": "Anton Bruckner",
+      "musicBrainzArtist": "9debb4c3-dc10-440f-9c96-b777d51ea998",
+      "works": [
+        {
+          "title": "Symphony No. 4",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7ae5d4c7-f6e8-313c-b8aa-b07a3f3c25aa",
+            "url": "https://musicbrainz.org/work/7ae5d4c7-f6e8-313c-b8aa-b07a3f3c25aa",
+            "title": "Symphony no. 4 in E-flat major, WAB 104 “Romantische”: II. Andante, quasi allegretto",
+            "score": 100,
+            "type": "",
+            "disambiguation": "1878/1880 version with 1886 revisions, ed. Nowak, 1953"
+          }
+        },
+        {
+          "title": "Symphony No. 7",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "52405285-15f2-4f22-a604-bd588197c962",
+            "url": "https://musicbrainz.org/work/52405285-15f2-4f22-a604-bd588197c962",
+            "title": "Symphony no. 7",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": "for chamber ensemble, Eisler/Rankl/Stein"
+          }
+        },
+        {
+          "title": "Te Deum",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "953a26be-f6ff-3b06-9d35-a7677f3e6910",
+            "url": "https://musicbrainz.org/work/953a26be-f6ff-3b06-9d35-a7677f3e6910",
+            "title": "Te Deum in C major: I. Te Deum. Allegro moderato",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "brahms",
+      "composerName": "Johannes Brahms",
+      "musicBrainzArtist": "c70d12a2-24fe-4f83-a6e6-57d84f8efb51",
+      "works": [
+        {
+          "title": "Symphony No. 1",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "6755a742-5371-43de-b389-9415c6dbab89",
+            "url": "https://musicbrainz.org/work/6755a742-5371-43de-b389-9415c6dbab89",
+            "title": "Symphony no. 1 in E-flat major, op. 28",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "German Requiem",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "dab25f7b-1dcb-40dd-9292-12e287e19f0a",
+            "url": "https://musicbrainz.org/work/dab25f7b-1dcb-40dd-9292-12e287e19f0a",
+            "title": "A German Requiem, op. 45: I. Blessed Are They That Mourn",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Clarinet Quintet",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "bizet",
+      "composerName": "Georges Bizet",
+      "musicBrainzArtist": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235",
+      "works": [
+        {
+          "title": "Carmen",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "f9ba78e4-9a29-30a1-bbbc-5790ac2c82eb",
+            "url": "https://musicbrainz.org/work/f9ba78e4-9a29-30a1-bbbc-5790ac2c82eb",
+            "title": "Carmen : Prélude",
+            "score": 100,
+            "type": "Overture",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "L'Arlesienne Suites",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Symphony in C",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "395011dc-b1b1-4cfa-83ec-d518815bd413",
+            "url": "https://musicbrainz.org/work/395011dc-b1b1-4cfa-83ec-d518815bd413",
+            "title": "Symphony in C major \"Roma\"",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "mussorgsky",
+      "composerName": "Modest Mussorgsky",
+      "musicBrainzArtist": "c1380b12-3909-47d8-a5fd-d20e76123310",
+      "works": [
+        {
+          "title": "Pictures at an Exhibition",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "fef21cee-269d-45cb-b41e-f90980979aca",
+            "url": "https://musicbrainz.org/work/fef21cee-269d-45cb-b41e-f90980979aca",
+            "title": "Pictures at an Exhibition",
+            "score": 100,
+            "type": "",
+            "disambiguation": "original piano version"
+          }
+        },
+        {
+          "title": "Boris Godunov",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "148120b7-a1a9-4666-9be9-0fcf126a3fc5",
+            "url": "https://musicbrainz.org/work/148120b7-a1a9-4666-9be9-0fcf126a3fc5",
+            "title": "Boris Godunov (Symphonic Synthesis)",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Night on Bald Mountain",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 4,
+          "musicBrainzWork": {
+            "id": "ae433568-e6d6-4d46-a10c-5f4513a60070",
+            "url": "https://musicbrainz.org/work/ae433568-e6d6-4d46-a10c-5f4513a60070",
+            "title": "Night on Bald Mountain",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for solo piano, Chernov"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "tchaikovsky",
+      "composerName": "Pyotr Ilyich Tchaikovsky",
+      "musicBrainzArtist": "9ddd7abc-9e1b-471d-8031-583bc6bc8be9",
+      "works": [
+        {
+          "title": "Symphony No. 6",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "15e0a721-5332-3452-8a56-e00af7b9e4ca",
+            "url": "https://musicbrainz.org/work/15e0a721-5332-3452-8a56-e00af7b9e4ca",
+            "title": "Symphony no. 6 in B minor, op. 74 “Pathétique”",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Swan Lake",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "1b1ebd2f-62db-4663-959e-e30251713d71",
+            "url": "https://musicbrainz.org/work/1b1ebd2f-62db-4663-959e-e30251713d71",
+            "title": "Swan Lake",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Violin Concerto",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "dvorak",
+      "composerName": "Antonin Dvorak",
+      "musicBrainzArtist": "819eaeb2-8dd8-48a5-ad07-0bcd137985ef",
+      "works": [
+        {
+          "title": "Symphony No. 9",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "90379c91-2dce-4ba4-9900-dd32763ee0b4",
+            "url": "https://musicbrainz.org/work/90379c91-2dce-4ba4-9900-dd32763ee0b4",
+            "title": "Symphony no. 9 in E minor, Op. 95 “From the New World”",
+            "score": 100,
+            "type": "",
+            "disambiguation": "arranged for piano by Nacar"
+          }
+        },
+        {
+          "title": "Cello Concerto",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "710830c6-79d6-30ee-956d-f7079681ddf5",
+            "url": "https://musicbrainz.org/work/710830c6-79d6-30ee-956d-f7079681ddf5",
+            "title": "Cello Concerto in B minor, op. 104: I. Allegro",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Slavonic Dances",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7b5c805e-3db9-405d-99db-6be005cb20c4",
+            "url": "https://musicbrainz.org/work/7b5c805e-3db9-405d-99db-6be005cb20c4",
+            "title": "Slavonic Dances, B. 172",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for cello and piano"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "grieg",
+      "composerName": "Edvard Grieg",
+      "musicBrainzArtist": "013c8e5b-d72a-4cd3-8dee-6c64d6125823",
+      "works": [
+        {
+          "title": "Peer Gynt Suites",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "Piano Concerto",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "101ef8f7-e7aa-4c28-8cf8-1c516c14f1ba",
+            "url": "https://musicbrainz.org/work/101ef8f7-e7aa-4c28-8cf8-1c516c14f1ba",
+            "title": "Grieg’s Piano Concerto",
+            "score": 100,
+            "type": "",
+            "disambiguation": "original sketch with just Eric & Ern"
+          }
+        },
+        {
+          "title": "Lyric Pieces",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "ca423b31-c476-4baa-92fd-7a559eb902d2",
+            "url": "https://musicbrainz.org/work/ca423b31-c476-4baa-92fd-7a559eb902d2",
+            "title": "Lyric Pieces: Melody",
+            "score": 100,
+            "type": "",
+            "disambiguation": "could be op. 38 or op. 47"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "rimsky",
+      "composerName": "Nikolai Rimsky-Korsakov",
+      "musicBrainzArtist": "4cfe7051-f649-4d07-83b3-7a732abe7249",
+      "works": [
+        {
+          "title": "Scheherazade",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "10d461a2-96f8-30e1-8590-55960a03c11f",
+            "url": "https://musicbrainz.org/work/10d461a2-96f8-30e1-8590-55960a03c11f",
+            "title": "Scheherazade",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": "Cæcilie Norby song"
+          }
+        },
+        {
+          "title": "Russian Easter Festival Overture",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "840155b0-c12d-365c-bd5f-029136aa816e",
+            "url": "https://musicbrainz.org/work/840155b0-c12d-365c-bd5f-029136aa816e",
+            "title": "Russian Easter Festival Overture, op. 36",
+            "score": 100,
+            "type": "Overture",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "The Snow Maiden",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "4912294f-f827-4b1b-8097-65af3939dd77",
+            "url": "https://musicbrainz.org/work/4912294f-f827-4b1b-8097-65af3939dd77",
+            "title": "The Snow Maiden",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "faure",
+      "composerName": "Gabriel Faure",
+      "musicBrainzArtist": "fa19a8b6-e7f4-40d4-af15-7a7c41ac7d8f",
+      "works": [
+        {
+          "title": "Requiem",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "97d4839c-3b4c-3fd2-89e0-50f2f3f45822",
+            "url": "https://musicbrainz.org/work/97d4839c-3b4c-3fd2-89e0-50f2f3f45822",
+            "title": "Requiem, op. 48: III. Sanctus",
+            "score": 100,
+            "type": "",
+            "disambiguation": "1890, second version"
+          }
+        },
+        {
+          "title": "Pavane",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "fea62425-85b7-4070-8a5e-9b9658e2ade0",
+            "url": "https://musicbrainz.org/work/fea62425-85b7-4070-8a5e-9b9658e2ade0",
+            "title": "Pavane, op. 50",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": "catch-all for arrangements and unknown versions"
+          }
+        },
+        {
+          "title": "Piano Quartet No. 1",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c4be18b8-8f0b-3bbf-80a4-82e8e628bbee",
+            "url": "https://musicbrainz.org/work/c4be18b8-8f0b-3bbf-80a4-82e8e628bbee",
+            "title": "Piano Quartet no. 1 in C minor, op. 15: III. Adagio",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "elgar",
+      "composerName": "Edward Elgar",
+      "musicBrainzArtist": "4e60a56a-514a-4a19-a3cc-49927c96b3cb",
+      "works": [
+        {
+          "title": "Enigma Variations",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "310c6703-f100-490a-bb9b-3b28a8b59d32",
+            "url": "https://musicbrainz.org/work/310c6703-f100-490a-bb9b-3b28a8b59d32",
+            "title": "“Nimrod” from Enigma Variations",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for concert band, arranged by Jay Bocook"
+          }
+        },
+        {
+          "title": "Cello Concerto",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "6f410283-2fa3-35e3-bd03-ffcb4a7954a7",
+            "url": "https://musicbrainz.org/work/6f410283-2fa3-35e3-bd03-ffcb4a7954a7",
+            "title": "Cello Concerto in E minor, op. 85: III. Adagio",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Pomp and Circumstance",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "2dfc5b22-c7a9-4b0d-9a3c-e7435e173cb1",
+            "url": "https://musicbrainz.org/work/2dfc5b22-c7a9-4b0d-9a3c-e7435e173cb1",
+            "title": "Pomp and Circumstance",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": "Lopez version"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "mahler",
+      "composerName": "Gustav Mahler",
+      "musicBrainzArtist": "8d610e51-64b4-4654-b8df-064b0fb7a9d9",
+      "works": [
+        {
+          "title": "Symphony No. 2",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "ad8df966-dba7-43d0-8d0e-91e69df5b5ef",
+            "url": "https://musicbrainz.org/work/ad8df966-dba7-43d0-8d0e-91e69df5b5ef",
+            "title": "Symphony no. 2 “Resurrection”",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Das Lied von der Erde",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "14514e77-f06c-4d24-a4d5-9a5962acae64",
+            "url": "https://musicbrainz.org/work/14514e77-f06c-4d24-a4d5-9a5962acae64",
+            "title": "Das Lied von der Erde",
+            "score": 100,
+            "type": "Song-cycle",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Symphony No. 9",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "22cc1e5f-0796-3bbf-9cb4-61aea8825917",
+            "url": "https://musicbrainz.org/work/22cc1e5f-0796-3bbf-9cb4-61aea8825917",
+            "title": "Symphony no. 9 in D major: I. Andante comodo",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "debussy",
+      "composerName": "Claude Debussy",
+      "musicBrainzArtist": "be50643c-0377-4968-b48c-47e06b2e2a3b",
+      "works": [
+        {
+          "title": "Prelude to the Afternoon of a Faun",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        },
+        {
+          "title": "La mer",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "77bb353f-9eac-44f9-be42-3d613d41925b",
+            "url": "https://musicbrainz.org/work/77bb353f-9eac-44f9-be42-3d613d41925b",
+            "title": "La Mer",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for piano four hands"
+          }
+        },
+        {
+          "title": "Clair de lune",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c28179d7-9a4c-44ad-90e4-c96c3e2cfa94",
+            "url": "https://musicbrainz.org/work/c28179d7-9a4c-44ad-90e4-c96c3e2cfa94",
+            "title": "Clair de Lune",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "strauss",
+      "composerName": "Richard Strauss",
+      "musicBrainzArtist": "4cb43d82-824e-4034-b03d-1a98f36f6e16",
+      "works": [
+        {
+          "title": "Also sprach Zarathustra",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "e782d5e1-7142-4607-83e9-8aad5a92c123",
+            "url": "https://musicbrainz.org/work/e782d5e1-7142-4607-83e9-8aad5a92c123",
+            "title": "Also sprach Zarathustra (2001)",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": "arr. Deodato jazz-funk style"
+          }
+        },
+        {
+          "title": "Der Rosenkavalier",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "18e6d250-1e75-499c-804b-865da45f8ddb",
+            "url": "https://musicbrainz.org/work/18e6d250-1e75-499c-804b-865da45f8ddb",
+            "title": "Der Rosenkavalier",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": "op 59; TrV 227"
+          }
+        },
+        {
+          "title": "Four Last Songs",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "sibelius",
+      "composerName": "Jean Sibelius",
+      "musicBrainzArtist": "691b0e9d-9e57-41cf-932d-a3d21b068e75",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "4b9c0f1f-05ba-371e-a495-b911b3d8b89f",
+            "url": "https://musicbrainz.org/work/4b9c0f1f-05ba-371e-a495-b911b3d8b89f",
+            "title": "Symphony no. 5 in E-flat major, op. 82: III. Allegro molto",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Finlandia",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "625c4a60-53c9-4ca1-b2a8-8db34c9e88c6",
+            "url": "https://musicbrainz.org/work/625c4a60-53c9-4ca1-b2a8-8db34c9e88c6",
+            "title": "Finlandia",
+            "score": 100,
+            "type": "",
+            "disambiguation": "Nightwish’s version"
+          }
+        },
+        {
+          "title": "Violin Concerto",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "9159906a-0a5c-30fc-84e9-950f69b5170c",
+            "url": "https://musicbrainz.org/work/9159906a-0a5c-30fc-84e9-950f69b5170c",
+            "title": "Violin Concerto in D minor, op. 47: I. Allegro moderato",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "satie",
+      "composerName": "Erik Satie",
+      "musicBrainzArtist": "e1d521ea-5b97-4981-987c-ba988b2a87d7",
+      "works": [
+        {
+          "title": "Gymnopedies",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c8dd2fee-9480-4c2f-89a2-eada0e3d5302",
+            "url": "https://musicbrainz.org/work/c8dd2fee-9480-4c2f-89a2-eada0e3d5302",
+            "title": "Gymnopédies",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Gnossiennes",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "e7b9f29a-588d-4a4b-b986-8999c2c86dbf",
+            "url": "https://musicbrainz.org/work/e7b9f29a-588d-4a4b-b986-8999c2c86dbf",
+            "title": "Trois Gnossiennes",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Parade",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "65775acf-95f0-350c-ba5d-60d9386e463f",
+            "url": "https://musicbrainz.org/work/65775acf-95f0-350c-ba5d-60d9386e463f",
+            "title": "Parade",
+            "score": 100,
+            "type": "Ballet",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "rachmaninoff",
+      "composerName": "Sergei Rachmaninoff",
+      "musicBrainzArtist": "44b16e44-da77-4580-b851-0d765904573e",
+      "works": [
+        {
+          "title": "Piano Concerto No. 2",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "4661a9a2-3986-30a8-a044-b79359dfd4fc",
+            "url": "https://musicbrainz.org/work/4661a9a2-3986-30a8-a044-b79359dfd4fc",
+            "title": "Piano Concerto no. 2 in C minor, op. 18: I. Moderato",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Rhapsody on a Theme of Paganini",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "17eea09b-0497-370c-a0a2-4f7f2d49300f",
+            "url": "https://musicbrainz.org/work/17eea09b-0497-370c-a0a2-4f7f2d49300f",
+            "title": "Rhapsody on a Theme of Paganini, op. 43",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for piano and orchestra"
+          }
+        },
+        {
+          "title": "All-Night Vigil",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "schoenberg",
+      "composerName": "Arnold Schoenberg",
+      "musicBrainzArtist": "9b490b96-ad82-4d7b-9055-f0a196ad64cc",
+      "works": [
+        {
+          "title": "Verklarte Nacht",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "47ac23fb-acab-42b6-8f81-10550f8b1f83",
+            "url": "https://musicbrainz.org/work/47ac23fb-acab-42b6-8f81-10550f8b1f83",
+            "title": "Verklärte Nacht, op. 4",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Pierrot lunaire",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "a6e60a2c-ad8f-446d-bf9a-06a42f077c02",
+            "url": "https://musicbrainz.org/work/a6e60a2c-ad8f-446d-bf9a-06a42f077c02",
+            "title": "Dreimal sieben Gedichte aus Albert Girauds »Pierrot lunaire«, op. 21: II. Teil: 13. „Enthauptung“",
+            "score": 100,
+            "type": "Song",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Suite for Piano, Op. 25",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "ravel",
+      "composerName": "Maurice Ravel",
+      "musicBrainzArtist": "6fdd3b3e-1ea6-4da9-8d6f-8f8de01c133a",
+      "works": [
+        {
+          "title": "Daphnis et Chloe",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "a55d2dfe-fb81-42e8-9e0f-3e6fd9654ca1",
+            "url": "https://musicbrainz.org/work/a55d2dfe-fb81-42e8-9e0f-3e6fd9654ca1",
+            "title": "Daphnis et Chloé",
+            "score": 100,
+            "type": "Ballet",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Bolero",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "487527b9-a525-33f4-b948-ea41b9a2672f",
+            "url": "https://musicbrainz.org/work/487527b9-a525-33f4-b948-ea41b9a2672f",
+            "title": "Boléro",
+            "score": 100,
+            "type": "Ballet",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Gaspard de la nuit",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "2fce1e89-1685-43f7-97b2-5d0dd8c6fb70",
+            "url": "https://musicbrainz.org/work/2fce1e89-1685-43f7-97b2-5d0dd8c6fb70",
+            "title": "Gaspard de la nuit",
+            "score": 100,
+            "type": "Suite",
+            "disambiguation": "orch. Marius Constant"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "bartok",
+      "composerName": "Bela Bartok",
+      "musicBrainzArtist": "fd14da1b-3c2d-4cc8-9ca6-fc8c62ce6988",
+      "works": [
+        {
+          "title": "Concerto for Orchestra",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "8961fa6a-9d99-3bb9-9890-dd1b665d6010",
+            "url": "https://musicbrainz.org/work/8961fa6a-9d99-3bb9-9890-dd1b665d6010",
+            "title": "Concerto for Orchestra, Sz. 116, BB 123: IV. Intermezzo interrotto. Allegretto",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Music for Strings, Percussion and Celesta",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "0c680f6b-c5cf-4045-a689-df318e794383",
+            "url": "https://musicbrainz.org/work/0c680f6b-c5cf-4045-a689-df318e794383",
+            "title": "Music for Strings, Percussion and Celesta, Sz. 106, BB 114",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Mikrokosmos",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "05e73b3f-7664-4745-ab48-d140dd106a5e",
+            "url": "https://musicbrainz.org/work/05e73b3f-7664-4745-ab48-d140dd106a5e",
+            "title": "Mikrokosmos, Sz. 107, BB 105",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "stravinsky",
+      "composerName": "Igor Stravinsky",
+      "musicBrainzArtist": "c278de2c-9696-4fdf-a919-0781cd945e2c",
+      "works": [
+        {
+          "title": "The Rite of Spring",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "ce43a3ab-8642-4573-90e9-bb391ab3bb56",
+            "url": "https://musicbrainz.org/work/ce43a3ab-8642-4573-90e9-bb391ab3bb56",
+            "title": "The Rite of Spring",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for piano, Leyetchkiss"
+          }
+        },
+        {
+          "title": "The Firebird",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "c612e5bf-4c90-4232-a88e-d51ac7417d2c",
+            "url": "https://musicbrainz.org/work/c612e5bf-4c90-4232-a88e-d51ac7417d2c",
+            "title": "The Firebird: Lullaby (The Firebird)",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Symphony of Psalms",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "84070a93-3b55-4c11-a15c-7f4efec7df7f",
+            "url": "https://musicbrainz.org/work/84070a93-3b55-4c11-a15c-7f4efec7df7f",
+            "title": "Symphony of Psalms",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "webern",
+      "composerName": "Anton Webern",
+      "musicBrainzArtist": "7be0b588-030c-4904-836f-71ff43a2dfec",
+      "works": [
+        {
+          "title": "Five Movements for String Quartet",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "fafa518d-4f22-45b7-b784-d744f8072240",
+            "url": "https://musicbrainz.org/work/fafa518d-4f22-45b7-b784-d744f8072240",
+            "title": "Five Movements for String Quartet, op. 5",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Symphony, Op. 21",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 3,
+          "musicBrainzWork": {
+            "id": "2195c606-ddb5-44c6-8993-4c5ea1cbb1ef",
+            "url": "https://musicbrainz.org/work/2195c606-ddb5-44c6-8993-4c5ea1cbb1ef",
+            "title": "Symphony, op. 21",
+            "score": 100,
+            "type": "Symphony",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Variations for Piano",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 1,
+          "musicBrainzWork": {
+            "id": "26f762c4-0724-4732-93d9-e47510ab8782",
+            "url": "https://musicbrainz.org/work/26f762c4-0724-4732-93d9-e47510ab8782",
+            "title": "Variations for Piano, op. 27",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "prokofiev",
+      "composerName": "Sergei Prokofiev",
+      "musicBrainzArtist": "0e43fe9d-c472-4b62-be9e-55f971a023e1",
+      "works": [
+        {
+          "title": "Romeo and Juliet",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "fe99ac3d-e454-4023-b421-c7a7cfb2c0ce",
+            "url": "https://musicbrainz.org/work/fe99ac3d-e454-4023-b421-c7a7cfb2c0ce",
+            "title": "Romeo and Juliet",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for viola and orchestra, François Vallières"
+          }
+        },
+        {
+          "title": "Piano Concerto No. 3",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "582f07ea-9dd9-3e74-8dc0-b45c55994b6e",
+            "url": "https://musicbrainz.org/work/582f07ea-9dd9-3e74-8dc0-b45c55994b6e",
+            "title": "Piano Concerto no. 3 in C major, op. 26: I. Andante – Allegro",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Classical Symphony",
+          "status": "MISS",
+          "reason": "no MusicBrainz work candidate found for this composer",
+          "candidateCount": 0,
+          "musicBrainzWork": null
+        }
+      ]
+    },
+    {
+      "composerId": "hindemith",
+      "composerName": "Paul Hindemith",
+      "musicBrainzArtist": "4068eaba-ca03-4c34-9172-2b709b8050e6",
+      "works": [
+        {
+          "title": "Mathis der Maler",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "dc4a03a4-cff9-42f4-a470-3410f0d657a9",
+            "url": "https://musicbrainz.org/work/dc4a03a4-cff9-42f4-a470-3410f0d657a9",
+            "title": "Mathis der Maler",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Symphonic Metamorphosis",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "99d412a7-7025-3b7d-9342-6b4a9c37bda9",
+            "url": "https://musicbrainz.org/work/99d412a7-7025-3b7d-9342-6b4a9c37bda9",
+            "title": "Symphonic Metamorphosis after Themes by Carl Maria von Weber: IV. Marsch",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Ludus Tonalis",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "41f04f3d-ea8f-42d8-985f-af2e3e0922c7",
+            "url": "https://musicbrainz.org/work/41f04f3d-ea8f-42d8-985f-af2e3e0922c7",
+            "title": "Ludus tonalis",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "gershwin",
+      "composerName": "George Gershwin",
+      "musicBrainzArtist": "65744963-191a-44ef-a3c7-b693a808a158",
+      "works": [
+        {
+          "title": "Rhapsody in Blue",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "bf7e3ad3-4d47-3425-aa5f-8cc8c91d53ed",
+            "url": "https://musicbrainz.org/work/bf7e3ad3-4d47-3425-aa5f-8cc8c91d53ed",
+            "title": "Rhapsody in Blue",
+            "score": 100,
+            "type": "",
+            "disambiguation": "standard 1942 orchestration"
+          }
+        },
+        {
+          "title": "An American in Paris",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "7e7d799a-babe-3d9c-b271-9ad417ac650f",
+            "url": "https://musicbrainz.org/work/7e7d799a-babe-3d9c-b271-9ad417ac650f",
+            "title": "An American in Paris",
+            "score": 100,
+            "type": "Symphonic poem",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Porgy and Bess",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "1094de73-1671-4a6f-a870-3442756cab2f",
+            "url": "https://musicbrainz.org/work/1094de73-1671-4a6f-a870-3442756cab2f",
+            "title": "Porgy and Bess",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "poulenc",
+      "composerName": "Francis Poulenc",
+      "musicBrainzArtist": "5e1ef22b-310a-46ad-885b-4897b8c9c85a",
+      "works": [
+        {
+          "title": "Gloria",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "dfde29b4-1d11-4747-9a5e-ef10eb61b754",
+            "url": "https://musicbrainz.org/work/dfde29b4-1d11-4747-9a5e-ef10eb61b754",
+            "title": "Gloria, for Soprano, Chorus and Orchestra, FP 177: I. Gloria",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Dialogues des Carmelites",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "0769979a-558f-4eaa-b947-f1754de6c00f",
+            "url": "https://musicbrainz.org/work/0769979a-558f-4eaa-b947-f1754de6c00f",
+            "title": "Dialogues des Carmélites",
+            "score": 100,
+            "type": "Opera",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Concerto for Two Pianos",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 4,
+          "musicBrainzWork": {
+            "id": "15d58784-cef7-3596-ae2f-f6f60795a032",
+            "url": "https://musicbrainz.org/work/15d58784-cef7-3596-ae2f-f6f60795a032",
+            "title": "Concerto for Two Pianos and Orchestra in D minor, FP 61: II. Larghetto",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "copland",
+      "composerName": "Aaron Copland",
+      "musicBrainzArtist": "aad3af83-5b59-4b86-a569-1a8409149b09",
+      "works": [
+        {
+          "title": "Appalachian Spring",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "5c4dd92e-9eee-41b0-bc5b-48d58bd81551",
+            "url": "https://musicbrainz.org/work/5c4dd92e-9eee-41b0-bc5b-48d58bd81551",
+            "title": "Appalachian Spring",
+            "score": 100,
+            "type": "Ballet",
+            "disambiguation": "original ballet for 13 instruments, 1944"
+          }
+        },
+        {
+          "title": "Fanfare for the Common Man",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 3,
+          "musicBrainzWork": {
+            "id": "f846bc6f-ff20-3d4c-b49f-c9d8cdf1e588",
+            "url": "https://musicbrainz.org/work/f846bc6f-ff20-3d4c-b49f-c9d8cdf1e588",
+            "title": "Fanfare for the Common Man",
+            "score": 100,
+            "type": "",
+            "disambiguation": "for brass and percussion orchestra"
+          }
+        },
+        {
+          "title": "Billy the Kid",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "68d0ff5f-1297-4461-af8c-5c1f2cf397c5",
+            "url": "https://musicbrainz.org/work/68d0ff5f-1297-4461-af8c-5c1f2cf397c5",
+            "title": "Billy the Kid",
+            "score": 100,
+            "type": "Ballet",
+            "disambiguation": "complete ballet"
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "shostakovich",
+      "composerName": "Dmitri Shostakovich",
+      "musicBrainzArtist": "519dd32e-8f30-4380-8826-7aa99169e1bb",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "d8a46a99-3beb-3136-afb1-f0883399c706",
+            "url": "https://musicbrainz.org/work/d8a46a99-3beb-3136-afb1-f0883399c706",
+            "title": "Symphony no. 5 in D minor, op. 47: II. Allegretto",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "String Quartet No. 8",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "60162d2a-1268-363f-b089-c622ee87e970",
+            "url": "https://musicbrainz.org/work/60162d2a-1268-363f-b089-c622ee87e970",
+            "title": "String Quartet no. 8 in C minor, op. 110: IV. Largo",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Piano Trio No. 2",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "089b5ee2-9e32-3090-be0e-9b4d9267572a",
+            "url": "https://musicbrainz.org/work/089b5ee2-9e32-3090-be0e-9b4d9267572a",
+            "title": "Piano Trio no. 2 in E minor, op. 67: IV. Allegretto",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        }
+      ]
+    },
+    {
+      "composerId": "britten",
+      "composerName": "Benjamin Britten",
+      "musicBrainzArtist": "49ae5227-605a-47a8-9b8e-cd89bf01a97c",
+      "works": [
+        {
+          "title": "War Requiem",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "300480aa-905e-365c-8a33-53bea289a749",
+            "url": "https://musicbrainz.org/work/300480aa-905e-365c-8a33-53bea289a749",
+            "title": "War Requiem, op. 66: II. Dies irae",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Peter Grimes",
+          "status": "CHECK",
+          "reason": "review title variant, movement match, or work grouping",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "5ecd048c-c93d-3c8c-b752-86c3b5715aab",
+            "url": "https://musicbrainz.org/work/5ecd048c-c93d-3c8c-b752-86c3b5715aab",
+            "title": "Peter Grimes: Prologue: \"Peter Grimes!\" (Hobson)",
+            "score": 100,
+            "type": "",
+            "disambiguation": ""
+          }
+        },
+        {
+          "title": "Young Person's Guide to the Orchestra",
+          "status": "OK",
+          "reason": "high-confidence MusicBrainz work match",
+          "candidateCount": 5,
+          "musicBrainzWork": {
+            "id": "ace72a0f-a21f-4ebd-a994-3957aaf14d9f",
+            "url": "https://musicbrainz.org/work/ace72a0f-a21f-4ebd-a994-3957aaf14d9f",
+            "title": "The Young Person’s Guide to the Orchestra, op. 34",
+            "score": 100,
+            "type": "",
+            "disambiguation": "Variations and Fugue on a Theme of Purcell"
+          }
+        }
+      ]
+    }
+  ]
+}

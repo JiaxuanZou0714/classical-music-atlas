@@ -50,7 +50,11 @@ Before changing timeline data:
 3. For each mismatch, check Wikidata plus at least one authority or music catalog source.
 4. Update `data/composers.json` only after the ambiguity is understood.
 5. If all identity and date checks pass, run `node scripts/verify-composer-facts.mjs --write-source-ids`.
-6. Keep public-facing prose modest when a date is approximate.
+6. Run `node scripts/verify-composer-works.mjs` before changing recommended works.
+7. If the work report is acceptable, run `node scripts/verify-composer-works.mjs --write-work-sources`.
+8. Keep public-facing prose modest when a date is approximate.
+
+Work verification uses MusicBrainz work search scoped to each composer's MusicBrainz artist ID. Saved reports live in `data/work-sources.json`. Treat `OK` as a strong automated match. Treat `CHECK` as a useful candidate that needs human review, often because the local title is a translated title, a short title, a suite, an opus group, or a movement-level reference. Treat `MISS` as unresolved until checked in another catalog such as IMSLP, RISM, or Open Opus.
 
 ## Official Documentation
 
