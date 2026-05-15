@@ -40,6 +40,7 @@ Use these only as secondary helpers.
 | `moods`, `vibe`, `next` | Editorial listening guidance. Keep it concise and tasteful; do not present it as objective metadata. |
 | `sourceIds` | Stores stable external identifiers used for verification. First version tracks Wikidata, MusicBrainz artist ID, VIAF, and LOC. |
 | `verifiedAt` | Date when identity and birth/death years were last checked by the verification script. |
+| `data/public-sources.json` | Generated public-source layer for compact composer facts, authority links, and MusicBrainz work links. It should be rebuilt from scripts, not edited by hand. |
 
 ## Verification Workflow
 
@@ -52,9 +53,12 @@ Before changing timeline data:
 5. If all identity and date checks pass, run `node scripts/verify-composer-facts.mjs --write-source-ids`.
 6. Run `node scripts/verify-composer-works.mjs` before changing recommended works.
 7. If the work report is acceptable, run `node scripts/verify-composer-works.mjs --write-work-sources`.
-8. Keep public-facing prose modest when a date is approximate.
+8. Run `node scripts/build-public-sources.mjs` to refresh compact public-source facts and external links.
+9. Keep public-facing prose modest when a date is approximate.
 
 Work verification uses MusicBrainz work search scoped to each composer's MusicBrainz artist ID. Saved reports live in `data/work-sources.json`. Treat `OK` as a strong automated match. Treat `CHECK` as a useful candidate that needs human review, often because the local title is a translated title, a short title, a suite, an opus group, or a movement-level reference. Treat `MISS` as unresolved until checked in another catalog such as IMSLP, RISM, or Open Opus.
+
+Public-source display data uses Wikidata entity data for compact composer facts and the saved MusicBrainz work report for work links. The site should show short facts and source entrances rather than long biographies.
 
 ## Official Documentation
 

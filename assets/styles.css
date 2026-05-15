@@ -578,6 +578,33 @@ h2 {
   color: var(--ink-soft);
 }
 
+.detail-facts {
+  display: grid;
+  gap: var(--space-1);
+  margin: var(--space-3) 0 0;
+}
+
+.detail-facts div {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
+  gap: var(--space-2);
+}
+
+.detail-facts dt,
+.detail-facts dd {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.detail-facts dt {
+  color: var(--ink-soft);
+}
+
+.detail-facts dd {
+  color: var(--ink);
+}
+
 .detail-works {
   display: flex;
   flex-wrap: wrap;
@@ -585,18 +612,48 @@ h2 {
   margin-block-start: var(--space-3);
 }
 
-.detail-works span {
+.work-link {
+  display: inline-flex;
+  align-items: center;
   border: 1px solid var(--rule);
   background: color-mix(in oklch, var(--paper-lift) 78%, var(--paper) 22%);
   color: var(--ink);
   padding: 0.35rem 0.55rem;
   font-size: 0.86rem;
+  line-height: 1.25;
+}
+
+.work-link--source:hover,
+.work-link--source:focus-visible {
+  border-color: var(--concert-red);
+  color: var(--concert-red);
 }
 
 .detail-next {
   margin-block: var(--space-3) 0;
   color: var(--ink-soft);
   font-size: 0.9rem;
+}
+
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-block-start: var(--space-3);
+  padding-block-start: var(--space-3);
+  border-block-start: 1px solid var(--rule);
+}
+
+.source-links a {
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.source-links a:hover {
+  color: var(--concert-red);
 }
 
 .empty-state {

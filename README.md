@@ -70,3 +70,9 @@ node scripts\verify-composer-works.mjs
 ```powershell
 node scripts\verify-composer-works.mjs --write-work-sources
 ```
+
+需要刷新页面展示用的公开资料入口时运行：
+
+```powershell
+node scripts\build-public-sources.mjs
+```

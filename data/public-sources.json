@@ -1,0 +1,4681 @@
+{
+  "verifiedAt": "2026-05-15",
+  "source": "Wikidata entity API for composer facts and existing MusicBrainz work verification report for work source links",
+  "composerCount": 52,
+  "workCount": 156,
+  "composers": [
+    {
+      "composerId": "palestrina",
+      "wikidataId": "Q179277",
+      "label": "乔瓦尼·皮耶路易吉·达·帕莱斯特里纳",
+      "description": "意大利文艺复兴时期作曲家",
+      "aliases": [
+        "乔万尼·帕莱斯特里纳",
+        "Giovanni Pierluigi da Palestrina",
+        "帕莱斯特里纳",
+        "帕莱斯特里那"
+      ],
+      "birthPlace": "帕莱斯特里纳",
+      "deathPlace": "罗马",
+      "citizenship": [
+        "教皇国"
+      ],
+      "occupations": [
+        "作曲家",
+        "宮廷樂長",
+        "音乐教育家",
+        "风琴师"
+      ],
+      "movements": [],
+      "genres": [
+        "文艺复兴音乐",
+        "宗教音乐",
+        "弥撒曲",
+        "經文歌"
+      ],
+      "instruments": [
+        "管风琴"
+      ],
+      "notableWorks": [],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q179277"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4daeb526-6c4c-4f77-bdf5-4a0fcb714bfe"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/92280854/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50051776.html"
+        }
+      ]
+    },
+    {
+      "composerId": "byrd",
+      "wikidataId": "Q208375",
+      "label": "威廉·伯德",
+      "description": "英国文艺复兴作曲家（1539/1540－1623）",
+      "aliases": [
+        "伯德",
+        "William Bird"
+      ],
+      "birthPlace": "林肯郡",
+      "deathPlace": "Stondon Massey",
+      "citizenship": [
+        "英国",
+        "英格兰王国"
+      ],
+      "occupations": [
+        "作曲家",
+        "风琴师"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂"
+      ],
+      "instruments": [
+        "風琴"
+      ],
+      "notableWorks": [],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q208375"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d1cf7a39-f268-45e8-bbc0-6cea5c0272cf"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/112781480/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50032948.html"
+        }
+      ]
+    },
+    {
+      "composerId": "monteverdi",
+      "wikidataId": "Q53068",
+      "label": "克劳迪奥·蒙特威尔第",
+      "description": "意大利巴洛克作曲家（Claudio Monteverdi，1567—1643）",
+      "aliases": [
+        "Claudio Giovanni Antonio Monteverdi",
+        "Monteverdi",
+        "Claudio Monteverde"
+      ],
+      "birthPlace": "克雷莫纳",
+      "deathPlace": "威尼斯",
+      "citizenship": [
+        "威尼斯共和国"
+      ],
+      "occupations": [
+        "音乐理论家",
+        "viol player",
+        "天主教神父",
+        "古典音乐作曲家"
+      ],
+      "movements": [
+        "文艺复兴音乐",
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "巴洛克音乐"
+      ],
+      "instruments": [
+        "viola da braccio",
+        "维奥尔琴",
+        "管风琴"
+      ],
+      "notableWorks": [
+        "波佩亞的加冕",
+        "奧菲歐",
+        "尤里西斯歸鄉記",
+        "唐克雷第與克羅林達之戰"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q53068"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9a33a7ad-f725-473a-b50a-1d1796183af1"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/44485902/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79074370.html"
+        }
+      ]
+    },
+    {
+      "composerId": "lully",
+      "wikidataId": "Q1192",
+      "label": "让-巴蒂斯特·吕利",
+      "description": "意大利出生的法国巴洛克作曲家",
+      "aliases": [
+        "Giovanni Battista Lulli",
+        "Lulli"
+      ],
+      "birthPlace": "佛罗伦萨",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法蘭西王國",
+        "托斯卡纳大公国"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "編舞家",
+        "小提琴家"
+      ],
+      "movements": [
+        "古典音樂",
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "芭蕾舞曲"
+      ],
+      "instruments": [
+        "小提琴"
+      ],
+      "notableWorks": [
+        "柏勒罗丰",
+        "伊希斯",
+        "泰塞埃",
+        "贵人迷"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1192"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/7f9989b0-8f5e-41dd-bbab-1fff052609e3"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/13099537/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79072787.html"
+        }
+      ]
+    },
+    {
+      "composerId": "corelli",
+      "wikidataId": "Q164475",
+      "label": "阿尔坎杰罗·科雷利",
+      "description": "巴洛克时期意大利小提琴家和作曲家",
+      "aliases": [
+        "科雷利",
+        "科莱里",
+        "Corelli"
+      ],
+      "birthPlace": "富西尼亚诺",
+      "deathPlace": "罗马",
+      "citizenship": [
+        "教皇国"
+      ],
+      "occupations": [
+        "作曲家",
+        "中提琴家",
+        "小提琴家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "巴洛克音乐",
+        "古典音樂"
+      ],
+      "instruments": [
+        "小提琴"
+      ],
+      "notableWorks": [
+        "Concerti grossi, op. 6",
+        "Twelve Violin Sonatas, Op.5"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q164475"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/a3546087-fe59-47d3-a3a8-42d58e2573c7"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/69124242/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79059471.html"
+        }
+      ]
+    },
+    {
+      "composerId": "purcell",
+      "wikidataId": "Q9695",
+      "label": "亨利·普賽爾",
+      "description": "巴洛克时期的英格兰作曲家",
+      "aliases": [],
+      "birthPlace": "西敏",
+      "deathPlace": "西敏",
+      "citizenship": [
+        "英格兰王国"
+      ],
+      "occupations": [
+        "作曲家",
+        "风琴师",
+        "音樂學者",
+        "音乐理论家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "讚美詩",
+        "奥德"
+      ],
+      "instruments": [
+        "管风琴",
+        "大鍵琴"
+      ],
+      "notableWorks": [
+        "蒂朵與艾尼亞斯",
+        "Who can from joy refrain?",
+        "妖精女王",
+        "Hail, bright Cecilia",
+        "I attempt from Love's sickness to fly"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9695"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ddea5540-2c7d-4266-8507-b367c2635d35"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/5118737/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79095298.html"
+        }
+      ]
+    },
+    {
+      "composerId": "rameau",
+      "wikidataId": "Q1145",
+      "label": "让-菲利普·拉莫",
+      "description": "巴洛克时期法国作曲家、音乐理论家",
+      "aliases": [
+        "Jean Philippe Rameau"
+      ],
+      "birthPlace": "第戎",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法蘭西王國"
+      ],
+      "occupations": [
+        "作曲家",
+        "編舞家",
+        "音樂學者",
+        "音乐理论家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [],
+      "instruments": [
+        "小提琴"
+      ],
+      "notableWorks": [
+        "Dardanus",
+        "Pièces de clavecin en concerts",
+        "Traité de l'harmonie réduite à ses principes naturels",
+        "Pièces de Clavecin",
+        "Castor et Pollux"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1145"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/b29a3b55-785c-4072-9daf-0153cac864b6"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/39563041/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50000571.html"
+        }
+      ]
+    },
+    {
+      "composerId": "vivaldi",
+      "wikidataId": "Q1340",
+      "label": "安东尼奥·维瓦尔第",
+      "description": "意大利巴洛克时期作曲家",
+      "aliases": [
+        "Prete rosso",
+        "Antonio Vivarudi",
+        "Antonio Luciano Vivaldi",
+        "Vivaldi"
+      ],
+      "birthPlace": "威尼斯",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "威尼斯共和国"
+      ],
+      "occupations": [
+        "歌剧作曲家",
+        "罗马天主教神父",
+        "作曲家",
+        "音樂家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "室内乐",
+        "基督教音乐",
+        "协奏曲"
+      ],
+      "instruments": [
+        "小提琴",
+        "大鍵琴",
+        "柔音中提琴"
+      ],
+      "notableWorks": [
+        "四季",
+        "Orlando furioso",
+        "猶迪的勝利",
+        "Manchester Sonatas",
+        "和谐的灵感"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1340"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ad79836d-9849-44df-8789-180bbc823f3c"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/42027007/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79021280.html"
+        }
+      ]
+    },
+    {
+      "composerId": "bach",
+      "wikidataId": "Q1339",
+      "label": "约翰·塞巴斯蒂安·巴赫",
+      "description": "巴洛克時期德國作曲家（1685－1750）",
+      "aliases": [
+        "巴赫",
+        "J.S.巴赫",
+        "約翰·塞巴斯蒂安·巴哈",
+        "巴哈"
+      ],
+      "birthPlace": "爱森纳赫",
+      "deathPlace": "莱比锡",
+      "citizenship": [
+        "薩克森-愛森納赫",
+        "神聖羅馬帝國"
+      ],
+      "occupations": [
+        "作曲家",
+        "风琴师",
+        "古鍵琴手",
+        "小提琴家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "巴洛克音乐",
+        "古典音樂"
+      ],
+      "instruments": [
+        "風琴",
+        "大鍵琴",
+        "小提琴",
+        "中提琴"
+      ],
+      "notableWorks": [
+        "勃兰登堡协奏曲",
+        "无伴奏大提琴组曲",
+        "无伴奏小提琴奏鸣曲与组曲",
+        "獻給妻子的筆記本",
+        "给W.F.巴赫的键盘笔记本"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1339"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/12304462/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79021425.html"
+        }
+      ]
+    },
+    {
+      "composerId": "handel",
+      "wikidataId": "Q7302",
+      "label": "格奥尔格·弗里德里希·亨德尔",
+      "description": "巴洛克时期作曲家（1685年—1759年）",
+      "aliases": [
+        "Handel",
+        "G. F. Händel",
+        "Georg Friedrich Händel",
+        "George Frideric"
+      ],
+      "birthPlace": "萨勒河畔哈雷",
+      "deathPlace": "倫敦",
+      "citizenship": [
+        "勃蘭登堡-普魯士",
+        "大不列顛王國"
+      ],
+      "occupations": [
+        "作曲家",
+        "古鍵琴手",
+        "风琴师",
+        "小提琴家"
+      ],
+      "movements": [
+        "巴洛克音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "神劇",
+        "协奏曲",
+        "頌歌"
+      ],
+      "instruments": [
+        "管风琴",
+        "大鍵琴",
+        "雙簧管"
+      ],
+      "notableWorks": [
+        "弥赛亚",
+        "水上音樂",
+        "皇家煙火",
+        "朱利奥·凱撒",
+        "阿爾奇娜"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7302"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/27870d47-bb98-42d1-bf2b-c7e972e6befc"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/5126950/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79129204.html"
+        }
+      ]
+    },
+    {
+      "composerId": "scarlatti",
+      "wikidataId": "Q167837",
+      "label": "多梅尼科·斯卡拉蒂",
+      "description": "巴洛克时期意大利作曲家",
+      "aliases": [
+        "Scarlatti",
+        "D. Scarlatti"
+      ],
+      "birthPlace": "那不勒斯",
+      "deathPlace": "马德里",
+      "citizenship": [
+        "Kingdom of Spain",
+        "那不勒斯王国"
+      ],
+      "occupations": [
+        "作曲家",
+        "古鍵琴手",
+        "风琴师"
+      ],
+      "movements": [
+        "巴洛克音乐",
+        "古典主义音乐"
+      ],
+      "genres": [],
+      "instruments": [
+        "大鍵琴"
+      ],
+      "notableWorks": [
+        "Essercizi per gravicembalo"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q167837"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/95c7a1d1-5cfd-41d5-99f9-0611262de8e1"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71579203/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79070071.html"
+        }
+      ]
+    },
+    {
+      "composerId": "gluck",
+      "wikidataId": "Q130759",
+      "label": "克里斯托夫·维利巴尔德·格鲁克",
+      "description": "德国作曲家",
+      "aliases": [
+        "格鲁克",
+        "克里斯托夫·维利巴尔德·冯·格鲁克",
+        "克里斯托夫·格鲁克",
+        "Christoph Willibald Gluck"
+      ],
+      "birthPlace": "Erasbach",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "波希米亞王國",
+        "奧地利大公國"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家"
+      ],
+      "movements": [
+        "古典主义音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "芭蕾舞"
+      ],
+      "instruments": [
+        "管风琴"
+      ],
+      "notableWorks": [
+        "奥菲欧与尤丽狄茜",
+        "Iphigénie en Tauride",
+        "阿尔切斯特",
+        "伊菲姬尼在奥利德",
+        "Armide"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130759"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/22790383-30ea-4dcc-a8d6-882fb1eb4669"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/37101876/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79135399.html"
+        }
+      ]
+    },
+    {
+      "composerId": "haydn",
+      "wikidataId": "Q7349",
+      "label": "约瑟夫·海顿",
+      "description": "奧地利古典主義時期作曲家（1732－1809）",
+      "aliases": [
+        "約瑟夫·海頓",
+        "海顿",
+        "海頓",
+        "法兰兹·约瑟夫·海顿"
+      ],
+      "birthPlace": "罗劳",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "奧地利大公國",
+        "神聖羅馬帝國"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "音樂學者",
+        "钢琴家"
+      ],
+      "movements": [
+        "古典主義"
+      ],
+      "genres": [
+        "古典音樂"
+      ],
+      "instruments": [
+        "風琴",
+        "钢琴"
+      ],
+      "notableWorks": [
+        "Symphony No. 100",
+        "第101號交響曲 (海頓)",
+        "德意志之歌"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7349"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c130b0fb-5dce-449d-9f40-1437f889f7fe"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/95146280/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79091193.html"
+        }
+      ]
+    },
+    {
+      "composerId": "mozart",
+      "wikidataId": "Q254",
+      "label": "沃爾夫岡·阿馬德烏斯·莫扎特",
+      "description": "古典時期的作曲家",
+      "aliases": [
+        "莫札特",
+        "沃尔夫冈·阿马德乌斯·莫扎特",
+        "沃夫岡·阿瑪迪斯·莫札特",
+        "莫扎特，W.A."
+      ],
+      "birthPlace": "萨尔茨堡",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "奧地利大公國",
+        "總教區"
+      ],
+      "occupations": [
+        "作曲家",
+        "音乐教育家",
+        "钢琴家",
+        "音樂家"
+      ],
+      "movements": [
+        "古典主义音乐"
+      ],
+      "genres": [
+        "古典主义音乐",
+        "室内乐",
+        "歌劇",
+        "交響曲"
+      ],
+      "instruments": [
+        "風琴",
+        "小鍵琴",
+        "大鍵琴",
+        "古鋼琴"
+      ],
+      "notableWorks": [
+        "魔笛",
+        "费加罗的婚礼",
+        "唐·喬望尼",
+        "女人皆如此",
+        "後宮誘逃"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q254"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/b972f589-fb0e-474e-b64a-803b0364fa75"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/32197206/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n80022788.html"
+        }
+      ]
+    },
+    {
+      "composerId": "beethoven",
+      "wikidataId": "Q255",
+      "label": "路德维希·范·贝多芬",
+      "description": "古典至浪漫主义时期的德意志作曲家和钢琴家（1770－1827）",
+      "aliases": [
+        "贝多芬",
+        "貝多芬",
+        "路德維希·範·貝多芬",
+        "路德維希·凡·貝多芬"
+      ],
+      "birthPlace": "波恩",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "科隆选侯国",
+        "奧地利帝國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "指揮家",
+        "音乐教育家"
+      ],
+      "movements": [
+        "古典主义音乐",
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "古典音樂",
+        "藝術音樂",
+        "歌劇",
+        "交響曲"
+      ],
+      "instruments": [
+        "钢琴",
+        "小提琴"
+      ],
+      "notableWorks": [
+        "致愛麗絲",
+        "第9號交響曲",
+        "第14钢琴奏鸣曲",
+        "庄严弥撒",
+        "第8钢琴奏鸣曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q255"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/1f9df192-a621-4f54-8850-2c5373b7eac9"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/32182557/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79107741.html"
+        }
+      ]
+    },
+    {
+      "composerId": "schubert",
+      "wikidataId": "Q7312",
+      "label": "弗朗茨·舒伯特",
+      "description": "奧地利浪漫主义作曲家（1797－1828）",
+      "aliases": [
+        "舒伯特",
+        "Franz Peter Schubert",
+        "Schubert"
+      ],
+      "birthPlace": "Himmelpfortgrund",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "奧地利",
+        "奧地利帝國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "教师"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴",
+        "小提琴"
+      ],
+      "notableWorks": [
+        "第八號交響曲B小調『未完成』",
+        "第9號交響曲 (舒伯特)",
+        "Symphony No. 3",
+        "冬之旅",
+        "死神与少女"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7312"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/f91e3a88-24ee-4563-8963-fab73d2765ed"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/29719275/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50000561.html"
+        }
+      ]
+    },
+    {
+      "composerId": "berlioz",
+      "wikidataId": "Q1151",
+      "label": "埃克托·柏辽兹",
+      "description": "法国作曲家（1803–1869）",
+      "aliases": [],
+      "birthPlace": "拉科特圣安德烈",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "指揮家",
+        "作家",
+        "自传作者",
+        "音樂評論家"
+      ],
+      "movements": [
+        "浪漫主义"
+      ],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂",
+        "浪漫主義音樂"
+      ],
+      "instruments": [
+        "吉他",
+        "哨笛",
+        "笛",
+        "薩克斯風"
+      ],
+      "notableWorks": [
+        "镇魂曲（柏辽兹）",
+        "Roméo et Juliette",
+        "幻想交響曲",
+        "浮士德的天譴",
+        "特洛伊人"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1151"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/274774a7-1cde-486a-bc3d-375ec54d552d"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71577105/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79091197.html"
+        }
+      ]
+    },
+    {
+      "composerId": "mendelssohn",
+      "wikidataId": "Q46096",
+      "label": "费利克斯·门德尔松",
+      "description": "德国浪漫主义时期作曲家",
+      "aliases": [
+        "雅各·路德维希·费里克斯·门德尔松·巴尔托迪",
+        "費利克斯·孟德爾頌",
+        "门德尔松",
+        "門德爾頌"
+      ],
+      "birthPlace": "汉堡",
+      "deathPlace": "莱比锡",
+      "citizenship": [
+        "萨克森王国",
+        "汉堡"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "风琴师",
+        "指揮家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "管弦乐"
+      ],
+      "instruments": [
+        "風琴",
+        "钢琴",
+        "小提琴"
+      ],
+      "notableWorks": [
+        "仲夏夜之梦",
+        "第3号交响曲",
+        "四號交響曲",
+        "小提琴协奏曲",
+        "赫布里底群岛"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q46096"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0e85eb79-1c05-44ba-827c-7b259a3d941a"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/2665666/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79139515.html"
+        }
+      ]
+    },
+    {
+      "composerId": "chopin",
+      "wikidataId": "Q1268",
+      "label": "弗雷德里克·肖邦",
+      "description": "波兰作曲家、钢琴家（1810－1849）",
+      "aliases": [
+        "萧邦",
+        "弗雷德里克·蕭邦",
+        "蕭邦",
+        "弗里德里克·蕭邦"
+      ],
+      "birthPlace": "熱拉佐瓦沃拉",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法國",
+        "俄罗斯帝国"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "鋼琴老師",
+        "艺术鉴赏家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "练习曲",
+        "降A大調波蘭舞曲",
+        "夜曲",
+        "叙事曲 (肖邦)"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1268"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/09ff1fe8-d61c-4b98-bb82-18487c74d7b7"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71319254/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79127769.html"
+        }
+      ]
+    },
+    {
+      "composerId": "schumann",
+      "wikidataId": "Q7351",
+      "label": "罗伯特·舒曼",
+      "description": "德国浪漫主义作曲家",
+      "aliases": [
+        "Robert Alexander Schumann",
+        "Robert Kurt Schumann"
+      ],
+      "birthPlace": "茨维考",
+      "deathPlace": "恩德尼希",
+      "citizenship": [
+        "萨克森王国"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "音樂評論家",
+        "指揮家"
+      ],
+      "movements": [],
+      "genres": [],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "第1号交响曲",
+        "第2號交響曲 (舒曼)",
+        "《萊茵》交響曲",
+        "童年即景"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7351"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3cd3882c-00f8-4362-a0c2-ad89ed248533"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/7575259/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50000565.html"
+        }
+      ]
+    },
+    {
+      "composerId": "liszt",
+      "wikidataId": "Q41309",
+      "label": "弗朗茨·李斯特",
+      "description": "匈牙利浪漫主义作曲家，钢琴演奏家",
+      "aliases": [
+        "法蘭茲·李斯特",
+        "弗兰兹·李斯特",
+        "李斯特·费伦茨",
+        "弗朗玆·李斯特"
+      ],
+      "birthPlace": "赖丁",
+      "deathPlace": "拜罗伊特",
+      "citizenship": [
+        "匈牙利王国",
+        "奧地利帝國"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "钢琴家",
+        "指揮家",
+        "音乐教育家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "交響曲",
+        "古典音樂",
+        "Hungarian folk music",
+        "交响诗"
+      ],
+      "instruments": [
+        "钢琴",
+        "風琴"
+      ],
+      "notableWorks": [
+        "Hamlet",
+        "但丁交响曲",
+        "Mazeppa",
+        "第1號匈牙利狂想曲",
+        "匈牙利狂想曲第二號"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q41309"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/2cd475bb-1abd-40c4-9904-6d4b691c752c"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/64199483/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79079048.html"
+        }
+      ]
+    },
+    {
+      "composerId": "wagner",
+      "wikidataId": "Q1511",
+      "label": "理查德·瓦格納",
+      "description": "德國浪漫主義時期作曲家",
+      "aliases": [
+        "理查德·瓦格纳",
+        "威廉·理查德·華格納",
+        "威廉·理查德·瓦格納",
+        "理查·瓦格纳"
+      ],
+      "birthPlace": "莱比锡",
+      "deathPlace": "威尼斯",
+      "citizenship": [
+        "萨克森王国",
+        "德國"
+      ],
+      "occupations": [
+        "作曲家",
+        "歌詞、劇本作者",
+        "指揮家",
+        "散文家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "合唱交響曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "漂泊的荷蘭人",
+        "特里斯坦与伊索尔德",
+        "唐懷瑟",
+        "萊茵的黃金",
+        "罗恩格林"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1511"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/eefd7c1e-abcf-4ccc-ba60-0fd435c9061f"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/29732107/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79089831.html"
+        }
+      ]
+    },
+    {
+      "composerId": "verdi",
+      "wikidataId": "Q7317",
+      "label": "朱塞佩·威尔第",
+      "description": "意大利作曲家 (1813–1901)",
+      "aliases": [
+        "Giuseppe Fortunino Francesco Verdi",
+        "Verdi"
+      ],
+      "birthPlace": "勒朗科勒",
+      "deathPlace": "米蘭",
+      "citizenship": [
+        "帕爾馬公國",
+        "意大利王國"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "作家",
+        "政治人物"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "古典音樂",
+        "歌劇"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "茶花女",
+        "弄臣",
+        "阿依達",
+        "拿布果",
+        "遊唱詩人"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7317"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/f1bedf1f-4445-4651-9c35-f4a3f3860a13"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/22329110/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79038460.html"
+        }
+      ]
+    },
+    {
+      "composerId": "franck",
+      "wikidataId": "Q50187",
+      "label": "塞萨尔·弗兰克",
+      "description": "比利时裔法国作曲家、管风琴演奏家和音乐教育家",
+      "aliases": [
+        "Cesar Franck",
+        "César-Auguste-Jean-Guillaume-Hubert Franck",
+        "Cesar-Auguste-Jean-Guillaume-Hubert Franck",
+        "César Auguste Jean Guillaume Hubert Franck"
+      ],
+      "birthPlace": "列日",
+      "deathPlace": "圣米歇尔大道",
+      "citizenship": [
+        "荷蘭聯合王國",
+        "比利時"
+      ],
+      "occupations": [
+        "作曲家",
+        "风琴师",
+        "音乐教育家",
+        "钢琴家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "管风琴"
+      ],
+      "notableWorks": [
+        "前奏曲、聖詠與復格 (法朗克)",
+        "Les Béatitudes",
+        "魔神",
+        "D小调交响曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q50187"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/69802473-e361-4e15-bbd8-53fe83cd1587"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/66651702/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79130762.html"
+        }
+      ]
+    },
+    {
+      "composerId": "bruckner",
+      "wikidataId": "Q81752",
+      "label": "安东·布鲁克纳",
+      "description": "奥地利浪漫主义时期作曲家",
+      "aliases": [
+        "布鲁克纳",
+        "Joseph Anton Bruckner",
+        "Josef Anton Bruckner"
+      ],
+      "birthPlace": "安斯费尔登",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "奧地利帝國",
+        "內萊塔尼亞"
+      ],
+      "occupations": [
+        "作曲家",
+        "音樂學者",
+        "音乐理论家",
+        "音乐教育家"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "交響曲"
+      ],
+      "instruments": [
+        "風琴",
+        "钢琴"
+      ],
+      "notableWorks": [
+        "第3号交响曲",
+        "第4號交響曲 (布魯克納)",
+        "布鲁克纳第五交响曲",
+        "Symphony No. 6",
+        "第7號交響曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q81752"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9debb4c3-dc10-440f-9c96-b777d51ea998"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/61731160/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79145901.html"
+        }
+      ]
+    },
+    {
+      "composerId": "brahms",
+      "wikidataId": "Q7294",
+      "label": "约翰内斯·勃拉姆斯",
+      "description": "德国作曲家",
+      "aliases": [
+        "勃拉姆斯",
+        "布拉姆斯",
+        "Brahms",
+        "J. Brahms"
+      ],
+      "birthPlace": "汉堡",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "汉堡",
+        "德國"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "钢琴家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [],
+      "instruments": [
+        "钢琴",
+        "大提琴",
+        "法國號"
+      ],
+      "notableWorks": [
+        "第4號交響曲 (布拉姆斯)",
+        "第1号交响曲 (勃拉姆斯)",
+        "學術節慶序曲",
+        "悲劇序曲",
+        "德意志安魂曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7294"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c70d12a2-24fe-4f83-a6e6-57d84f8efb51"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/7573295/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79077221.html"
+        }
+      ]
+    },
+    {
+      "composerId": "bizet",
+      "wikidataId": "Q56158",
+      "label": "乔治·比才",
+      "description": "法国浪漫主义作曲家（1838—1875）",
+      "aliases": [
+        "比才"
+      ],
+      "birthPlace": "rue Louise-Émilie-de-La-Tour-d'Auvergne",
+      "deathPlace": "布日瓦勒",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "指揮家",
+        "钢琴家",
+        "作曲家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "French opera",
+        "浪漫主義音樂"
+      ],
+      "instruments": [],
+      "notableWorks": [
+        "卡门",
+        "採珠者"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q56158"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9bd20e6a-b41d-4983-a5b6-c0ff849fa235"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/10032551/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79116212.html"
+        }
+      ]
+    },
+    {
+      "composerId": "mussorgsky",
+      "wikidataId": "Q132682",
+      "label": "莫杰斯特·彼得罗维奇·穆索尔斯基",
+      "description": "俄罗斯作曲家",
+      "aliases": [
+        "莫傑斯特·彼得羅維奇·穆索斯基",
+        "莫杰斯特·彼得罗维奇",
+        "莫杰斯特·穆索尔斯基",
+        "穆索斯基"
+      ],
+      "birthPlace": "Karevo",
+      "deathPlace": "聖彼得堡",
+      "citizenship": [
+        "俄罗斯帝国"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "歌詞、劇本作者",
+        "軍人"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "歌劇"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "鲍里斯·戈杜诺夫",
+        "展覽會之畫",
+        "荒山之夜"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q132682"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c1380b12-3909-47d8-a5fd-d20e76123310"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/49408900/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79127149.html"
+        }
+      ]
+    },
+    {
+      "composerId": "tchaikovsky",
+      "wikidataId": "Q7315",
+      "label": "彼得·伊里奇·柴可夫斯基",
+      "description": "俄羅斯作曲家（1840－1893）",
+      "aliases": [
+        "柴可夫斯基",
+        "彼得·伊利奇·柴科夫斯基",
+        "彼得·柴科夫斯基",
+        "Pyotr Il'yich Tchaikovsky"
+      ],
+      "birthPlace": "沃特金斯克",
+      "deathPlace": "聖彼得堡",
+      "citizenship": [
+        "俄罗斯帝国"
+      ],
+      "occupations": [
+        "作曲家",
+        "歌詞、劇本作者",
+        "指揮家",
+        "編舞家"
+      ],
+      "movements": [],
+      "genres": [
+        "交響曲",
+        "歌劇",
+        "芭蕾舞曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "天鹅湖",
+        "胡桃夹子",
+        "睡美人",
+        "第6号交响曲",
+        "第1钢琴协奏曲 (柴可夫斯基)"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7315"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9ddd7abc-9e1b-471d-8031-583bc6bc8be9"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/99258155/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79072979.html"
+        }
+      ]
+    },
+    {
+      "composerId": "dvorak",
+      "wikidataId": "Q7298",
+      "label": "安东宁·德沃夏克",
+      "description": "捷克作曲家（1841—1904）",
+      "aliases": [
+        "安東寧·德沃夏克",
+        "德沃夏克",
+        "Dvořák",
+        "Antonín Dvorák"
+      ],
+      "birthPlace": "內拉霍奇夫斯",
+      "deathPlace": "布拉格",
+      "citizenship": [
+        "波希米亞王國",
+        "內萊塔尼亞"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "风琴师",
+        "教授",
+        "指揮家"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "古典音樂",
+        "歌劇"
+      ],
+      "instruments": [
+        "管风琴",
+        "钢琴",
+        "小提琴",
+        "中提琴"
+      ],
+      "notableWorks": [
+        "第9號交響曲",
+        "聖母悼歌 (德伏扎克)",
+        "Saint Ludmila, Op. 71, B. 144",
+        "Requiem",
+        "Te Deum"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7298"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/819eaeb2-8dd8-48a5-ad07-0bcd137985ef"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71577743/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n81033190.html"
+        }
+      ]
+    },
+    {
+      "composerId": "grieg",
+      "wikidataId": "Q80621",
+      "label": "爱德华·格里格",
+      "description": "挪威浪漫主义作曲家",
+      "aliases": [
+        "葛利格",
+        "格里格",
+        "愛德華·葛利格",
+        "愛德華·格里格"
+      ],
+      "birthPlace": "卑爾根",
+      "deathPlace": "卑爾根",
+      "citizenship": [
+        "挪威"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "sardana"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "鋼琴協奏曲 (葛利格)",
+        "霍尔堡组曲",
+        "山大王的宮殿",
+        "皮爾金組曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q80621"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/013c8e5b-d72a-4cd3-8dee-6c64d6125823"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/46946549/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79046495.html"
+        }
+      ]
+    },
+    {
+      "composerId": "rimsky",
+      "wikidataId": "Q93227",
+      "label": "尼古拉·安德烈耶維奇·里姆斯基-科薩科夫",
+      "description": "俄羅斯浪漫主义作曲家",
+      "aliases": [
+        "尼古拉·安德烈耶維奇·林姆斯基-高沙可夫",
+        "尼古拉·安德烈耶维奇·里姆斯基-科萨科夫",
+        "尼古拉·里姆斯基-科萨科夫",
+        "尼古莱·里姆斯基-科萨科夫"
+      ],
+      "birthPlace": "季赫溫",
+      "deathPlace": "柳本斯克",
+      "citizenship": [
+        "俄罗斯帝国"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "音樂學者",
+        "自传作者"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "天方夜谭",
+        "第一交响曲",
+        "金鸡"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q93227"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4cfe7051-f649-4d07-83b3-7a732abe7249"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/73859252/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79107991.html"
+        }
+      ]
+    },
+    {
+      "composerId": "faure",
+      "wikidataId": "Q104919",
+      "label": "加布里埃爾·佛瑞",
+      "description": "法國作曲家，風琴師，鋼琴家和老師",
+      "aliases": [
+        "加布里埃尔·福雷",
+        "加布里埃尔·福莱",
+        "福莱",
+        "佛瑞"
+      ],
+      "birthPlace": "帕米耶",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "大學教師",
+        "作曲家",
+        "风琴师",
+        "音樂學者"
+      ],
+      "movements": [
+        "浪漫主義音樂",
+        "印象主义音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "浪漫主義音樂",
+        "古典音樂"
+      ],
+      "instruments": [
+        "管风琴"
+      ],
+      "notableWorks": [
+        "安魂曲",
+        "Élégie",
+        "Piano Quintet No. 2"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q104919"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/fa19a8b6-e7f4-40d4-af15-7a7c41ac7d8f"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/27064267/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n81018450.html"
+        }
+      ]
+    },
+    {
+      "composerId": "elgar",
+      "wikidataId": "Q179631",
+      "label": "爱德华·埃尔加",
+      "description": "英國作曲家",
+      "aliases": [
+        "埃爾加",
+        "埃尔加",
+        "艾爾加",
+        "爱德华·威廉·埃尔加"
+      ],
+      "birthPlace": "下布羅德希思",
+      "deathPlace": "伍斯特",
+      "citizenship": [
+        "英国",
+        "大不列颠及爱尔兰联合王国"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "交響曲"
+      ],
+      "instruments": [
+        "風琴"
+      ],
+      "notableWorks": [
+        "爱的礼赞",
+        "Concert Allegro",
+        "Dream Children",
+        "谜语变奏曲",
+        "威风堂堂进行曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q179631"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4e60a56a-514a-4a19-a3cc-49927c96b3cb"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/76499978/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50026227.html"
+        }
+      ]
+    },
+    {
+      "composerId": "mahler",
+      "wikidataId": "Q7304",
+      "label": "古斯塔夫·馬勒",
+      "description": "奧地利浪漫主义作曲家（1860－1911）",
+      "aliases": [
+        "古斯塔夫·马勒",
+        "Mahler",
+        "Gustave Mahler"
+      ],
+      "birthPlace": "喀里斯特",
+      "deathPlace": "維也納",
+      "citizenship": [
+        "奧地利帝國",
+        "內萊塔尼亞"
+      ],
+      "occupations": [
+        "指揮家",
+        "作曲家",
+        "古典音乐作曲家",
+        "乐队领队"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "交響曲",
+        "室内乐"
+      ],
+      "instruments": [],
+      "notableWorks": [
+        "第1號交響曲",
+        "第8號交響曲",
+        "第2號交響曲",
+        "第5號交響曲",
+        "第9號交響曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7304"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/8d610e51-64b4-4654-b8df-064b0fb7a9d9"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/61732497/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n80067106.html"
+        }
+      ]
+    },
+    {
+      "composerId": "debussy",
+      "wikidataId": "Q4700",
+      "label": "阿希尔-克洛德·德彪西",
+      "description": "法国现代主义时期作曲家",
+      "aliases": [
+        "克勞狄·德布西",
+        "克洛德·德彪西",
+        "德布西",
+        "克劳狄·德布西"
+      ],
+      "birthPlace": "圣日耳曼昂莱",
+      "deathPlace": "巴黎十六区",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "音樂評論家"
+      ],
+      "movements": [
+        "印象主义音乐",
+        "象征主义"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "impressionist music"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "佩利亞斯與梅麗桑德",
+        "序曲",
+        "博士进阶曲",
+        "中选的小姐",
+        "貝加馬斯克組曲"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4700"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/be50643c-0377-4968-b48c-47e06b2e2a3b"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/6219636/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79132137.html"
+        }
+      ]
+    },
+    {
+      "composerId": "strauss",
+      "wikidataId": "Q13894",
+      "label": "理查德·施特劳斯",
+      "description": "德国浪漫主义作曲家",
+      "aliases": [
+        "里夏德·施特劳斯",
+        "理查·史特勞斯",
+        "理察·史特勞斯",
+        "理查·斯特劳斯"
+      ],
+      "birthPlace": "慕尼黑",
+      "deathPlace": "加爾米施-帕滕基興",
+      "citizenship": [
+        "德國"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "歌詞、劇本作者",
+        "音樂家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂",
+        "sardana"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "查拉圖斯特拉如是說",
+        "莎樂美",
+        "玫瑰騎士",
+        "納克索島的阿麗亞德妮",
+        "厄勒克特拉"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q13894"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4cb43d82-824e-4034-b03d-1a98f36f6e16"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/24796264/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79041680.html"
+        }
+      ]
+    },
+    {
+      "composerId": "sibelius",
+      "wikidataId": "Q45682",
+      "label": "让·西贝柳斯",
+      "description": "芬蘭作曲家（Jean Sibelius，1865—1957）",
+      "aliases": [
+        "讓·西貝流士",
+        "讓·西貝柳斯",
+        "西贝柳斯",
+        "西貝流士"
+      ],
+      "birthPlace": "海门林纳",
+      "deathPlace": "耶爾文佩",
+      "citizenship": [
+        "芬蘭",
+        "芬兰大公国"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "音樂學者",
+        "大學教師"
+      ],
+      "movements": [],
+      "genres": [
+        "古典音樂",
+        "歌劇",
+        "交響曲",
+        "附隨音樂"
+      ],
+      "instruments": [
+        "小提琴",
+        "钢琴"
+      ],
+      "notableWorks": [
+        "芬蘭頌",
+        "库勒沃",
+        "憂鬱圓舞曲",
+        "小提琴協奏曲 (西貝流士)",
+        "Andante Festivo"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45682"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/691b0e9d-9e57-41cf-932d-a3d21b068e75"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/59270886/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79068399.html"
+        }
+      ]
+    },
+    {
+      "composerId": "satie",
+      "wikidataId": "Q187192",
+      "label": "埃里克·薩蒂",
+      "description": "法国作曲家",
+      "aliases": [
+        "艾瑞克·萨第",
+        "艾瑞克·薩第",
+        "Erik Satie",
+        "Éric Alfred Leslie Satie"
+      ],
+      "birthPlace": "翁弗勒尔",
+      "deathPlace": "rue Pierre-Larousse",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家"
+      ],
+      "movements": [
+        "前衛"
+      ],
+      "genres": [
+        "浪漫主義音樂",
+        "印象派"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "La Diva de l'Empire",
+        "Sports et divertissements",
+        "parade",
+        "裸體歌舞",
+        "Gnossiennes"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q187192"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e1d521ea-5b97-4981-987c-ba988b2a87d7"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/88805508/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79139256.html"
+        }
+      ]
+    },
+    {
+      "composerId": "rachmaninoff",
+      "wikidataId": "Q131861",
+      "label": "谢尔盖·拉赫玛尼诺夫",
+      "description": "俄国作曲家、指挥家及钢琴演奏家",
+      "aliases": [
+        "拉赫马尼诺夫",
+        "Sergei Rachmaninoff",
+        "Rachmaninov",
+        "拉赫玛尼诺夫"
+      ],
+      "birthPlace": "נפת סטארורוסקי",
+      "deathPlace": "比佛利山",
+      "citizenship": [
+        "俄罗斯帝国",
+        "美國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "指揮家",
+        "音樂學者"
+      ],
+      "movements": [
+        "浪漫主義音樂"
+      ],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "第1號交響曲",
+        "徹夜禱",
+        "第2钢琴协奏曲 (拉赫玛尼诺夫)",
+        "升c小調前奏曲",
+        "Pyrrique"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q131861"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/44b16e44-da77-4580-b851-0d765904573e"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/60326614/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n50054908.html"
+        }
+      ]
+    },
+    {
+      "composerId": "schoenberg",
+      "wikidataId": "Q154770",
+      "label": "阿诺德·勋伯格",
+      "description": "奥地利作曲家、音乐理论家（1874—1951）",
+      "aliases": [
+        "荀白克",
+        "荀白格",
+        "勋伯格",
+        "阿諾·荀白克"
+      ],
+      "birthPlace": "維也納",
+      "deathPlace": "洛杉矶",
+      "citizenship": [
+        "奧地利",
+        "美國"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "畫家",
+        "音樂學者",
+        "音乐理论家"
+      ],
+      "movements": [],
+      "genres": [
+        "現代音樂",
+        "歌劇",
+        "无调音乐",
+        "序列主义"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "期待 (音樂)",
+        "昇華之夜",
+        "华沙幸存者",
+        "Coalition Chess"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q154770"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9b490b96-ad82-4d7b-9055-f0a196ad64cc"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/12492826/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n80032780.html"
+        }
+      ]
+    },
+    {
+      "composerId": "ravel",
+      "wikidataId": "Q1178",
+      "label": "莫里斯·拉威爾",
+      "description": "法国作曲家和钢琴家",
+      "aliases": [
+        "Maurice Joseph Ravel"
+      ],
+      "birthPlace": "锡布尔",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "指揮家",
+        "钢琴家",
+        "作曲家"
+      ],
+      "movements": [
+        "印象主义音乐"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "印象主义音乐"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "達夫尼與克羅伊",
+        "博萊羅",
+        "鏡",
+        "G大調鋼琴協奏曲",
+        "夜之加斯巴"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1178"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6fdd3b3e-1ea6-4da9-8d6f-8f8de01c133a"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/2657495/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79108396.html"
+        }
+      ]
+    },
+    {
+      "composerId": "bartok",
+      "wikidataId": "Q83326",
+      "label": "巴托克·贝拉",
+      "description": "匈牙利现代主义时期作曲家（1881—1945）",
+      "aliases": [
+        "貝拉·巴爾托克",
+        "巴尔托克",
+        "貝拉·巴托克",
+        "巴托克"
+      ],
+      "birthPlace": "大聖尼古拉",
+      "deathPlace": "纽约",
+      "citizenship": [
+        "匈牙利",
+        "美國"
+      ],
+      "occupations": [
+        "作曲家",
+        "古典鋼琴家",
+        "編舞家",
+        "音樂學者"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "蓝胡子公爵的城堡",
+        "String Quartet No. 2",
+        "String Quartet No. 1",
+        "Sonata for Two Pianos and Percussion",
+        "弦樂、打擊樂和塞萊斯塔音樂"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q83326"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/fd14da1b-3c2d-4cc8-9ca6-fc8c62ce6988"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/89006617/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79109330.html"
+        }
+      ]
+    },
+    {
+      "composerId": "stravinsky",
+      "wikidataId": "Q7314",
+      "label": "伊戈尔·斯特拉文斯基",
+      "description": "俄罗斯现代主义作曲家",
+      "aliases": [
+        "伊戈尔·费奥多罗维奇·斯特拉文斯基",
+        "斯特拉文斯基",
+        "斯特拉温斯基",
+        "Igor Fyodorovich Stravinsky"
+      ],
+      "birthPlace": "羅蒙諾索夫",
+      "deathPlace": "纽约",
+      "citizenship": [
+        "法國",
+        "俄罗斯帝国"
+      ],
+      "occupations": [
+        "作曲家",
+        "指揮家",
+        "钢琴家",
+        "歌詞、劇本作者"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "室内乐",
+        "現代音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "春之祭",
+        "为钢琴和管弦乐团的乐章",
+        "Symphony in E-flat",
+        "諧謔曲（歌劇）",
+        "彼得鲁什卡"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7314"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c278de2c-9696-4fdf-a919-0781cd945e2c"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/17309155/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79070061.html"
+        }
+      ]
+    },
+    {
+      "composerId": "webern",
+      "wikidataId": "Q190933",
+      "label": "安东·韦伯恩",
+      "description": "奥地利作曲家",
+      "aliases": [
+        "韦伯恩",
+        "安东·冯·魏本",
+        "安东·冯·韦伯恩",
+        "威伯恩"
+      ],
+      "birthPlace": "維也納",
+      "deathPlace": "米特西爾",
+      "citizenship": [
+        "奧地利"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "指揮家",
+        "音樂家",
+        "作曲家"
+      ],
+      "movements": [],
+      "genres": [
+        "印象主义音乐"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q190933"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/7be0b588-030c-4904-836f-71ff43a2dfec"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/22329168/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79075510.html"
+        }
+      ]
+    },
+    {
+      "composerId": "prokofiev",
+      "wikidataId": "Q49481",
+      "label": "谢尔盖·普罗科菲耶夫",
+      "description": "俄罗斯现代主义时期作曲家（1891—1953）",
+      "aliases": [
+        "謝爾蓋·謝爾蓋耶維奇·普羅科菲耶夫",
+        "Sergei Sergeyevich Prokofiev",
+        "Sergej Sergeevič Prokofʹev",
+        "Sergey Prokofiev"
+      ],
+      "birthPlace": "Sontsivka",
+      "deathPlace": "莫斯科",
+      "citizenship": [
+        "俄罗斯帝国",
+        "蘇聯"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "指揮家",
+        "編舞家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "芭蕾舞",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "第1號交響曲",
+        "第4號交響曲",
+        "第2號交響曲",
+        "三橘愛",
+        "彼得和狼"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q49481"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0e43fe9d-c472-4b62-be9e-55f971a023e1"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71579098/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n80020330.html"
+        }
+      ]
+    },
+    {
+      "composerId": "hindemith",
+      "wikidataId": "Q57244",
+      "label": "保羅·欣德米特",
+      "description": "德国作曲家，音乐理论家，音乐教育家，中提琴家，指挥家",
+      "aliases": [
+        "欣德米特",
+        "保羅·亨德密特",
+        "辛德密特",
+        "保羅·興德米特"
+      ],
+      "birthPlace": "哈瑙",
+      "deathPlace": "美茵河畔法蘭克福",
+      "citizenship": [
+        "德國",
+        "西德"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "指揮家",
+        "professor of music composition",
+        "音樂學者"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲"
+      ],
+      "instruments": [
+        "風琴",
+        "中提琴",
+        "小提琴"
+      ],
+      "notableWorks": [
+        "String Quartet No. 2",
+        "Symphony in B-flat for Band",
+        "Der Schwanendreher",
+        "Konzertmusik, Op. 41"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q57244"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4068eaba-ca03-4c34-9172-2b709b8050e6"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/24622167/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79077225.html"
+        }
+      ]
+    },
+    {
+      "composerId": "gershwin",
+      "wikidataId": "Q123829",
+      "label": "喬治·雅各布·格甚溫",
+      "description": "美國作曲家和鋼琴家（1838—1937）",
+      "aliases": [
+        "格什温",
+        "蓋希文",
+        "喬治·蓋希文",
+        "雅各布·格肖维茨"
+      ],
+      "birthPlace": "布魯克林區",
+      "deathPlace": "好莱坞",
+      "citizenship": [
+        "美國"
+      ],
+      "occupations": [
+        "作曲家",
+        "jazz pianist",
+        "詞曲作家",
+        "電影配樂作曲家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "爵士乐",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "The Man I Love",
+        "藍色狂想曲",
+        "波吉和贝丝",
+        "一個美國人在巴黎"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q123829"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/65744963-191a-44ef-a3c7-b693a808a158"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/61554329/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79077265.html"
+        }
+      ]
+    },
+    {
+      "composerId": "poulenc",
+      "wikidataId": "Q191408",
+      "label": "弗朗西斯·普朗克",
+      "description": "法国现代主义时期作曲家",
+      "aliases": [
+        "弗朗西·普朗克",
+        "浦朗克",
+        "普朗克",
+        "Francis Jean Marcel Poulenc"
+      ],
+      "birthPlace": "巴黎",
+      "deathPlace": "巴黎",
+      "citizenship": [
+        "法國"
+      ],
+      "occupations": [
+        "作曲家",
+        "钢琴家",
+        "音樂評論家"
+      ],
+      "movements": [
+        "現代主義音樂",
+        "古典音樂"
+      ],
+      "genres": [
+        "歌劇",
+        "古典音樂",
+        "宗教音乐",
+        "合唱"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "聖衣會修女對話錄",
+        "La voix humaine",
+        "母鹿 (芭蕾舞曲)",
+        "乡间协奏曲",
+        "Organ Concerto"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q191408"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/5e1ef22b-310a-46ad-885b-4897b8c9c85a"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/71579067/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n80015508.html"
+        }
+      ]
+    },
+    {
+      "composerId": "copland",
+      "wikidataId": "Q192185",
+      "label": "阿隆·科普兰",
+      "description": "美国作曲家，指挥家，钢琴家",
+      "aliases": [
+        "Aaron Copland",
+        "艾伦·科普兰",
+        "科普兰",
+        "柯普蘭"
+      ],
+      "birthPlace": "布魯克林區",
+      "deathPlace": "斷頭谷",
+      "citizenship": [
+        "美國"
+      ],
+      "occupations": [
+        "指揮家",
+        "钢琴家",
+        "作曲家",
+        "編舞家"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂",
+        "芭蕾舞"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q192185"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/aad3af83-5b59-4b86-a569-1a8409149b09"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/51874819/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79089419.html"
+        }
+      ]
+    },
+    {
+      "composerId": "shostakovich",
+      "wikidataId": "Q80135",
+      "label": "德米特里·德米特里耶维奇·肖斯塔科维奇",
+      "description": "俄罗斯现代主义时期作曲家（1906－1975）",
+      "aliases": [
+        "萧斯塔科维奇",
+        "蕭士達高維契",
+        "德米特里·肖斯塔科维奇",
+        "蕭士塔高維契"
+      ],
+      "birthPlace": "聖彼得堡",
+      "deathPlace": "莫斯科",
+      "citizenship": [
+        "俄罗斯帝国",
+        "蘇聯"
+      ],
+      "occupations": [
+        "古典音乐作曲家",
+        "編舞家",
+        "钢琴家",
+        "政治人物"
+      ],
+      "movements": [],
+      "genres": [
+        "交響曲",
+        "室内乐",
+        "歌劇"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "第1號交響曲",
+        "第10號交響曲",
+        "穆森斯克郡的馬克白夫人",
+        "第5號交響曲 (蕭士塔高維奇)",
+        "鼻子"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q80135"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/519dd32e-8f30-4380-8826-7aa99169e1bb"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/89612684/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79140959.html"
+        }
+      ]
+    },
+    {
+      "composerId": "britten",
+      "wikidataId": "Q150767",
+      "label": "本杰明·布里顿",
+      "description": "英国现代主义时期作曲家",
+      "aliases": [
+        "布里顿",
+        "布烈頓",
+        "布列頓",
+        "本傑文·布列頓"
+      ],
+      "birthPlace": "洛斯托夫特",
+      "deathPlace": "奧爾德堡",
+      "citizenship": [
+        "英国"
+      ],
+      "occupations": [
+        "指揮家",
+        "作曲家",
+        "钢琴家",
+        "政治人物"
+      ],
+      "movements": [],
+      "genres": [
+        "歌劇",
+        "交響曲",
+        "古典音樂"
+      ],
+      "instruments": [
+        "钢琴"
+      ],
+      "notableWorks": [
+        "仲夏夜之夢",
+        "碧廬冤孽",
+        "彼得·格赖姆斯",
+        "盧克堤雅的掠奪",
+        "阿尔伯特·赫林"
+      ],
+      "sourceLinks": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q150767"
+        },
+        {
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/49ae5227-605a-47a8-9b8e-cd89bf01a97c"
+        },
+        {
+          "label": "VIAF",
+          "url": "https://viaf.org/viaf/2655519/"
+        },
+        {
+          "label": "LOC",
+          "url": "https://id.loc.gov/authorities/names/n79105791.html"
+        }
+      ]
+    }
+  ],
+  "works": [
+    {
+      "composerId": "palestrina",
+      "title": "Missa Papae Marcelli",
+      "status": "OK",
+      "sourceTitle": "Missa Papae Marcelli",
+      "sourceUrl": "https://musicbrainz.org/work/15e9d772-6411-4063-9bfa-1fbdd3dd4de5",
+      "sourceType": "Mass",
+      "sourceId": "15e9d772-6411-4063-9bfa-1fbdd3dd4de5",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "palestrina",
+      "title": "Stabat Mater",
+      "status": "OK",
+      "sourceTitle": "Stabat Mater",
+      "sourceUrl": "https://musicbrainz.org/work/98807788-b44f-4a13-9cb6-4e579f0e3430",
+      "sourceType": "Motet",
+      "sourceId": "98807788-b44f-4a13-9cb6-4e579f0e3430",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "palestrina",
+      "title": "Sicut cervus",
+      "status": "OK",
+      "sourceTitle": "Sicut cervus",
+      "sourceUrl": "https://musicbrainz.org/work/bd648383-7c67-4ca1-be72-dd12a9276699",
+      "sourceType": "Motet",
+      "sourceId": "bd648383-7c67-4ca1-be72-dd12a9276699",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "byrd",
+      "title": "Ave verum corpus",
+      "status": "OK",
+      "sourceTitle": "Ave verum corpus, T 92",
+      "sourceUrl": "https://musicbrainz.org/work/cc6dbabc-ff83-37db-a862-0f5055787991",
+      "sourceType": "Motet",
+      "sourceId": "cc6dbabc-ff83-37db-a862-0f5055787991",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "byrd",
+      "title": "Mass for Four Voices",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "byrd",
+      "title": "The Bells",
+      "status": "OK",
+      "sourceTitle": "The Bells",
+      "sourceUrl": "https://musicbrainz.org/work/143d3e4a-678f-35fc-9cfb-745a2bc98c50",
+      "sourceType": "",
+      "sourceId": "143d3e4a-678f-35fc-9cfb-745a2bc98c50",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "monteverdi",
+      "title": "L'Orfeo",
+      "status": "CHECK",
+      "sourceTitle": "Suite from L’Orfeo",
+      "sourceUrl": "https://musicbrainz.org/work/5ad5e970-1653-4421-a52b-d227629450e6",
+      "sourceType": "",
+      "sourceId": "5ad5e970-1653-4421-a52b-d227629450e6",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "monteverdi",
+      "title": "Vespro della Beata Vergine",
+      "status": "OK",
+      "sourceTitle": "Vespro della Beata Vergine, SV 206",
+      "sourceUrl": "https://musicbrainz.org/work/c05338ae-3457-49fb-a042-fed834a34411",
+      "sourceType": "",
+      "sourceId": "c05338ae-3457-49fb-a042-fed834a34411",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "monteverdi",
+      "title": "Lamento d'Arianna",
+      "status": "CHECK",
+      "sourceTitle": "Lamento d'Arianna \"Lasciatemi morire\", SV 107",
+      "sourceUrl": "https://musicbrainz.org/work/85926888-c6a4-32ef-99ee-6d1bc9a9d8e0",
+      "sourceType": "Madrigal",
+      "sourceId": "85926888-c6a4-32ef-99ee-6d1bc9a9d8e0",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "lully",
+      "title": "Armide",
+      "status": "CHECK",
+      "sourceTitle": "Premier Air (Armide)",
+      "sourceUrl": "https://musicbrainz.org/work/2bee35eb-02dc-4232-b390-5c1d9c3c81b4",
+      "sourceType": "",
+      "sourceId": "2bee35eb-02dc-4232-b390-5c1d9c3c81b4",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "lully",
+      "title": "Atys",
+      "status": "OK",
+      "sourceTitle": "Atys",
+      "sourceUrl": "https://musicbrainz.org/work/803d8c92-ad5d-4c0d-a3cd-e78b2de4ad1b",
+      "sourceType": "Opera",
+      "sourceId": "803d8c92-ad5d-4c0d-a3cd-e78b2de4ad1b",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "lully",
+      "title": "Te Deum",
+      "status": "OK",
+      "sourceTitle": "Te Deum",
+      "sourceUrl": "https://musicbrainz.org/work/91725590-e66b-4767-b4a3-59ca00304ccc",
+      "sourceType": "Motet",
+      "sourceId": "91725590-e66b-4767-b4a3-59ca00304ccc",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "corelli",
+      "title": "Concerti Grossi, Op. 6",
+      "status": "OK",
+      "sourceTitle": "12 concerti grossi, op. 6",
+      "sourceUrl": "https://musicbrainz.org/work/f5155e79-1086-4359-bdf3-2c0757114ddb",
+      "sourceType": "",
+      "sourceId": "f5155e79-1086-4359-bdf3-2c0757114ddb",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "corelli",
+      "title": "La Folia",
+      "status": "CHECK",
+      "sourceTitle": "Sonata in D Minor 'La Folia', Op.5 No.12",
+      "sourceUrl": "https://musicbrainz.org/work/046e3f64-467c-49f0-bb40-9b2d9c10a2c9",
+      "sourceType": "Sonata",
+      "sourceId": "046e3f64-467c-49f0-bb40-9b2d9c10a2c9",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "corelli",
+      "title": "Sonate da chiesa, Op. 3",
+      "status": "OK",
+      "sourceTitle": "12 sonate da chiesa, op. 3",
+      "sourceUrl": "https://musicbrainz.org/work/d2a0e142-ef43-4dfc-a4a8-0d255bdafc67",
+      "sourceType": "",
+      "sourceId": "d2a0e142-ef43-4dfc-a4a8-0d255bdafc67",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "purcell",
+      "title": "Dido and Aeneas",
+      "status": "CHECK",
+      "sourceTitle": "Dido and Aeneas, Z. 626: Overture",
+      "sourceUrl": "https://musicbrainz.org/work/31dba112-f412-30ec-8337-50ed271ae980",
+      "sourceType": "Overture",
+      "sourceId": "31dba112-f412-30ec-8337-50ed271ae980",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "purcell",
+      "title": "Music for the Funeral of Queen Mary",
+      "status": "OK",
+      "sourceTitle": "Music for the Funeral of Queen Mary, Z. 860",
+      "sourceUrl": "https://musicbrainz.org/work/0f07e744-d38f-4913-91a1-ca1bffef94ee",
+      "sourceType": "",
+      "sourceId": "0f07e744-d38f-4913-91a1-ca1bffef94ee",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "purcell",
+      "title": "King Arthur",
+      "status": "CHECK",
+      "sourceTitle": "King Arthur: Aire",
+      "sourceUrl": "https://musicbrainz.org/work/09124d62-296b-4e80-907d-5fc0a95c9111",
+      "sourceType": "",
+      "sourceId": "09124d62-296b-4e80-907d-5fc0a95c9111",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "rameau",
+      "title": "Hippolyte et Aricie",
+      "status": "OK",
+      "sourceTitle": "Hippolyte et Aricie",
+      "sourceUrl": "https://musicbrainz.org/work/856d4cbb-98a0-4df7-8ce8-64c0db7a2864",
+      "sourceType": "Opera",
+      "sourceId": "856d4cbb-98a0-4df7-8ce8-64c0db7a2864",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rameau",
+      "title": "Les Indes galantes",
+      "status": "OK",
+      "sourceTitle": "Les Indes galantes",
+      "sourceUrl": "https://musicbrainz.org/work/b407211e-3002-39b2-ae06-f6d1311c3b1a",
+      "sourceType": "Opera",
+      "sourceId": "b407211e-3002-39b2-ae06-f6d1311c3b1a",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rameau",
+      "title": "Pieces de clavecin",
+      "status": "OK",
+      "sourceTitle": "Pièces de clavecin",
+      "sourceUrl": "https://musicbrainz.org/work/8f4b070b-3573-4f6c-a409-cf3bf786486d",
+      "sourceType": "",
+      "sourceId": "8f4b070b-3573-4f6c-a409-cf3bf786486d",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "vivaldi",
+      "title": "The Four Seasons",
+      "status": "CHECK",
+      "sourceTitle": "The Four Seasons: Spring 1",
+      "sourceUrl": "https://musicbrainz.org/work/5087c2d5-31a2-40f4-b69b-db6ed55706c0",
+      "sourceType": "",
+      "sourceId": "5087c2d5-31a2-40f4-b69b-db6ed55706c0",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "vivaldi",
+      "title": "Gloria",
+      "status": "OK",
+      "sourceTitle": "Gloria",
+      "sourceUrl": "https://musicbrainz.org/work/a30cd3ee-7277-3c9f-a696-93622e257e1c",
+      "sourceType": "",
+      "sourceId": "a30cd3ee-7277-3c9f-a696-93622e257e1c",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "vivaldi",
+      "title": "L'estro armonico",
+      "status": "OK",
+      "sourceTitle": "L’estro armonico, op. 3",
+      "sourceUrl": "https://musicbrainz.org/work/161dd98a-9b6b-46b1-863b-1899af0d06f9",
+      "sourceType": "",
+      "sourceId": "161dd98a-9b6b-46b1-863b-1899af0d06f9",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "bach",
+      "title": "Brandenburg Concertos",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "bach",
+      "title": "Goldberg Variations",
+      "status": "CHECK",
+      "sourceTitle": "Goldberg Variations, BWV 988: Aria",
+      "sourceUrl": "https://musicbrainz.org/work/bcaac927-da8f-4370-9683-0cf8ebe6a16f",
+      "sourceType": "",
+      "sourceId": "bcaac927-da8f-4370-9683-0cf8ebe6a16f",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "bach",
+      "title": "St Matthew Passion",
+      "status": "OK",
+      "sourceTitle": "St. Matthew Passion",
+      "sourceUrl": "https://musicbrainz.org/work/7c430602-46d9-4568-a6ca-5e8ec721fb1e",
+      "sourceType": "Oratorio",
+      "sourceId": "7c430602-46d9-4568-a6ca-5e8ec721fb1e",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "handel",
+      "title": "Messiah",
+      "status": "CHECK",
+      "sourceTitle": "Messiah, K. 572",
+      "sourceUrl": "https://musicbrainz.org/work/f6fe8fe2-0d4e-4cdc-b32b-1af2c3ef501f",
+      "sourceType": "Oratorio",
+      "sourceId": "f6fe8fe2-0d4e-4cdc-b32b-1af2c3ef501f",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "handel",
+      "title": "Water Music",
+      "status": "OK",
+      "sourceTitle": "Water Music",
+      "sourceUrl": "https://musicbrainz.org/work/15e21391-7388-47e8-9468-0a9766c347f3",
+      "sourceType": "",
+      "sourceId": "15e21391-7388-47e8-9468-0a9766c347f3",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "handel",
+      "title": "Giulio Cesare",
+      "status": "OK",
+      "sourceTitle": "Giulio Cesare",
+      "sourceUrl": "https://musicbrainz.org/work/811f8bc0-7199-4a2b-94a9-f6eb894ecd94",
+      "sourceType": "Opera",
+      "sourceId": "811f8bc0-7199-4a2b-94a9-f6eb894ecd94",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "scarlatti",
+      "title": "Keyboard Sonata K. 141",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "scarlatti",
+      "title": "Keyboard Sonata K. 380",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "scarlatti",
+      "title": "Keyboard Sonata K. 466",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "gluck",
+      "title": "Orfeo ed Euridice",
+      "status": "CHECK",
+      "sourceTitle": "Orfeo ed Euridice, Wq. 30",
+      "sourceUrl": "https://musicbrainz.org/work/89d3eaa1-c9b9-4352-97ff-7eac83239623",
+      "sourceType": "Opera",
+      "sourceId": "89d3eaa1-c9b9-4352-97ff-7eac83239623",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "gluck",
+      "title": "Alceste",
+      "status": "CHECK",
+      "sourceTitle": "Alceste, Wq. 37: Atto II. “Consorte! Alceste!” (Admeto, Alceste)",
+      "sourceUrl": "https://musicbrainz.org/work/c7651c9c-0c7b-4986-8243-e2b7e0fd8519",
+      "sourceType": "",
+      "sourceId": "c7651c9c-0c7b-4986-8243-e2b7e0fd8519",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "gluck",
+      "title": "Iphigenie en Tauride",
+      "status": "CHECK",
+      "sourceTitle": "Iphigénie en Tauride, Wq. 46",
+      "sourceUrl": "https://musicbrainz.org/work/6c4c4b5c-0f9b-4ed8-989e-ace86e1a6d42",
+      "sourceType": "Opera",
+      "sourceId": "6c4c4b5c-0f9b-4ed8-989e-ace86e1a6d42",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "haydn",
+      "title": "Symphony No. 104",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 104 in D major, Hob. I:104 “London”: II. Andante",
+      "sourceUrl": "https://musicbrainz.org/work/4b05322b-bb6e-3ada-958c-a7703e43615c",
+      "sourceType": "",
+      "sourceId": "4b05322b-bb6e-3ada-958c-a7703e43615c",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "haydn",
+      "title": "The Creation",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "haydn",
+      "title": "String Quartets, Op. 76",
+      "status": "OK",
+      "sourceTitle": "String Quartets, op. 76",
+      "sourceUrl": "https://musicbrainz.org/work/c6360a27-dbf6-4065-9989-633405b96538",
+      "sourceType": "",
+      "sourceId": "c6360a27-dbf6-4065-9989-633405b96538",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mozart",
+      "title": "The Marriage of Figaro",
+      "status": "OK",
+      "sourceTitle": "The Marriage of Figaro",
+      "sourceUrl": "https://musicbrainz.org/work/0bb8236f-de4f-4b9d-9fcd-05f55edb0f5f",
+      "sourceType": "Opera",
+      "sourceId": "0bb8236f-de4f-4b9d-9fcd-05f55edb0f5f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mozart",
+      "title": "Piano Concerto No. 23",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "mozart",
+      "title": "Requiem",
+      "status": "CHECK",
+      "sourceTitle": "Requiem in D minor, K. 626: I. Introitus: Requiem aeternam",
+      "sourceUrl": "https://musicbrainz.org/work/e27bda6e-531e-36d3-9cd7-b8ebc18e8c53",
+      "sourceType": "",
+      "sourceId": "e27bda6e-531e-36d3-9cd7-b8ebc18e8c53",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "beethoven",
+      "title": "Symphony No. 5",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 5 in C minor, op. 67: IV. Allegro",
+      "sourceUrl": "https://musicbrainz.org/work/7eacabfd-c702-3eb6-8738-322555d6a521",
+      "sourceType": "",
+      "sourceId": "7eacabfd-c702-3eb6-8738-322555d6a521",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "beethoven",
+      "title": "Piano Sonata No. 14",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "beethoven",
+      "title": "String Quartet No. 14",
+      "status": "CHECK",
+      "sourceTitle": "String Quartet no. 14 in C‐sharp minor, op. 131: VII. Allegro",
+      "sourceUrl": "https://musicbrainz.org/work/0846cac6-a5b1-3f9a-b770-71158936bb90",
+      "sourceType": "",
+      "sourceId": "0846cac6-a5b1-3f9a-b770-71158936bb90",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schubert",
+      "title": "Winterreise",
+      "status": "CHECK",
+      "sourceTitle": "Winterreise, op. 89, D. 911: XI. Frühlingstraum",
+      "sourceUrl": "https://musicbrainz.org/work/7b7e76cc-4cdf-316f-9088-910a0032a8f1",
+      "sourceType": "Song",
+      "sourceId": "7b7e76cc-4cdf-316f-9088-910a0032a8f1",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schubert",
+      "title": "String Quintet in C major",
+      "status": "CHECK",
+      "sourceTitle": "String Quintet in C major, D. 956: II. Adagio",
+      "sourceUrl": "https://musicbrainz.org/work/5967ab1e-1023-3fe9-98a6-5e21dae8085d",
+      "sourceType": "",
+      "sourceId": "5967ab1e-1023-3fe9-98a6-5e21dae8085d",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schubert",
+      "title": "Symphony No. 8",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 8 in B minor, D. 759 “Unfinished”: I. Allegro moderato",
+      "sourceUrl": "https://musicbrainz.org/work/1b190927-c343-347b-853f-26a2a4920e65",
+      "sourceType": "",
+      "sourceId": "1b190927-c343-347b-853f-26a2a4920e65",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "berlioz",
+      "title": "Symphonie fantastique",
+      "status": "OK",
+      "sourceTitle": "Symphonie fantastique",
+      "sourceUrl": "https://musicbrainz.org/work/ccb5e986-fc9f-4019-819c-527a87bf4215",
+      "sourceType": "",
+      "sourceId": "ccb5e986-fc9f-4019-819c-527a87bf4215",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "berlioz",
+      "title": "Harold en Italie",
+      "status": "CHECK",
+      "sourceTitle": "Harold en Italie, op. 16",
+      "sourceUrl": "https://musicbrainz.org/work/f1add72b-eb01-407b-8b92-a227a13caee4",
+      "sourceType": "Symphony",
+      "sourceId": "f1add72b-eb01-407b-8b92-a227a13caee4",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "berlioz",
+      "title": "Grande messe des morts",
+      "status": "OK",
+      "sourceTitle": "Requiem, op. 5 « Grande Messe des Morts »",
+      "sourceUrl": "https://musicbrainz.org/work/f67ae3bd-22a9-418c-9624-e52410c4d3ec",
+      "sourceType": "Mass",
+      "sourceId": "f67ae3bd-22a9-418c-9624-e52410c4d3ec",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mendelssohn",
+      "title": "A Midsummer Night's Dream",
+      "status": "CHECK",
+      "sourceTitle": "A Midsummer Night’s Dream: Overture",
+      "sourceUrl": "https://musicbrainz.org/work/dbe3664c-315d-4eea-839c-85a012bcefd8",
+      "sourceType": "",
+      "sourceId": "dbe3664c-315d-4eea-839c-85a012bcefd8",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "mendelssohn",
+      "title": "Violin Concerto",
+      "status": "CHECK",
+      "sourceTitle": "Finale from the Violin Concerto",
+      "sourceUrl": "https://musicbrainz.org/work/69fabc36-4b75-4e25-a5b2-4d7251c6b53e",
+      "sourceType": "",
+      "sourceId": "69fabc36-4b75-4e25-a5b2-4d7251c6b53e",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "mendelssohn",
+      "title": "Songs Without Words",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "chopin",
+      "title": "Nocturnes, Op. 9",
+      "status": "OK",
+      "sourceTitle": "Nocturnes, op. 9",
+      "sourceUrl": "https://musicbrainz.org/work/660d0d25-4253-4d30-a818-61fc94e375bf",
+      "sourceType": "",
+      "sourceId": "660d0d25-4253-4d30-a818-61fc94e375bf",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "chopin",
+      "title": "Ballade No. 1",
+      "status": "CHECK",
+      "sourceTitle": "Ballade no. 1 in G minor, op. 23",
+      "sourceUrl": "https://musicbrainz.org/work/f94364c5-b4ca-3555-af9e-86dff67757af",
+      "sourceType": "",
+      "sourceId": "f94364c5-b4ca-3555-af9e-86dff67757af",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "chopin",
+      "title": "Preludes, Op. 28",
+      "status": "CHECK",
+      "sourceTitle": "24 Préludes, op. 28: No. 9 in E major. Largo",
+      "sourceUrl": "https://musicbrainz.org/work/cfaad147-1f25-471c-8be0-4d2b8bdecb94",
+      "sourceType": "",
+      "sourceId": "cfaad147-1f25-471c-8be0-4d2b8bdecb94",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schumann",
+      "title": "Carnaval",
+      "status": "CHECK",
+      "sourceTitle": "Carnaval, op. 9: XII. Chopin",
+      "sourceUrl": "https://musicbrainz.org/work/cea4364b-5e48-3457-a112-29507b422a45",
+      "sourceType": "",
+      "sourceId": "cea4364b-5e48-3457-a112-29507b422a45",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schumann",
+      "title": "Dichterliebe",
+      "status": "CHECK",
+      "sourceTitle": "Dichterliebe, op. 48: VII. Ich grolle nicht",
+      "sourceUrl": "https://musicbrainz.org/work/564410f4-ebfc-3646-9560-3e020cc0dfd9",
+      "sourceType": "Song",
+      "sourceId": "564410f4-ebfc-3646-9560-3e020cc0dfd9",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schumann",
+      "title": "Piano Quintet",
+      "status": "CHECK",
+      "sourceTitle": "Piano Quintet in E-flat major, op. 44: I. Allegro brillante",
+      "sourceUrl": "https://musicbrainz.org/work/a4ca91dd-b768-31ce-9b51-c9265ca4d7a3",
+      "sourceType": "",
+      "sourceId": "a4ca91dd-b768-31ce-9b51-c9265ca4d7a3",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "liszt",
+      "title": "Piano Sonata in B minor",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "liszt",
+      "title": "Les Preludes",
+      "status": "OK",
+      "sourceTitle": "Les Préludes, S. 97",
+      "sourceUrl": "https://musicbrainz.org/work/5e852053-64ba-3013-a86b-daf146791dda",
+      "sourceType": "Symphonic poem",
+      "sourceId": "5e852053-64ba-3013-a86b-daf146791dda",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "liszt",
+      "title": "Annees de pelerinage",
+      "status": "OK",
+      "sourceTitle": "Années de pèlerinage",
+      "sourceUrl": "https://musicbrainz.org/work/29954628-3a98-41f9-87a1-14dc00bcfbe6",
+      "sourceType": "",
+      "sourceId": "29954628-3a98-41f9-87a1-14dc00bcfbe6",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "wagner",
+      "title": "Tristan und Isolde",
+      "status": "CHECK",
+      "sourceTitle": "Tristan und Isolde: Liebestod",
+      "sourceUrl": "https://musicbrainz.org/work/b76a48f8-9f47-4cf4-a0da-1de898f4c5ee",
+      "sourceType": "",
+      "sourceId": "b76a48f8-9f47-4cf4-a0da-1de898f4c5ee",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "wagner",
+      "title": "Der Ring des Nibelungen",
+      "status": "OK",
+      "sourceTitle": "Der Ring des Nibelungen, WWV 86",
+      "sourceUrl": "https://musicbrainz.org/work/597e017a-2c97-40c0-9eeb-430a0461e4ad",
+      "sourceType": "",
+      "sourceId": "597e017a-2c97-40c0-9eeb-430a0461e4ad",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "wagner",
+      "title": "Parsifal",
+      "status": "OK",
+      "sourceTitle": "Parsifal",
+      "sourceUrl": "https://musicbrainz.org/work/9181dd6e-2106-4651-9cb7-b1eff046c879",
+      "sourceType": "Opera",
+      "sourceId": "9181dd6e-2106-4651-9cb7-b1eff046c879",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "verdi",
+      "title": "La traviata",
+      "status": "CHECK",
+      "sourceTitle": "La traviata: Preludio",
+      "sourceUrl": "https://musicbrainz.org/work/f9b14267-0661-346a-a7f9-7c923b93e6f6",
+      "sourceType": "Overture",
+      "sourceId": "f9b14267-0661-346a-a7f9-7c923b93e6f6",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "verdi",
+      "title": "Aida",
+      "status": "OK",
+      "sourceTitle": "Aida",
+      "sourceUrl": "https://musicbrainz.org/work/6675ed9c-9b8b-43f0-9cd7-3df843b6e8d8",
+      "sourceType": "Opera",
+      "sourceId": "6675ed9c-9b8b-43f0-9cd7-3df843b6e8d8",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "verdi",
+      "title": "Requiem",
+      "status": "CHECK",
+      "sourceTitle": "Messa da requiem: Ia. Requiem: Requiem aeternam",
+      "sourceUrl": "https://musicbrainz.org/work/09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e",
+      "sourceType": "",
+      "sourceId": "09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "franck",
+      "title": "Symphony in D minor",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "franck",
+      "title": "Violin Sonata",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "franck",
+      "title": "Prelude, Chorale and Fugue",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "bruckner",
+      "title": "Symphony No. 4",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 4 in E-flat major, WAB 104 “Romantische”: II. Andante, quasi allegretto",
+      "sourceUrl": "https://musicbrainz.org/work/7ae5d4c7-f6e8-313c-b8aa-b07a3f3c25aa",
+      "sourceType": "",
+      "sourceId": "7ae5d4c7-f6e8-313c-b8aa-b07a3f3c25aa",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "bruckner",
+      "title": "Symphony No. 7",
+      "status": "OK",
+      "sourceTitle": "Symphony no. 7",
+      "sourceUrl": "https://musicbrainz.org/work/52405285-15f2-4f22-a604-bd588197c962",
+      "sourceType": "Symphony",
+      "sourceId": "52405285-15f2-4f22-a604-bd588197c962",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "bruckner",
+      "title": "Te Deum",
+      "status": "CHECK",
+      "sourceTitle": "Te Deum in C major: I. Te Deum. Allegro moderato",
+      "sourceUrl": "https://musicbrainz.org/work/953a26be-f6ff-3b06-9d35-a7677f3e6910",
+      "sourceType": "",
+      "sourceId": "953a26be-f6ff-3b06-9d35-a7677f3e6910",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "brahms",
+      "title": "Symphony No. 1",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 1 in E-flat major, op. 28",
+      "sourceUrl": "https://musicbrainz.org/work/6755a742-5371-43de-b389-9415c6dbab89",
+      "sourceType": "Symphony",
+      "sourceId": "6755a742-5371-43de-b389-9415c6dbab89",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "brahms",
+      "title": "German Requiem",
+      "status": "CHECK",
+      "sourceTitle": "A German Requiem, op. 45: I. Blessed Are They That Mourn",
+      "sourceUrl": "https://musicbrainz.org/work/dab25f7b-1dcb-40dd-9292-12e287e19f0a",
+      "sourceType": "",
+      "sourceId": "dab25f7b-1dcb-40dd-9292-12e287e19f0a",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "brahms",
+      "title": "Clarinet Quintet",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "bizet",
+      "title": "Carmen",
+      "status": "CHECK",
+      "sourceTitle": "Carmen : Prélude",
+      "sourceUrl": "https://musicbrainz.org/work/f9ba78e4-9a29-30a1-bbbc-5790ac2c82eb",
+      "sourceType": "Overture",
+      "sourceId": "f9ba78e4-9a29-30a1-bbbc-5790ac2c82eb",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "bizet",
+      "title": "L'Arlesienne Suites",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "bizet",
+      "title": "Symphony in C",
+      "status": "CHECK",
+      "sourceTitle": "Symphony in C major \"Roma\"",
+      "sourceUrl": "https://musicbrainz.org/work/395011dc-b1b1-4cfa-83ec-d518815bd413",
+      "sourceType": "Symphony",
+      "sourceId": "395011dc-b1b1-4cfa-83ec-d518815bd413",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "mussorgsky",
+      "title": "Pictures at an Exhibition",
+      "status": "OK",
+      "sourceTitle": "Pictures at an Exhibition",
+      "sourceUrl": "https://musicbrainz.org/work/fef21cee-269d-45cb-b41e-f90980979aca",
+      "sourceType": "",
+      "sourceId": "fef21cee-269d-45cb-b41e-f90980979aca",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mussorgsky",
+      "title": "Boris Godunov",
+      "status": "CHECK",
+      "sourceTitle": "Boris Godunov (Symphonic Synthesis)",
+      "sourceUrl": "https://musicbrainz.org/work/148120b7-a1a9-4666-9be9-0fcf126a3fc5",
+      "sourceType": "",
+      "sourceId": "148120b7-a1a9-4666-9be9-0fcf126a3fc5",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "mussorgsky",
+      "title": "Night on Bald Mountain",
+      "status": "OK",
+      "sourceTitle": "Night on Bald Mountain",
+      "sourceUrl": "https://musicbrainz.org/work/ae433568-e6d6-4d46-a10c-5f4513a60070",
+      "sourceType": "",
+      "sourceId": "ae433568-e6d6-4d46-a10c-5f4513a60070",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "tchaikovsky",
+      "title": "Symphony No. 6",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 6 in B minor, op. 74 “Pathétique”",
+      "sourceUrl": "https://musicbrainz.org/work/15e0a721-5332-3452-8a56-e00af7b9e4ca",
+      "sourceType": "Symphony",
+      "sourceId": "15e0a721-5332-3452-8a56-e00af7b9e4ca",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "tchaikovsky",
+      "title": "Swan Lake",
+      "status": "OK",
+      "sourceTitle": "Swan Lake",
+      "sourceUrl": "https://musicbrainz.org/work/1b1ebd2f-62db-4663-959e-e30251713d71",
+      "sourceType": "",
+      "sourceId": "1b1ebd2f-62db-4663-959e-e30251713d71",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "tchaikovsky",
+      "title": "Violin Concerto",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "dvorak",
+      "title": "Symphony No. 9",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 9 in E minor, Op. 95 “From the New World”",
+      "sourceUrl": "https://musicbrainz.org/work/90379c91-2dce-4ba4-9900-dd32763ee0b4",
+      "sourceType": "",
+      "sourceId": "90379c91-2dce-4ba4-9900-dd32763ee0b4",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "dvorak",
+      "title": "Cello Concerto",
+      "status": "CHECK",
+      "sourceTitle": "Cello Concerto in B minor, op. 104: I. Allegro",
+      "sourceUrl": "https://musicbrainz.org/work/710830c6-79d6-30ee-956d-f7079681ddf5",
+      "sourceType": "",
+      "sourceId": "710830c6-79d6-30ee-956d-f7079681ddf5",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "dvorak",
+      "title": "Slavonic Dances",
+      "status": "OK",
+      "sourceTitle": "Slavonic Dances, B. 172",
+      "sourceUrl": "https://musicbrainz.org/work/7b5c805e-3db9-405d-99db-6be005cb20c4",
+      "sourceType": "",
+      "sourceId": "7b5c805e-3db9-405d-99db-6be005cb20c4",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "grieg",
+      "title": "Peer Gynt Suites",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "grieg",
+      "title": "Piano Concerto",
+      "status": "OK",
+      "sourceTitle": "Grieg’s Piano Concerto",
+      "sourceUrl": "https://musicbrainz.org/work/101ef8f7-e7aa-4c28-8cf8-1c516c14f1ba",
+      "sourceType": "",
+      "sourceId": "101ef8f7-e7aa-4c28-8cf8-1c516c14f1ba",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "grieg",
+      "title": "Lyric Pieces",
+      "status": "CHECK",
+      "sourceTitle": "Lyric Pieces: Melody",
+      "sourceUrl": "https://musicbrainz.org/work/ca423b31-c476-4baa-92fd-7a559eb902d2",
+      "sourceType": "",
+      "sourceId": "ca423b31-c476-4baa-92fd-7a559eb902d2",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "rimsky",
+      "title": "Scheherazade",
+      "status": "OK",
+      "sourceTitle": "Scheherazade",
+      "sourceUrl": "https://musicbrainz.org/work/10d461a2-96f8-30e1-8590-55960a03c11f",
+      "sourceType": "Song",
+      "sourceId": "10d461a2-96f8-30e1-8590-55960a03c11f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rimsky",
+      "title": "Russian Easter Festival Overture",
+      "status": "OK",
+      "sourceTitle": "Russian Easter Festival Overture, op. 36",
+      "sourceUrl": "https://musicbrainz.org/work/840155b0-c12d-365c-bd5f-029136aa816e",
+      "sourceType": "Overture",
+      "sourceId": "840155b0-c12d-365c-bd5f-029136aa816e",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rimsky",
+      "title": "The Snow Maiden",
+      "status": "OK",
+      "sourceTitle": "The Snow Maiden",
+      "sourceUrl": "https://musicbrainz.org/work/4912294f-f827-4b1b-8097-65af3939dd77",
+      "sourceType": "Opera",
+      "sourceId": "4912294f-f827-4b1b-8097-65af3939dd77",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "faure",
+      "title": "Requiem",
+      "status": "CHECK",
+      "sourceTitle": "Requiem, op. 48: III. Sanctus",
+      "sourceUrl": "https://musicbrainz.org/work/97d4839c-3b4c-3fd2-89e0-50f2f3f45822",
+      "sourceType": "",
+      "sourceId": "97d4839c-3b4c-3fd2-89e0-50f2f3f45822",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "faure",
+      "title": "Pavane",
+      "status": "CHECK",
+      "sourceTitle": "Pavane, op. 50",
+      "sourceUrl": "https://musicbrainz.org/work/fea62425-85b7-4070-8a5e-9b9658e2ade0",
+      "sourceType": "Song",
+      "sourceId": "fea62425-85b7-4070-8a5e-9b9658e2ade0",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "faure",
+      "title": "Piano Quartet No. 1",
+      "status": "CHECK",
+      "sourceTitle": "Piano Quartet no. 1 in C minor, op. 15: III. Adagio",
+      "sourceUrl": "https://musicbrainz.org/work/c4be18b8-8f0b-3bbf-80a4-82e8e628bbee",
+      "sourceType": "",
+      "sourceId": "c4be18b8-8f0b-3bbf-80a4-82e8e628bbee",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "elgar",
+      "title": "Enigma Variations",
+      "status": "CHECK",
+      "sourceTitle": "“Nimrod” from Enigma Variations",
+      "sourceUrl": "https://musicbrainz.org/work/310c6703-f100-490a-bb9b-3b28a8b59d32",
+      "sourceType": "",
+      "sourceId": "310c6703-f100-490a-bb9b-3b28a8b59d32",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "elgar",
+      "title": "Cello Concerto",
+      "status": "CHECK",
+      "sourceTitle": "Cello Concerto in E minor, op. 85: III. Adagio",
+      "sourceUrl": "https://musicbrainz.org/work/6f410283-2fa3-35e3-bd03-ffcb4a7954a7",
+      "sourceType": "",
+      "sourceId": "6f410283-2fa3-35e3-bd03-ffcb4a7954a7",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "elgar",
+      "title": "Pomp and Circumstance",
+      "status": "OK",
+      "sourceTitle": "Pomp and Circumstance",
+      "sourceUrl": "https://musicbrainz.org/work/2dfc5b22-c7a9-4b0d-9a3c-e7435e173cb1",
+      "sourceType": "Song",
+      "sourceId": "2dfc5b22-c7a9-4b0d-9a3c-e7435e173cb1",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mahler",
+      "title": "Symphony No. 2",
+      "status": "OK",
+      "sourceTitle": "Symphony no. 2 “Resurrection”",
+      "sourceUrl": "https://musicbrainz.org/work/ad8df966-dba7-43d0-8d0e-91e69df5b5ef",
+      "sourceType": "Symphony",
+      "sourceId": "ad8df966-dba7-43d0-8d0e-91e69df5b5ef",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mahler",
+      "title": "Das Lied von der Erde",
+      "status": "OK",
+      "sourceTitle": "Das Lied von der Erde",
+      "sourceUrl": "https://musicbrainz.org/work/14514e77-f06c-4d24-a4d5-9a5962acae64",
+      "sourceType": "Song-cycle",
+      "sourceId": "14514e77-f06c-4d24-a4d5-9a5962acae64",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "mahler",
+      "title": "Symphony No. 9",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 9 in D major: I. Andante comodo",
+      "sourceUrl": "https://musicbrainz.org/work/22cc1e5f-0796-3bbf-9cb4-61aea8825917",
+      "sourceType": "",
+      "sourceId": "22cc1e5f-0796-3bbf-9cb4-61aea8825917",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "debussy",
+      "title": "Prelude to the Afternoon of a Faun",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "debussy",
+      "title": "La mer",
+      "status": "OK",
+      "sourceTitle": "La Mer",
+      "sourceUrl": "https://musicbrainz.org/work/77bb353f-9eac-44f9-be42-3d613d41925b",
+      "sourceType": "",
+      "sourceId": "77bb353f-9eac-44f9-be42-3d613d41925b",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "debussy",
+      "title": "Clair de lune",
+      "status": "OK",
+      "sourceTitle": "Clair de Lune",
+      "sourceUrl": "https://musicbrainz.org/work/c28179d7-9a4c-44ad-90e4-c96c3e2cfa94",
+      "sourceType": "Song",
+      "sourceId": "c28179d7-9a4c-44ad-90e4-c96c3e2cfa94",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "strauss",
+      "title": "Also sprach Zarathustra",
+      "status": "OK",
+      "sourceTitle": "Also sprach Zarathustra (2001)",
+      "sourceUrl": "https://musicbrainz.org/work/e782d5e1-7142-4607-83e9-8aad5a92c123",
+      "sourceType": "Song",
+      "sourceId": "e782d5e1-7142-4607-83e9-8aad5a92c123",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "strauss",
+      "title": "Der Rosenkavalier",
+      "status": "OK",
+      "sourceTitle": "Der Rosenkavalier",
+      "sourceUrl": "https://musicbrainz.org/work/18e6d250-1e75-499c-804b-865da45f8ddb",
+      "sourceType": "Opera",
+      "sourceId": "18e6d250-1e75-499c-804b-865da45f8ddb",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "strauss",
+      "title": "Four Last Songs",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "sibelius",
+      "title": "Symphony No. 5",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 5 in E-flat major, op. 82: III. Allegro molto",
+      "sourceUrl": "https://musicbrainz.org/work/4b9c0f1f-05ba-371e-a495-b911b3d8b89f",
+      "sourceType": "",
+      "sourceId": "4b9c0f1f-05ba-371e-a495-b911b3d8b89f",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "sibelius",
+      "title": "Finlandia",
+      "status": "OK",
+      "sourceTitle": "Finlandia",
+      "sourceUrl": "https://musicbrainz.org/work/625c4a60-53c9-4ca1-b2a8-8db34c9e88c6",
+      "sourceType": "",
+      "sourceId": "625c4a60-53c9-4ca1-b2a8-8db34c9e88c6",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "sibelius",
+      "title": "Violin Concerto",
+      "status": "CHECK",
+      "sourceTitle": "Violin Concerto in D minor, op. 47: I. Allegro moderato",
+      "sourceUrl": "https://musicbrainz.org/work/9159906a-0a5c-30fc-84e9-950f69b5170c",
+      "sourceType": "",
+      "sourceId": "9159906a-0a5c-30fc-84e9-950f69b5170c",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "satie",
+      "title": "Gymnopedies",
+      "status": "OK",
+      "sourceTitle": "Gymnopédies",
+      "sourceUrl": "https://musicbrainz.org/work/c8dd2fee-9480-4c2f-89a2-eada0e3d5302",
+      "sourceType": "",
+      "sourceId": "c8dd2fee-9480-4c2f-89a2-eada0e3d5302",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "satie",
+      "title": "Gnossiennes",
+      "status": "CHECK",
+      "sourceTitle": "Trois Gnossiennes",
+      "sourceUrl": "https://musicbrainz.org/work/e7b9f29a-588d-4a4b-b986-8999c2c86dbf",
+      "sourceType": "",
+      "sourceId": "e7b9f29a-588d-4a4b-b986-8999c2c86dbf",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "satie",
+      "title": "Parade",
+      "status": "OK",
+      "sourceTitle": "Parade",
+      "sourceUrl": "https://musicbrainz.org/work/65775acf-95f0-350c-ba5d-60d9386e463f",
+      "sourceType": "Ballet",
+      "sourceId": "65775acf-95f0-350c-ba5d-60d9386e463f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rachmaninoff",
+      "title": "Piano Concerto No. 2",
+      "status": "CHECK",
+      "sourceTitle": "Piano Concerto no. 2 in C minor, op. 18: I. Moderato",
+      "sourceUrl": "https://musicbrainz.org/work/4661a9a2-3986-30a8-a044-b79359dfd4fc",
+      "sourceType": "",
+      "sourceId": "4661a9a2-3986-30a8-a044-b79359dfd4fc",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "rachmaninoff",
+      "title": "Rhapsody on a Theme of Paganini",
+      "status": "OK",
+      "sourceTitle": "Rhapsody on a Theme of Paganini, op. 43",
+      "sourceUrl": "https://musicbrainz.org/work/17eea09b-0497-370c-a0a2-4f7f2d49300f",
+      "sourceType": "",
+      "sourceId": "17eea09b-0497-370c-a0a2-4f7f2d49300f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "rachmaninoff",
+      "title": "All-Night Vigil",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "schoenberg",
+      "title": "Verklarte Nacht",
+      "status": "OK",
+      "sourceTitle": "Verklärte Nacht, op. 4",
+      "sourceUrl": "https://musicbrainz.org/work/47ac23fb-acab-42b6-8f81-10550f8b1f83",
+      "sourceType": "",
+      "sourceId": "47ac23fb-acab-42b6-8f81-10550f8b1f83",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "schoenberg",
+      "title": "Pierrot lunaire",
+      "status": "CHECK",
+      "sourceTitle": "Dreimal sieben Gedichte aus Albert Girauds »Pierrot lunaire«, op. 21: II. Teil: 13. „Enthauptung“",
+      "sourceUrl": "https://musicbrainz.org/work/a6e60a2c-ad8f-446d-bf9a-06a42f077c02",
+      "sourceType": "Song",
+      "sourceId": "a6e60a2c-ad8f-446d-bf9a-06a42f077c02",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "schoenberg",
+      "title": "Suite for Piano, Op. 25",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "ravel",
+      "title": "Daphnis et Chloe",
+      "status": "OK",
+      "sourceTitle": "Daphnis et Chloé",
+      "sourceUrl": "https://musicbrainz.org/work/a55d2dfe-fb81-42e8-9e0f-3e6fd9654ca1",
+      "sourceType": "Ballet",
+      "sourceId": "a55d2dfe-fb81-42e8-9e0f-3e6fd9654ca1",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "ravel",
+      "title": "Bolero",
+      "status": "OK",
+      "sourceTitle": "Boléro",
+      "sourceUrl": "https://musicbrainz.org/work/487527b9-a525-33f4-b948-ea41b9a2672f",
+      "sourceType": "Ballet",
+      "sourceId": "487527b9-a525-33f4-b948-ea41b9a2672f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "ravel",
+      "title": "Gaspard de la nuit",
+      "status": "OK",
+      "sourceTitle": "Gaspard de la nuit",
+      "sourceUrl": "https://musicbrainz.org/work/2fce1e89-1685-43f7-97b2-5d0dd8c6fb70",
+      "sourceType": "Suite",
+      "sourceId": "2fce1e89-1685-43f7-97b2-5d0dd8c6fb70",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "bartok",
+      "title": "Concerto for Orchestra",
+      "status": "CHECK",
+      "sourceTitle": "Concerto for Orchestra, Sz. 116, BB 123: IV. Intermezzo interrotto. Allegretto",
+      "sourceUrl": "https://musicbrainz.org/work/8961fa6a-9d99-3bb9-9890-dd1b665d6010",
+      "sourceType": "",
+      "sourceId": "8961fa6a-9d99-3bb9-9890-dd1b665d6010",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "bartok",
+      "title": "Music for Strings, Percussion and Celesta",
+      "status": "CHECK",
+      "sourceTitle": "Music for Strings, Percussion and Celesta, Sz. 106, BB 114",
+      "sourceUrl": "https://musicbrainz.org/work/0c680f6b-c5cf-4045-a689-df318e794383",
+      "sourceType": "",
+      "sourceId": "0c680f6b-c5cf-4045-a689-df318e794383",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "bartok",
+      "title": "Mikrokosmos",
+      "status": "CHECK",
+      "sourceTitle": "Mikrokosmos, Sz. 107, BB 105",
+      "sourceUrl": "https://musicbrainz.org/work/05e73b3f-7664-4745-ab48-d140dd106a5e",
+      "sourceType": "",
+      "sourceId": "05e73b3f-7664-4745-ab48-d140dd106a5e",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "stravinsky",
+      "title": "The Rite of Spring",
+      "status": "OK",
+      "sourceTitle": "The Rite of Spring",
+      "sourceUrl": "https://musicbrainz.org/work/ce43a3ab-8642-4573-90e9-bb391ab3bb56",
+      "sourceType": "",
+      "sourceId": "ce43a3ab-8642-4573-90e9-bb391ab3bb56",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "stravinsky",
+      "title": "The Firebird",
+      "status": "CHECK",
+      "sourceTitle": "The Firebird: Lullaby (The Firebird)",
+      "sourceUrl": "https://musicbrainz.org/work/c612e5bf-4c90-4232-a88e-d51ac7417d2c",
+      "sourceType": "",
+      "sourceId": "c612e5bf-4c90-4232-a88e-d51ac7417d2c",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "stravinsky",
+      "title": "Symphony of Psalms",
+      "status": "OK",
+      "sourceTitle": "Symphony of Psalms",
+      "sourceUrl": "https://musicbrainz.org/work/84070a93-3b55-4c11-a15c-7f4efec7df7f",
+      "sourceType": "Symphony",
+      "sourceId": "84070a93-3b55-4c11-a15c-7f4efec7df7f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "webern",
+      "title": "Five Movements for String Quartet",
+      "status": "OK",
+      "sourceTitle": "Five Movements for String Quartet, op. 5",
+      "sourceUrl": "https://musicbrainz.org/work/fafa518d-4f22-45b7-b784-d744f8072240",
+      "sourceType": "",
+      "sourceId": "fafa518d-4f22-45b7-b784-d744f8072240",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "webern",
+      "title": "Symphony, Op. 21",
+      "status": "OK",
+      "sourceTitle": "Symphony, op. 21",
+      "sourceUrl": "https://musicbrainz.org/work/2195c606-ddb5-44c6-8993-4c5ea1cbb1ef",
+      "sourceType": "Symphony",
+      "sourceId": "2195c606-ddb5-44c6-8993-4c5ea1cbb1ef",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "webern",
+      "title": "Variations for Piano",
+      "status": "CHECK",
+      "sourceTitle": "Variations for Piano, op. 27",
+      "sourceUrl": "https://musicbrainz.org/work/26f762c4-0724-4732-93d9-e47510ab8782",
+      "sourceType": "",
+      "sourceId": "26f762c4-0724-4732-93d9-e47510ab8782",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "prokofiev",
+      "title": "Romeo and Juliet",
+      "status": "OK",
+      "sourceTitle": "Romeo and Juliet",
+      "sourceUrl": "https://musicbrainz.org/work/fe99ac3d-e454-4023-b421-c7a7cfb2c0ce",
+      "sourceType": "",
+      "sourceId": "fe99ac3d-e454-4023-b421-c7a7cfb2c0ce",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "prokofiev",
+      "title": "Piano Concerto No. 3",
+      "status": "CHECK",
+      "sourceTitle": "Piano Concerto no. 3 in C major, op. 26: I. Andante – Allegro",
+      "sourceUrl": "https://musicbrainz.org/work/582f07ea-9dd9-3e74-8dc0-b45c55994b6e",
+      "sourceType": "",
+      "sourceId": "582f07ea-9dd9-3e74-8dc0-b45c55994b6e",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "prokofiev",
+      "title": "Classical Symphony",
+      "status": "MISS",
+      "sourceTitle": "",
+      "sourceUrl": "",
+      "sourceType": "",
+      "sourceId": "",
+      "sourceName": "",
+      "reason": "no MusicBrainz work candidate found for this composer"
+    },
+    {
+      "composerId": "hindemith",
+      "title": "Mathis der Maler",
+      "status": "OK",
+      "sourceTitle": "Mathis der Maler",
+      "sourceUrl": "https://musicbrainz.org/work/dc4a03a4-cff9-42f4-a470-3410f0d657a9",
+      "sourceType": "Opera",
+      "sourceId": "dc4a03a4-cff9-42f4-a470-3410f0d657a9",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "hindemith",
+      "title": "Symphonic Metamorphosis",
+      "status": "CHECK",
+      "sourceTitle": "Symphonic Metamorphosis after Themes by Carl Maria von Weber: IV. Marsch",
+      "sourceUrl": "https://musicbrainz.org/work/99d412a7-7025-3b7d-9342-6b4a9c37bda9",
+      "sourceType": "",
+      "sourceId": "99d412a7-7025-3b7d-9342-6b4a9c37bda9",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "hindemith",
+      "title": "Ludus Tonalis",
+      "status": "OK",
+      "sourceTitle": "Ludus tonalis",
+      "sourceUrl": "https://musicbrainz.org/work/41f04f3d-ea8f-42d8-985f-af2e3e0922c7",
+      "sourceType": "",
+      "sourceId": "41f04f3d-ea8f-42d8-985f-af2e3e0922c7",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "gershwin",
+      "title": "Rhapsody in Blue",
+      "status": "OK",
+      "sourceTitle": "Rhapsody in Blue",
+      "sourceUrl": "https://musicbrainz.org/work/bf7e3ad3-4d47-3425-aa5f-8cc8c91d53ed",
+      "sourceType": "",
+      "sourceId": "bf7e3ad3-4d47-3425-aa5f-8cc8c91d53ed",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "gershwin",
+      "title": "An American in Paris",
+      "status": "OK",
+      "sourceTitle": "An American in Paris",
+      "sourceUrl": "https://musicbrainz.org/work/7e7d799a-babe-3d9c-b271-9ad417ac650f",
+      "sourceType": "Symphonic poem",
+      "sourceId": "7e7d799a-babe-3d9c-b271-9ad417ac650f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "gershwin",
+      "title": "Porgy and Bess",
+      "status": "OK",
+      "sourceTitle": "Porgy and Bess",
+      "sourceUrl": "https://musicbrainz.org/work/1094de73-1671-4a6f-a870-3442756cab2f",
+      "sourceType": "Opera",
+      "sourceId": "1094de73-1671-4a6f-a870-3442756cab2f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "poulenc",
+      "title": "Gloria",
+      "status": "CHECK",
+      "sourceTitle": "Gloria, for Soprano, Chorus and Orchestra, FP 177: I. Gloria",
+      "sourceUrl": "https://musicbrainz.org/work/dfde29b4-1d11-4747-9a5e-ef10eb61b754",
+      "sourceType": "",
+      "sourceId": "dfde29b4-1d11-4747-9a5e-ef10eb61b754",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "poulenc",
+      "title": "Dialogues des Carmelites",
+      "status": "OK",
+      "sourceTitle": "Dialogues des Carmélites",
+      "sourceUrl": "https://musicbrainz.org/work/0769979a-558f-4eaa-b947-f1754de6c00f",
+      "sourceType": "Opera",
+      "sourceId": "0769979a-558f-4eaa-b947-f1754de6c00f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "poulenc",
+      "title": "Concerto for Two Pianos",
+      "status": "CHECK",
+      "sourceTitle": "Concerto for Two Pianos and Orchestra in D minor, FP 61: II. Larghetto",
+      "sourceUrl": "https://musicbrainz.org/work/15d58784-cef7-3596-ae2f-f6f60795a032",
+      "sourceType": "",
+      "sourceId": "15d58784-cef7-3596-ae2f-f6f60795a032",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "copland",
+      "title": "Appalachian Spring",
+      "status": "OK",
+      "sourceTitle": "Appalachian Spring",
+      "sourceUrl": "https://musicbrainz.org/work/5c4dd92e-9eee-41b0-bc5b-48d58bd81551",
+      "sourceType": "Ballet",
+      "sourceId": "5c4dd92e-9eee-41b0-bc5b-48d58bd81551",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "copland",
+      "title": "Fanfare for the Common Man",
+      "status": "OK",
+      "sourceTitle": "Fanfare for the Common Man",
+      "sourceUrl": "https://musicbrainz.org/work/f846bc6f-ff20-3d4c-b49f-c9d8cdf1e588",
+      "sourceType": "",
+      "sourceId": "f846bc6f-ff20-3d4c-b49f-c9d8cdf1e588",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "copland",
+      "title": "Billy the Kid",
+      "status": "OK",
+      "sourceTitle": "Billy the Kid",
+      "sourceUrl": "https://musicbrainz.org/work/68d0ff5f-1297-4461-af8c-5c1f2cf397c5",
+      "sourceType": "Ballet",
+      "sourceId": "68d0ff5f-1297-4461-af8c-5c1f2cf397c5",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    },
+    {
+      "composerId": "shostakovich",
+      "title": "Symphony No. 5",
+      "status": "CHECK",
+      "sourceTitle": "Symphony no. 5 in D minor, op. 47: II. Allegretto",
+      "sourceUrl": "https://musicbrainz.org/work/d8a46a99-3beb-3136-afb1-f0883399c706",
+      "sourceType": "",
+      "sourceId": "d8a46a99-3beb-3136-afb1-f0883399c706",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "shostakovich",
+      "title": "String Quartet No. 8",
+      "status": "CHECK",
+      "sourceTitle": "String Quartet no. 8 in C minor, op. 110: IV. Largo",
+      "sourceUrl": "https://musicbrainz.org/work/60162d2a-1268-363f-b089-c622ee87e970",
+      "sourceType": "",
+      "sourceId": "60162d2a-1268-363f-b089-c622ee87e970",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "shostakovich",
+      "title": "Piano Trio No. 2",
+      "status": "CHECK",
+      "sourceTitle": "Piano Trio no. 2 in E minor, op. 67: IV. Allegretto",
+      "sourceUrl": "https://musicbrainz.org/work/089b5ee2-9e32-3090-be0e-9b4d9267572a",
+      "sourceType": "",
+      "sourceId": "089b5ee2-9e32-3090-be0e-9b4d9267572a",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "britten",
+      "title": "War Requiem",
+      "status": "CHECK",
+      "sourceTitle": "War Requiem, op. 66: II. Dies irae",
+      "sourceUrl": "https://musicbrainz.org/work/300480aa-905e-365c-8a33-53bea289a749",
+      "sourceType": "",
+      "sourceId": "300480aa-905e-365c-8a33-53bea289a749",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "britten",
+      "title": "Peter Grimes",
+      "status": "CHECK",
+      "sourceTitle": "Peter Grimes: Prologue: \"Peter Grimes!\" (Hobson)",
+      "sourceUrl": "https://musicbrainz.org/work/5ecd048c-c93d-3c8c-b752-86c3b5715aab",
+      "sourceType": "",
+      "sourceId": "5ecd048c-c93d-3c8c-b752-86c3b5715aab",
+      "sourceName": "MusicBrainz",
+      "reason": "review title variant, movement match, or work grouping"
+    },
+    {
+      "composerId": "britten",
+      "title": "Young Person's Guide to the Orchestra",
+      "status": "OK",
+      "sourceTitle": "The Young Person’s Guide to the Orchestra, op. 34",
+      "sourceUrl": "https://musicbrainz.org/work/ace72a0f-a21f-4ebd-a994-3957aaf14d9f",
+      "sourceType": "",
+      "sourceId": "ace72a0f-a21f-4ebd-a994-3957aaf14d9f",
+      "sourceName": "MusicBrainz",
+      "reason": "high-confidence MusicBrainz work match"
+    }
+  ]
+}

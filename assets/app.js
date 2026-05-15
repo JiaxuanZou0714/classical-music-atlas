@@ -27,6 +27,8 @@ const PREVIEW_IDS = [
 ];
 
 let composers = [];
+let composerSources = new Map();
+let workSources = new Map();
 let activePeriod = "all";
 let activeMood = "";
 let searchValue = "";
@@ -37,13 +39,30 @@ init();
 
 async function init() {
   try {
-    const response = await fetch("data/composers.json");
-    composers = await response.json();
+    composers = await fetchJson("data/composers.json");
+    hydratePublicSources(await fetchJson("data/public-sources.json", null));
     if (page === "home") initHome();
     if (page === "timeline") initTimelinePage();
   } catch (error) {
     renderLoadError();
   }
+}
+
+async function fetchJson(path, fallback) {
+  const response = await fetch(path);
+  if (!response.ok) {
+    if (arguments.length > 1) return fallback;
+    throw new Error(`${response.status} ${path}`);
+  }
+
+  return response.json();
+}
+
+function hydratePublicSources(sourceData) {
+  if (!sourceData) return;
+
+  composerSources = new Map((sourceData.composers || []).map((source) => [source.composerId, source]));
+  workSources = new Map((sourceData.works || []).map((source) => [workSourceKey(source.composerId, source.title), source]));
 }
 
 function initHome() {
@@ -321,20 +340,88 @@ function selectComposer(id) {
 function renderDetail(composer) {
   const target = document.querySelector("[data-detail]");
   if (!target || !composer) return;
+  const source = composerSources.get(composer.id);
 
   target.innerHTML = `
-    <h2>${composer.nameZh}</h2>
+    <h2>${escapeHtml(composer.nameZh)}</h2>
     <p class="detail-meta">
-      <span>${composer.nameEn}</span>
+      <span>${escapeHtml(composer.nameEn)}</span>
       <span>${composer.birth}-${composer.death}</span>
-      <span>${composer.country}</span>
+      <span>${escapeHtml(composer.country)}</span>
     </p>
-    <p class="detail-vibe">${composer.vibe}</p>
+    <p class="detail-vibe">${escapeHtml(composer.vibe)}</p>
+    ${renderPublicFacts(source)}
     <div class="detail-works" aria-label="先听这三首">
-      ${composer.works.map((work) => `<span>${work}</span>`).join("")}
+      ${composer.works.map((work) => renderWorkLink(composer.id, work)).join("")}
     </div>
-    <p class="detail-next">${composer.next}</p>
+    <p class="detail-next">${escapeHtml(composer.next)}</p>
+    ${renderSourceLinks(source)}
   `;
+}
+
+function renderPublicFacts(source) {
+  if (!source) return "";
+
+  const facts = [
+    source.description && ["资料", source.description],
+    source.birthPlace && ["生于", source.birthPlace],
+    source.deathPlace && ["卒于", source.deathPlace],
+    source.occupations?.length && ["身份", source.occupations.slice(0, 3).join(" / ")],
+    source.movements?.length && ["流派", source.movements.slice(0, 2).join(" / ")],
+    !source.movements?.length && source.genres?.length && ["体裁", source.genres.slice(0, 2).join(" / ")],
+    source.instruments?.length && ["乐器", source.instruments.slice(0, 3).join(" / ")]
+  ].filter(Boolean);
+
+  if (!facts.length) return "";
+
+  return `
+    <dl class="detail-facts">
+      ${facts.map(([label, value]) => `
+        <div>
+          <dt>${escapeHtml(label)}</dt>
+          <dd>${escapeHtml(value)}</dd>
+        </div>
+      `).join("")}
+    </dl>
+  `;
+}
+
+function renderWorkLink(composerId, title) {
+  const source = workSources.get(workSourceKey(composerId, title));
+  const label = escapeHtml(title);
+
+  if (!source?.sourceUrl) {
+    const titleText = source?.reason || "待补充公开来源";
+    return `<span class="work-link" title="${escapeHtml(titleText)}">${label}</span>`;
+  }
+
+  const sourceTitle = source.sourceTitle && source.sourceTitle !== title ? `：${source.sourceTitle}` : "";
+  const titleText = `${source.sourceName}${sourceTitle} (${source.status})`;
+  return `<a class="work-link work-link--source" href="${escapeHtml(source.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(titleText)}">${label}</a>`;
+}
+
+function renderSourceLinks(source) {
+  const links = source?.sourceLinks || [];
+  if (!links.length) return "";
+
+  return `
+    <div class="source-links" aria-label="公开资料入口">
+      ${links.map((link) => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.label)}</a>`).join("")}
+    </div>
+  `;
+}
+
+function workSourceKey(composerId, title) {
+  return `${composerId}::${title}`;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function updatePressedState(selector, activeValue) {
