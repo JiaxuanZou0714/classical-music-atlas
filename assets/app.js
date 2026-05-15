@@ -196,8 +196,12 @@ function renderTimeline(target, data, options) {
   target.style.minHeight = `${Math.max(options.preview ? 250 : 560, height)}px`;
 
   lanes.forEach(({ composer, lane }) => {
-    const bar = document.createElement("button");
-    bar.type = "button";
+    const bar = document.createElement(options.preview ? "a" : "button");
+    if (options.preview) {
+      bar.href = `timeline.html?focus=${encodeURIComponent(composer.id)}`;
+    } else {
+      bar.type = "button";
+    }
     bar.className = "composer-bar";
     bar.dataset.id = composer.id;
     bar.style.left = `${toPercent(composer.birth)}%`;
@@ -211,9 +215,6 @@ function renderTimeline(target, data, options) {
     if (options.preview) {
       bar.addEventListener("mouseenter", () => renderPreviewNote(composer));
       bar.addEventListener("focus", () => renderPreviewNote(composer));
-      bar.addEventListener("click", () => {
-        window.location.href = `timeline.html?focus=${encodeURIComponent(composer.id)}`;
-      });
     } else {
       bar.addEventListener("click", () => selectComposer(composer.id));
       bar.addEventListener("focus", () => selectComposer(composer.id));

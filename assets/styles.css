@@ -31,6 +31,10 @@
   --font-body: "Aptos", "Segoe UI", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -253,6 +257,7 @@ h2 {
   min-width: 0;
   padding: var(--space-4);
   box-shadow: 0 1rem 2.5rem oklch(26% 0.045 238 / 0.08);
+  transform-origin: center;
 }
 
 .atlas-panel__head,
@@ -292,6 +297,43 @@ h2 {
   scrollbar-width: none;
   overscroll-behavior-inline: contain;
   touch-action: pan-y;
+  view-transition-name: atlas-map;
+}
+
+::view-transition-group(atlas-map) {
+  animation-timing-function: var(--ease-out);
+  animation-duration: 680ms;
+  z-index: 2;
+}
+
+::view-transition-old(root) {
+  animation: atlas-root-out 140ms var(--ease-out) both;
+}
+
+::view-transition-new(root) {
+  animation: atlas-root-in 300ms var(--ease-out) 120ms both;
+}
+
+::view-transition-old(atlas-map),
+::view-transition-new(atlas-map) {
+  height: 100%;
+  overflow: clip;
+}
+
+@keyframes atlas-root-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes atlas-root-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .timeline-frame::-webkit-scrollbar {
@@ -791,6 +833,10 @@ h2 {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .timeline-frame {
+    view-transition-name: none;
+  }
+
   *,
   *::before,
   *::after {
