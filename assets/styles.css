@@ -284,7 +284,8 @@ h2 {
   max-width: 100%;
   min-width: 0;
   overflow: auto;
-  border: 1px solid var(--rule);
+  border-block: 1px solid var(--rule);
+  border-inline: 0;
   background: var(--paper-deep);
   cursor: grab;
   scroll-behavior: smooth;
@@ -394,13 +395,13 @@ h2 {
   display: flex;
   align-items: center;
   min-width: 3.5rem;
-  min-height: 1.45rem;
-  border: 1px solid color-mix(in oklch, var(--ink) 78%, var(--period-color) 22%);
+  min-height: 1.38rem;
+  border: 1px solid color-mix(in oklch, var(--ink) 58%, var(--period-color) 42%);
   border-radius: var(--radius-sm);
   background:
-    linear-gradient(90deg, color-mix(in oklch, var(--period-color) 78%, var(--paper-lift) 22%), var(--paper-lift));
+    linear-gradient(90deg, color-mix(in oklch, var(--period-color) 62%, var(--paper-lift) 38%), var(--paper-lift));
   color: var(--ink);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   font-weight: 600;
   line-height: 1.15;
   overflow: hidden;
@@ -420,7 +421,7 @@ h2 {
   z-index: 4;
   border-color: var(--concert-red);
   box-shadow: 0 0 0 3px oklch(58% 0.1 24 / 0.15);
-  transform: translateY(-2px);
+  transform: translateY(-1px);
 }
 
 .composer-bar.is-hidden {
@@ -429,7 +430,7 @@ h2 {
 
 .timeline-page {
   min-width: 0;
-  padding: var(--space-5) clamp(var(--space-4), 4vw, var(--space-12)) var(--space-8);
+  padding: var(--space-4) clamp(var(--space-4), 4vw, var(--space-12)) var(--space-8);
 }
 
 .timeline-intro {
@@ -437,7 +438,7 @@ h2 {
   align-items: end;
   justify-content: space-between;
   gap: var(--space-4);
-  margin-block-end: var(--space-3);
+  margin-block-end: var(--space-2);
 }
 
 .timeline-intro > * {
@@ -447,7 +448,8 @@ h2 {
 .timeline-intro h1 {
   max-width: none;
   margin: 0;
-  font-size: clamp(2.35rem, 5vw, 4.5rem);
+  font-size: clamp(2.7rem, 4.4vw, 4rem);
+  line-height: 1;
 }
 
 .timeline-intro p {
@@ -458,7 +460,7 @@ h2 {
 
 .explorer-shell {
   display: grid;
-  gap: var(--space-3);
+  gap: var(--space-4);
   min-width: 0;
 }
 
@@ -471,28 +473,42 @@ h2 {
 .explorer-controls {
   display: flex;
   flex-wrap: wrap;
-  align-items: end;
-  gap: var(--space-3) var(--space-4);
+  align-items: center;
+  gap: var(--space-2) var(--space-5);
+  border-block: 1px solid color-mix(in oklch, var(--rule) 72%, transparent);
+  padding-block: var(--space-2);
 }
 
 .search-field {
   display: grid;
   gap: var(--space-1);
-  width: min(18rem, 100%);
+  position: relative;
+  width: min(16rem, 100%);
   margin: 0;
   color: var(--ink-soft);
   font-size: 0.82rem;
 }
 
+.search-field span,
+.filter-group__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 .search-field input {
   width: 100%;
   min-width: 0;
-  min-height: 2.75rem;
-  border: 1px solid var(--rule-strong);
-  border-radius: var(--radius-sm);
-  background: var(--paper-lift);
+  min-height: 2.3rem;
+  border: 0;
+  border-block-end: 1px solid var(--rule);
+  border-radius: 0;
+  background: transparent;
   color: var(--ink);
-  padding: 0 var(--space-3);
+  padding: 0 var(--space-1);
 }
 
 .search-field input::placeholder {
@@ -503,13 +519,6 @@ h2 {
   margin-block-start: 0;
 }
 
-.filter-group__label {
-  margin-block-end: var(--space-1);
-  color: var(--ink);
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
 .filter-group[aria-label="按听感筛选"] {
   display: none;
 }
@@ -517,16 +526,17 @@ h2 {
 .chip-row {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-1);
+  gap: var(--space-3);
 }
 
 .chip {
-  min-height: 2.15rem;
-  border: 1px solid var(--rule);
-  border-radius: var(--radius-sm);
-  background: var(--paper-lift);
+  min-height: 2.05rem;
+  border: 0;
+  border-block-end: 1px solid transparent;
+  border-radius: 0;
+  background: transparent;
   color: var(--ink-soft);
-  padding: 0.32rem 0.58rem;
+  padding: 0.24rem 0.05rem;
   transition:
     border-color 160ms var(--ease-out),
     color 160ms var(--ease-out),
@@ -540,7 +550,7 @@ h2 {
 }
 
 .chip[aria-pressed="true"] {
-  background: oklch(92% 0.03 24);
+  background: transparent;
 }
 
 .timeline-workspace {
@@ -548,9 +558,9 @@ h2 {
 }
 
 .workspace-count {
-  margin: 0 0 var(--space-1);
+  margin: 0 0 var(--space-2);
   color: var(--ink-soft);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 }
 
 .composer-detail {
@@ -561,26 +571,28 @@ h2 {
 
 .composer-detail h2 {
   margin-block-end: var(--space-2);
-  font-size: clamp(1.45rem, 2.8vw, 2rem);
+  font-size: clamp(1.35rem, 2.2vw, 1.72rem);
+  line-height: 1.12;
 }
 
 .detail-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-block: 0 var(--space-4);
+  gap: var(--space-1) var(--space-2);
+  margin-block: 0 var(--space-3);
   color: var(--ink-soft);
-  font-size: 0.86rem;
+  font-size: 0.8rem;
 }
 
 .detail-vibe {
   margin: 0;
   color: var(--ink-soft);
+  font-size: 0.92rem;
 }
 
 .detail-facts {
   display: grid;
-  gap: var(--space-1);
+  gap: 0.38rem;
   margin: var(--space-3) 0 0;
 }
 
@@ -593,7 +605,7 @@ h2 {
 .detail-facts dt,
 .detail-facts dd {
   margin: 0;
-  font-size: 0.86rem;
+  font-size: 0.8rem;
   line-height: 1.45;
 }
 
@@ -608,38 +620,47 @@ h2 {
 .detail-works {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-1);
-  margin-block-start: var(--space-3);
+  gap: 0.35rem var(--space-3);
+  margin-block-start: var(--space-4);
 }
 
 .work-link {
   display: inline-flex;
   align-items: center;
-  border: 1px solid var(--rule);
-  background: color-mix(in oklch, var(--paper-lift) 78%, var(--paper) 22%);
+  border: 0;
+  background: transparent;
   color: var(--ink);
-  padding: 0.35rem 0.55rem;
-  font-size: 0.86rem;
+  padding: 0;
+  font-size: 0.84rem;
   line-height: 1.25;
+}
+
+.work-link:not(.work-link--source) {
+  color: var(--ink-soft);
+}
+
+.work-link--source {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
 }
 
 .work-link--source:hover,
 .work-link--source:focus-visible {
-  border-color: var(--concert-red);
   color: var(--concert-red);
 }
 
 .detail-next {
-  margin-block: var(--space-3) 0;
+  margin-block: var(--space-4) 0;
   color: var(--ink-soft);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
 }
 
 .source-links {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-2);
-  margin-block-start: var(--space-3);
+  margin-block-start: var(--space-4);
   padding-block-start: var(--space-3);
   border-block-start: 1px solid var(--rule);
 }
@@ -678,7 +699,7 @@ h2 {
   }
 
   .explorer-shell {
-    grid-template-columns: minmax(32rem, 2fr) minmax(18rem, 0.72fr);
+    grid-template-columns: minmax(34rem, 2.35fr) minmax(16rem, 0.62fr);
     align-items: start;
   }
 
@@ -695,7 +716,7 @@ h2 {
     border-block-start: 0;
     border-inline-start: 1px solid var(--rule);
     padding-block-start: 0;
-    padding-inline-start: var(--space-4);
+    padding-inline-start: var(--space-5);
   }
 }
 
