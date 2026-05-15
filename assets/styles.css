@@ -302,22 +302,30 @@ h2 {
 
 ::view-transition-group(atlas-map) {
   animation-timing-function: var(--ease-out);
-  animation-duration: 680ms;
+  animation-duration: 760ms;
   z-index: 2;
 }
 
 ::view-transition-old(root) {
-  animation: atlas-root-out 140ms var(--ease-out) both;
+  animation: atlas-root-out 100ms var(--ease-out) both;
 }
 
 ::view-transition-new(root) {
-  animation: atlas-root-in 300ms var(--ease-out) 120ms both;
+  animation: atlas-root-in 260ms var(--ease-out) 430ms both;
 }
 
 ::view-transition-old(atlas-map),
 ::view-transition-new(atlas-map) {
   height: 100%;
   overflow: clip;
+}
+
+::view-transition-old(atlas-map) {
+  animation: atlas-map-old 260ms var(--ease-out) both;
+}
+
+::view-transition-new(atlas-map) {
+  animation: atlas-map-new 760ms var(--ease-out) both;
 }
 
 @keyframes atlas-root-out {
@@ -329,6 +337,22 @@ h2 {
 @keyframes atlas-root-in {
   from {
     opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes atlas-map-old {
+  to {
+    opacity: 0.12;
+  }
+}
+
+@keyframes atlas-map-new {
+  from {
+    opacity: 0.78;
   }
 
   to {
@@ -392,7 +416,7 @@ h2 {
 }
 
 .timeline--preview {
-  min-width: 58rem;
+  min-width: 66rem;
   min-height: 16rem;
 }
 

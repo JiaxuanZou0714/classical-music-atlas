@@ -9,6 +9,9 @@ const PERIODS = [
 const MIN_YEAR = 1500;
 const MAX_YEAR = 1990;
 const PREVIEW_IDS = [
+  "palestrina",
+  "byrd",
+  "monteverdi",
   "bach",
   "handel",
   "haydn",
@@ -69,7 +72,7 @@ function initHome() {
   const preview = document.querySelector('[data-timeline="preview"]');
   const previewData = composers.filter((composer) => PREVIEW_IDS.includes(composer.id));
   renderTimeline(preview, previewData, { preview: true });
-  bindTimelineNavigation("preview", { min: 1600, max: 1950 });
+  bindTimelineNavigation("preview", { min: MIN_YEAR, max: MAX_YEAR });
 }
 
 function initTimelinePage() {
@@ -145,7 +148,7 @@ function updateTimeline() {
 function renderTimeline(target, data, options) {
   if (!target) return;
 
-  const range = options.preview ? { min: 1600, max: 1950 } : { min: MIN_YEAR, max: MAX_YEAR };
+  const range = { min: MIN_YEAR, max: MAX_YEAR };
   const toPercent = (year) => yearToPercent(year, range.min, range.max);
 
   target.classList.toggle("timeline--preview", options.preview);
