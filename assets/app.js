@@ -35,6 +35,7 @@ let workSources = new Map();
 let activePeriod = "all";
 let activeMood = "";
 let searchValue = "";
+let isInitialTimelineRender = false;
 
 const page = document.body.dataset.page;
 
@@ -73,6 +74,7 @@ function initHome() {
   const previewData = composers.filter((composer) => PREVIEW_IDS.includes(composer.id));
   renderTimeline(preview, previewData, { preview: true });
   bindTimelineNavigation("preview", { min: MIN_YEAR, max: MAX_YEAR });
+  bindPreviewMapLaunch();
 }
 
 function initTimelinePage() {
@@ -83,6 +85,7 @@ function initTimelinePage() {
   renderPeriodFilters();
   bindTimelineControls();
   bindTimelineNavigation("full", { min: MIN_YEAR, max: MAX_YEAR });
+  isInitialTimelineRender = true;
   updateTimeline();
 }
 
@@ -139,10 +142,12 @@ function updateTimeline() {
 
   const target = document.querySelector('[data-timeline="full"]');
   const selectedComposer = getSelectedComposer(filtered);
+  const instantPan = isInitialTimelineRender;
   renderTimeline(target, filtered, { preview: false, selectedId: selectedComposer?.id });
   updateResultCount(filtered.length);
   renderDetail(selectedComposer);
-  panTimelineToComposer(selectedComposer, "full", { min: MIN_YEAR, max: MAX_YEAR });
+  panTimelineToComposer(selectedComposer, "full", { min: MIN_YEAR, max: MAX_YEAR }, { instant: instantPan });
+  isInitialTimelineRender = false;
 }
 
 function renderTimeline(target, data, options) {
@@ -285,27 +290,54 @@ function renderPreviewNote(composer) {
   `;
 }
 
+function bindPreviewMapLaunch() {
+  const frame = document.querySelector('[data-timeline-frame="preview"]');
+  if (!frame) return;
+
+  let startX = 0;
+  let startY = 0;
+  let startScrollLeft = 0;
+
+  frame.addEventListener("pointerdown", (event) => {
+    if (isInteractiveTarget(event.target)) return;
+    startX = event.clientX;
+    startY = event.clientY;
+    startScrollLeft = frame.scrollLeft;
+  });
+
+  frame.addEventListener("pointerup", (event) => {
+    if (isInteractiveTarget(event.target)) return;
+    const moved = Math.hypot(event.clientX - startX, event.clientY - startY);
+    const panned = Math.abs(frame.scrollLeft - startScrollLeft);
+    if (moved < 6 && panned < 6) window.location.href = "timeline.html";
+  });
+}
+
+function isInteractiveTarget(target) {
+  return target instanceof Element && Boolean(target.closest("button, a, input"));
+}
+
 function getSelectedComposer(filtered) {
   const focusId = new URLSearchParams(window.location.search).get("focus");
   return filtered.find((composer) => composer.id === focusId) || filtered[0];
 }
 
-function panTimelineToComposer(composer, mode, range) {
+function panTimelineToComposer(composer, mode, range, options = {}) {
   const frame = document.querySelector(`[data-timeline-frame="${mode}"]`);
   if (!frame || !composer) return;
 
   window.requestAnimationFrame(() => {
-    scrollFrameToYear(frame, composer.birth, range, 0.32);
+    scrollFrameToYear(frame, composer.birth, range, 0.32, options.instant ? "auto" : getScrollBehavior());
   });
 }
 
-function scrollFrameToYear(frame, year, range, alignRatio) {
+function scrollFrameToYear(frame, year, range, alignRatio, behavior = getScrollBehavior()) {
   const percent = yearToPercent(year, range.min, range.max) / 100;
   const maxScroll = frame.scrollWidth - frame.clientWidth;
   const targetLeft = frame.scrollWidth * percent - frame.clientWidth * alignRatio;
   frame.scrollTo({
     left: Math.min(maxScroll, Math.max(0, targetLeft)),
-    behavior: getScrollBehavior()
+    behavior
   });
 }
 
