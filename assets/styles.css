@@ -707,11 +707,86 @@ h2 {
   color: var(--ink);
 }
 
-.detail-works {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem var(--space-3);
+.listening-guide {
   margin-block-start: var(--space-4);
+  border-block-start: 1px solid color-mix(in oklch, var(--rule) 74%, transparent);
+  padding-block-start: var(--space-3);
+}
+
+.detail-section-label {
+  margin: 0 0 var(--space-2);
+  color: var(--concert-red);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+}
+
+.guide-context,
+.guide-route {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.guide-list {
+  display: grid;
+  gap: 0.42rem;
+  margin: var(--space-3) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.guide-list li {
+  display: grid;
+  grid-template-columns: 0.8rem minmax(0, 1fr);
+  gap: var(--space-2);
+  color: var(--ink);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+
+.guide-list li::before {
+  content: "";
+  width: 0.38rem;
+  height: 1px;
+  margin-block-start: 0.72rem;
+  background: var(--concert-red);
+}
+
+.guide-route + .guide-route {
+  margin-block-start: var(--space-2);
+}
+
+.detail-works {
+  display: grid;
+  gap: var(--space-2);
+  margin-block-start: var(--space-4);
+}
+
+.work-guide-list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.work-guide-list li {
+  display: grid;
+  gap: 0.22rem;
+  border-block-start: 1px solid color-mix(in oklch, var(--rule) 60%, transparent);
+  padding-block-start: var(--space-2);
+}
+
+.work-guide-list li:first-child {
+  border-block-start: 0;
+  padding-block-start: 0;
+}
+
+.work-guide-list span {
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.45;
 }
 
 .work-link {
@@ -738,12 +813,6 @@ h2 {
 .work-link--source:hover,
 .work-link--source:focus-visible {
   color: var(--concert-red);
-}
-
-.detail-next {
-  margin-block: var(--space-4) 0;
-  color: var(--ink-soft);
-  font-size: 0.86rem;
 }
 
 .source-links {
@@ -789,7 +858,7 @@ h2 {
   }
 
   .explorer-shell {
-    grid-template-columns: minmax(34rem, 2.35fr) minmax(16rem, 0.62fr);
+    grid-template-columns: minmax(33rem, 2fr) minmax(20rem, 0.78fr);
     align-items: start;
   }
 

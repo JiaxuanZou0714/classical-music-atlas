@@ -32,6 +32,8 @@ const PREVIEW_IDS = [
 let composers = [];
 let composerSources = new Map();
 let workSources = new Map();
+let listeningGuides = new Map();
+let periodGuides = new Map();
 let activePeriod = "all";
 let activeMood = "";
 let searchValue = "";
@@ -45,6 +47,7 @@ async function init() {
   try {
     composers = await fetchJson("data/composers.json");
     hydratePublicSources(await fetchJson("data/public-sources.json", null));
+    hydrateListeningGuides(await fetchJson("data/listening-guides.json", null));
     if (page === "home") initHome();
     if (page === "timeline") initTimelinePage();
   } catch (error) {
@@ -67,6 +70,13 @@ function hydratePublicSources(sourceData) {
 
   composerSources = new Map((sourceData.composers || []).map((source) => [source.composerId, source]));
   workSources = new Map((sourceData.works || []).map((source) => [workSourceKey(source.composerId, source.title), source]));
+}
+
+function hydrateListeningGuides(guideData) {
+  if (!guideData) return;
+
+  listeningGuides = new Map((guideData.composers || []).map((guide) => [guide.composerId, guide]));
+  periodGuides = new Map((guideData.periods || []).map((guide) => [guide.id, guide]));
 }
 
 function initHome() {
@@ -387,10 +397,8 @@ function renderDetail(composer) {
     </p>
     <p class="detail-vibe">${escapeHtml(composer.vibe)}</p>
     ${renderPublicFacts(source)}
-    <div class="detail-works" aria-label="先听这三首">
-      ${composer.works.map((work) => renderWorkLink(composer.id, work)).join("")}
-    </div>
-    <p class="detail-next">${escapeHtml(composer.next)}</p>
+    ${renderListeningGuide(composer)}
+    ${renderWorkGuides(composer)}
     ${renderSourceLinks(source)}
   `;
 }
@@ -402,10 +410,12 @@ function renderPublicFacts(source) {
     source.description && ["资料", source.description],
     source.birthPlace && ["生于", source.birthPlace],
     source.deathPlace && ["卒于", source.deathPlace],
+    source.citizenship?.length && ["归属", source.citizenship.slice(0, 2).join(" / ")],
     source.occupations?.length && ["身份", source.occupations.slice(0, 3).join(" / ")],
     source.movements?.length && ["流派", source.movements.slice(0, 2).join(" / ")],
     !source.movements?.length && source.genres?.length && ["体裁", source.genres.slice(0, 2).join(" / ")],
-    source.instruments?.length && ["乐器", source.instruments.slice(0, 3).join(" / ")]
+    source.instruments?.length && ["乐器", source.instruments.slice(0, 3).join(" / ")],
+    source.notableWorks?.length && ["名作", source.notableWorks.slice(0, 2).join(" / ")]
   ].filter(Boolean);
 
   if (!facts.length) return "";
@@ -420,6 +430,54 @@ function renderPublicFacts(source) {
       `).join("")}
     </dl>
   `;
+}
+
+function renderListeningGuide(composer) {
+  const guide = listeningGuides.get(composer.id) || buildFallbackGuide(composer);
+  const periodGuide = periodGuides.get(composer.period);
+  const listenFor = (guide.listenFor?.length ? guide.listenFor : [composer.vibe]).slice(0, 2);
+
+  return `
+    <section class="listening-guide" aria-label="鉴赏指南">
+      <p class="detail-section-label">鉴赏指南</p>
+      <p class="guide-context">${escapeHtml(guide.context || periodGuide?.short || composer.vibe)}</p>
+      <ul class="guide-list">
+        ${listenFor.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
+      </ul>
+      <p class="guide-route">${escapeHtml(guide.entry || "")}</p>
+      <p class="guide-route">${escapeHtml(guide.compare || composer.next)}</p>
+    </section>
+  `;
+}
+
+function renderWorkGuides(composer) {
+  const guide = listeningGuides.get(composer.id);
+  const workGuides = guide?.works?.length
+    ? guide.works
+    : composer.works.map((title) => ({ title, note: "先记住最清楚的主题，再听它下一次出现时变了什么。" }));
+
+  return `
+    <div class="detail-works" aria-label="先听这三首">
+      <p class="detail-section-label">先听</p>
+      <ol class="work-guide-list">
+        ${workGuides.map((work) => `
+          <li>
+            ${renderWorkLink(composer.id, work.title)}
+            <span>${escapeHtml(work.note)}</span>
+          </li>
+        `).join("")}
+      </ol>
+    </div>
+  `;
+}
+
+function buildFallbackGuide(composer) {
+  return {
+    context: composer.vibe,
+    listenFor: [composer.vibe],
+    entry: `入口可以从《${composer.works[0]}》开始。`,
+    compare: composer.next
+  };
 }
 
 function renderWorkLink(composerId, title) {

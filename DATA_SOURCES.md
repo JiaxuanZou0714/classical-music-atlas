@@ -41,6 +41,7 @@ Use these only as secondary helpers.
 | `sourceIds` | Stores stable external identifiers used for verification. First version tracks Wikidata, MusicBrainz artist ID, VIAF, and LOC. |
 | `verifiedAt` | Date when identity and birth/death years were last checked by the verification script. |
 | `data/public-sources.json` | Generated public-source layer for compact composer facts, authority links, and MusicBrainz work links. It should be rebuilt from scripts, not edited by hand. |
+| `data/listening-guides.json` | Generated editorial listening layer. It may summarize public facts from `data/public-sources.json`, but its "listen for" notes are guidance, not database claims. |
 
 ## Verification Workflow
 
@@ -54,7 +55,8 @@ Before changing timeline data:
 6. Run `node scripts/verify-composer-works.mjs` before changing recommended works.
 7. If the work report is acceptable, run `node scripts/verify-composer-works.mjs --write-work-sources`.
 8. Run `node scripts/build-public-sources.mjs` to refresh compact public-source facts and external links.
-9. Keep public-facing prose modest when a date is approximate.
+9. Run `node scripts/build-listening-guides.mjs` to refresh compact listening notes from the current data.
+10. Keep public-facing prose modest when a date is approximate.
 
 Work verification uses MusicBrainz work search scoped to each composer's MusicBrainz artist ID. Saved reports live in `data/work-sources.json`. Treat `OK` as a strong automated match. Treat `CHECK` as a useful candidate that needs human review, often because the local title is a translated title, a short title, a suite, an opus group, or a movement-level reference. Treat `MISS` as unresolved until checked in another catalog such as IMSLP, RISM, or Open Opus.
 

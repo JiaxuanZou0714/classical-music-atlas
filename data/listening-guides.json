@@ -1,0 +1,1983 @@
+{
+  "generatedAt": "2026-05-16",
+  "source": "Generated from data/composers.json, data/public-sources.json, and data/work-sources.json. Public facts are source-backed; listening guidance is editorial.",
+  "composerCount": 52,
+  "periods": [
+    {
+      "id": "Renaissance",
+      "label": "文艺复兴",
+      "short": "先听声部之间的平衡，而不是寻找一个绝对主角。",
+      "listenFor": [
+        "声部彼此模仿、错开、汇合，形成缓慢移动的空间感。",
+        "终止式往往像光线落定，情绪克制但不冷。",
+        "文字、礼仪和和声秩序比个人表情更重要。"
+      ]
+    },
+    {
+      "id": "Baroque",
+      "label": "巴洛克",
+      "short": "抓住低音、律动和装饰，戏剧性会自然显出来。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "装饰音不是炫技，而是语气、呼吸和强调。",
+        "协奏、舞曲和声乐常把清晰结构变成舞台动作。"
+      ]
+    },
+    {
+      "id": "Classical",
+      "label": "古典主义",
+      "short": "先听比例和句法，再听作曲家如何打破平衡。",
+      "listenFor": [
+        "乐句常成对出现，像问答、停顿和回应。",
+        "主题清楚，发展部把熟悉材料推向陌生区域。",
+        "幽默、惊讶和紧张往往藏在整齐结构里。"
+      ]
+    },
+    {
+      "id": "Romantic",
+      "label": "浪漫主义",
+      "short": "听主题如何带着记忆、欲望和音色不断变形。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "管弦乐音色、钢琴触键和歌唱性承担大量情绪。",
+        "个人声音更强，但仍要听它和传统结构的关系。"
+      ]
+    },
+    {
+      "id": "Modern",
+      "label": "现代主义",
+      "short": "先接受新的音色秩序，再寻找作品内部的重复和逻辑。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "小动机、配器和节拍重组常比长旋律更关键。",
+        "不要急着判断好不好听，先听它如何组织时间。"
+      ]
+    }
+  ],
+  "composers": [
+    {
+      "composerId": "palestrina",
+      "context": "意大利文艺复兴时期作曲家；教皇国传统或身份背景。",
+      "listenFor": [
+        "声部彼此模仿、错开、汇合，形成缓慢移动的空间感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现管风琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Missa Papae Marcelli》开始，先抓声部怎样进入、模仿和收束，再回到整体气质。",
+      "compare": "可以接着听蒙特威尔第，感受复调秩序如何走向戏剧性。",
+      "works": [
+        {
+          "title": "Missa Papae Marcelli",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Missa Papae Marcelli",
+          "sourceUrl": "https://musicbrainz.org/work/15e9d772-6411-4063-9bfa-1fbdd3dd4de5"
+        },
+        {
+          "title": "Stabat Mater",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Stabat Mater",
+          "sourceUrl": "https://musicbrainz.org/work/98807788-b44f-4a13-9cb6-4e579f0e3430"
+        },
+        {
+          "title": "Sicut cervus",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Sicut cervus",
+          "sourceUrl": "https://musicbrainz.org/work/bd648383-7c67-4ca1-be72-dd12a9276699"
+        }
+      ]
+    },
+    {
+      "composerId": "byrd",
+      "context": "英国文艺复兴作曲家（1539/1540－1623）；英国 / 英格兰王国传统或身份背景。",
+      "listenFor": [
+        "声部彼此模仿、错开、汇合，形成缓慢移动的空间感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现風琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Ave verum corpus》开始，先抓声部怎样进入、模仿和收束，再回到整体气质。",
+      "compare": "从伯德转向珀塞尔，会听到英国声乐传统进入舞台。",
+      "works": [
+        {
+          "title": "Ave verum corpus",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Ave verum corpus, T 92",
+          "sourceUrl": "https://musicbrainz.org/work/cc6dbabc-ff83-37db-a862-0f5055787991"
+        },
+        {
+          "title": "Mass for Four Voices",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "The Bells",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Bells",
+          "sourceUrl": "https://musicbrainz.org/work/143d3e4a-678f-35fc-9cfb-745a2bc98c50"
+        }
+      ]
+    },
+    {
+      "composerId": "monteverdi",
+      "context": "意大利巴洛克作曲家（Claudio Monteverdi，1567—1643）；威尼斯共和国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现viola da braccio / 维奥尔琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《L'Orfeo》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "接着听吕利或珀塞尔，比较早期歌剧在法国和英国的走向。",
+      "works": [
+        {
+          "title": "L'Orfeo",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Suite from L’Orfeo",
+          "sourceUrl": "https://musicbrainz.org/work/5ad5e970-1653-4421-a52b-d227629450e6"
+        },
+        {
+          "title": "Vespro della Beata Vergine",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Vespro della Beata Vergine, SV 206",
+          "sourceUrl": "https://musicbrainz.org/work/c05338ae-3457-49fb-a042-fed834a34411"
+        },
+        {
+          "title": "Lamento d'Arianna",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Lamento d'Arianna \"Lasciatemi morire\", SV 107",
+          "sourceUrl": "https://musicbrainz.org/work/85926888-c6a4-32ef-99ee-6d1bc9a9d8e0"
+        }
+      ]
+    },
+    {
+      "composerId": "lully",
+      "context": "意大利出生的法国巴洛克作曲家；法蘭西王國 / 托斯卡纳大公国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Armide》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "听完吕利再听拉莫，法式巴洛克的和声色彩会更明显。",
+      "works": [
+        {
+          "title": "Armide",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Premier Air (Armide)",
+          "sourceUrl": "https://musicbrainz.org/work/2bee35eb-02dc-4232-b390-5c1d9c3c81b4"
+        },
+        {
+          "title": "Atys",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Atys",
+          "sourceUrl": "https://musicbrainz.org/work/803d8c92-ad5d-4c0d-a3cd-e78b2de4ad1b"
+        },
+        {
+          "title": "Te Deum",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Te Deum",
+          "sourceUrl": "https://musicbrainz.org/work/91725590-e66b-4767-b4a3-59ca00304ccc"
+        }
+      ]
+    },
+    {
+      "composerId": "corelli",
+      "context": "巴洛克时期意大利小提琴家和作曲家；教皇国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现小提琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Concerti Grossi, Op. 6》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "从科雷利接维瓦尔第，能听出弦乐语言变得更明亮。",
+      "works": [
+        {
+          "title": "Concerti Grossi, Op. 6",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "12 concerti grossi, op. 6",
+          "sourceUrl": "https://musicbrainz.org/work/f5155e79-1086-4359-bdf3-2c0757114ddb"
+        },
+        {
+          "title": "La Folia",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Sonata in D Minor 'La Folia', Op.5 No.12",
+          "sourceUrl": "https://musicbrainz.org/work/046e3f64-467c-49f0-bb40-9b2d9c10a2c9"
+        },
+        {
+          "title": "Sonate da chiesa, Op. 3",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "12 sonate da chiesa, op. 3",
+          "sourceUrl": "https://musicbrainz.org/work/d2a0e142-ef43-4dfc-a4a8-0d255bdafc67"
+        }
+      ]
+    },
+    {
+      "composerId": "purcell",
+      "context": "巴洛克时期的英格兰作曲家；英格兰王国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Dido and Aeneas》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "可以接亨德尔的清唱剧，听英国舞台和宗教音乐的扩展。",
+      "works": [
+        {
+          "title": "Dido and Aeneas",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Dido and Aeneas, Z. 626: Overture",
+          "sourceUrl": "https://musicbrainz.org/work/31dba112-f412-30ec-8337-50ed271ae980"
+        },
+        {
+          "title": "Music for the Funeral of Queen Mary",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Music for the Funeral of Queen Mary, Z. 860",
+          "sourceUrl": "https://musicbrainz.org/work/0f07e744-d38f-4913-91a1-ca1bffef94ee"
+        },
+        {
+          "title": "King Arthur",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "King Arthur: Aire",
+          "sourceUrl": "https://musicbrainz.org/work/09124d62-296b-4e80-907d-5fc0a95c9111"
+        }
+      ]
+    },
+    {
+      "composerId": "rameau",
+      "context": "巴洛克时期法国作曲家、音乐理论家；法蘭西王國传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。"
+      ],
+      "entry": "入口可以从《Hippolyte et Aricie》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "接德彪西的钢琴小品，会听到法国色彩传统的远回声。",
+      "works": [
+        {
+          "title": "Hippolyte et Aricie",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Hippolyte et Aricie",
+          "sourceUrl": "https://musicbrainz.org/work/856d4cbb-98a0-4df7-8ce8-64c0db7a2864"
+        },
+        {
+          "title": "Les Indes galantes",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Les Indes galantes",
+          "sourceUrl": "https://musicbrainz.org/work/b407211e-3002-39b2-ae06-f6d1311c3b1a"
+        },
+        {
+          "title": "Pieces de clavecin",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Pièces de clavecin",
+          "sourceUrl": "https://musicbrainz.org/work/8f4b070b-3573-4f6c-a409-cf3bf786486d"
+        }
+      ]
+    },
+    {
+      "composerId": "vivaldi",
+      "context": "意大利巴洛克时期作曲家；威尼斯共和国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《The Four Seasons》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "接巴赫的协奏曲改编，能听见德意志结构如何吸收意大利动力。",
+      "works": [
+        {
+          "title": "The Four Seasons",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Four Seasons: Spring 1",
+          "sourceUrl": "https://musicbrainz.org/work/5087c2d5-31a2-40f4-b69b-db6ed55706c0"
+        },
+        {
+          "title": "Gloria",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Gloria",
+          "sourceUrl": "https://musicbrainz.org/work/a30cd3ee-7277-3c9f-a696-93622e257e1c"
+        },
+        {
+          "title": "L'estro armonico",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "L’estro armonico, op. 3",
+          "sourceUrl": "https://musicbrainz.org/work/161dd98a-9b6b-46b1-863b-1899af0d06f9"
+        }
+      ]
+    },
+    {
+      "composerId": "bach",
+      "context": "巴洛克時期德國作曲家（1685－1750）；薩克森-愛森納赫 / 神聖羅馬帝國传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现風琴 / 大鍵琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Brandenburg Concertos》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "从巴赫转向海顿和莫扎特，能听到复调密度如何让位给古典句法。",
+      "works": [
+        {
+          "title": "Brandenburg Concertos",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Goldberg Variations",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Goldberg Variations, BWV 988: Aria",
+          "sourceUrl": "https://musicbrainz.org/work/bcaac927-da8f-4370-9683-0cf8ebe6a16f"
+        },
+        {
+          "title": "St Matthew Passion",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "St. Matthew Passion",
+          "sourceUrl": "https://musicbrainz.org/work/7c430602-46d9-4568-a6ca-5e8ec721fb1e"
+        }
+      ]
+    },
+    {
+      "composerId": "handel",
+      "context": "巴洛克时期作曲家（1685年—1759年）；勃蘭登堡-普魯士 / 大不列顛王國传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Messiah》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "接格鲁克或海顿，听歌剧和清唱剧之后的古典转向。",
+      "works": [
+        {
+          "title": "Messiah",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Messiah, K. 572",
+          "sourceUrl": "https://musicbrainz.org/work/f6fe8fe2-0d4e-4cdc-b32b-1af2c3ef501f"
+        },
+        {
+          "title": "Water Music",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Water Music",
+          "sourceUrl": "https://musicbrainz.org/work/15e21391-7388-47e8-9468-0a9766c347f3"
+        },
+        {
+          "title": "Giulio Cesare",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Giulio Cesare",
+          "sourceUrl": "https://musicbrainz.org/work/811f8bc0-7199-4a2b-94a9-f6eb894ecd94"
+        }
+      ]
+    },
+    {
+      "composerId": "scarlatti",
+      "context": "巴洛克时期意大利作曲家；Kingdom of Spain / 那不勒斯王国传统或身份背景。",
+      "listenFor": [
+        "持续低音和节奏型像骨架，推动乐句向前。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现大鍵琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Keyboard Sonata K. 141》开始，先抓低音和节奏怎样支撑整首作品，再回到整体气质。",
+      "compare": "接莫扎特钢琴奏鸣曲，比较键盘语言从机敏到歌唱的变化。",
+      "works": [
+        {
+          "title": "Keyboard Sonata K. 141",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Keyboard Sonata K. 380",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Keyboard Sonata K. 466",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "gluck",
+      "context": "德国作曲家；波希米亞王國 / 奧地利大公國传统或身份背景。",
+      "listenFor": [
+        "乐句常成对出现，像问答、停顿和回应。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Orfeo ed Euridice》开始，先抓主题怎样被提出、回答和发展，再回到整体气质。",
+      "compare": "接莫扎特歌剧，能听到改革之后的戏剧弹性。",
+      "works": [
+        {
+          "title": "Orfeo ed Euridice",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Orfeo ed Euridice, Wq. 30",
+          "sourceUrl": "https://musicbrainz.org/work/89d3eaa1-c9b9-4352-97ff-7eac83239623"
+        },
+        {
+          "title": "Alceste",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Alceste, Wq. 37: Atto II. “Consorte! Alceste!” (Admeto, Alceste)",
+          "sourceUrl": "https://musicbrainz.org/work/c7651c9c-0c7b-4986-8243-e2b7e0fd8519"
+        },
+        {
+          "title": "Iphigenie en Tauride",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Iphigénie en Tauride, Wq. 46",
+          "sourceUrl": "https://musicbrainz.org/work/6c4c4b5c-0f9b-4ed8-989e-ace86e1a6d42"
+        }
+      ]
+    },
+    {
+      "composerId": "haydn",
+      "context": "奧地利古典主義時期作曲家（1732－1809）；奧地利大公國 / 神聖羅馬帝國传统或身份背景。",
+      "listenFor": [
+        "乐句常成对出现，像问答、停顿和回应。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "如果资料里出现風琴 / 钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphony No. 104》开始，先抓主题怎样被提出、回答和发展，再回到整体气质。",
+      "compare": "接莫扎特和贝多芬，古典结构会逐渐变得更歌唱或更冲突。",
+      "works": [
+        {
+          "title": "Symphony No. 104",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 104 in D major, Hob. I:104 “London”: II. Andante",
+          "sourceUrl": "https://musicbrainz.org/work/4b05322b-bb6e-3ada-958c-a7703e43615c"
+        },
+        {
+          "title": "The Creation",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "String Quartets, Op. 76",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "String Quartets, op. 76",
+          "sourceUrl": "https://musicbrainz.org/work/c6360a27-dbf6-4065-9989-633405b96538"
+        }
+      ]
+    },
+    {
+      "composerId": "mozart",
+      "context": "古典時期的作曲家；奧地利大公國 / 總教區传统或身份背景。",
+      "listenFor": [
+        "乐句常成对出现，像问答、停顿和回应。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《The Marriage of Figaro》开始，先抓主题怎样被提出、回答和发展，再回到整体气质。",
+      "compare": "接贝多芬，听古典句法如何被推向个人意志。",
+      "works": [
+        {
+          "title": "The Marriage of Figaro",
+          "note": "先记住最清楚的主题，再听它下一次出现时变了什么。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Marriage of Figaro",
+          "sourceUrl": "https://musicbrainz.org/work/0bb8236f-de4f-4b9d-9fcd-05f55edb0f5f"
+        },
+        {
+          "title": "Piano Concerto No. 23",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Requiem",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Requiem in D minor, K. 626: I. Introitus: Requiem aeternam",
+          "sourceUrl": "https://musicbrainz.org/work/e27bda6e-531e-36d3-9cd7-b8ebc18e8c53"
+        }
+      ]
+    },
+    {
+      "composerId": "beethoven",
+      "context": "古典至浪漫主义时期的德意志作曲家和钢琴家（1770－1827）；科隆选侯国 / 奧地利帝國传统或身份背景。",
+      "listenFor": [
+        "乐句常成对出现，像问答、停顿和回应。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Symphony No. 5》开始，先抓主题怎样被提出、回答和发展，再回到整体气质。",
+      "compare": "接舒伯特、柏辽兹和勃拉姆斯，听浪漫主义的三种不同入口。",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 5 in C minor, op. 67: IV. Allegro",
+          "sourceUrl": "https://musicbrainz.org/work/7eacabfd-c702-3eb6-8738-322555d6a521"
+        },
+        {
+          "title": "Piano Sonata No. 14",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "String Quartet No. 14",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "String Quartet no. 14 in C‐sharp minor, op. 131: VII. Allegro",
+          "sourceUrl": "https://musicbrainz.org/work/0846cac6-a5b1-3f9a-b770-71158936bb90"
+        }
+      ]
+    },
+    {
+      "composerId": "schubert",
+      "context": "奧地利浪漫主义作曲家（1797－1828）；奧地利 / 奧地利帝國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "如果资料里出现钢琴 / 小提琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Winterreise》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接舒曼和勃拉姆斯，听德奥浪漫主义如何保留内省。",
+      "works": [
+        {
+          "title": "Winterreise",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Winterreise, op. 89, D. 911: XI. Frühlingstraum",
+          "sourceUrl": "https://musicbrainz.org/work/7b7e76cc-4cdf-316f-9088-910a0032a8f1"
+        },
+        {
+          "title": "String Quintet in C major",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "String Quintet in C major, D. 956: II. Adagio",
+          "sourceUrl": "https://musicbrainz.org/work/5967ab1e-1023-3fe9-98a6-5e21dae8085d"
+        },
+        {
+          "title": "Symphony No. 8",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 8 in B minor, D. 759 “Unfinished”: I. Allegro moderato",
+          "sourceUrl": "https://musicbrainz.org/work/1b190927-c343-347b-853f-26a2a4920e65"
+        }
+      ]
+    },
+    {
+      "composerId": "berlioz",
+      "context": "法国作曲家（1803–1869）；法國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现吉他 / 哨笛，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphonie fantastique》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接李斯特和瓦格纳，浪漫主义会继续走向标题性和总体艺术。",
+      "works": [
+        {
+          "title": "Symphonie fantastique",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphonie fantastique",
+          "sourceUrl": "https://musicbrainz.org/work/ccb5e986-fc9f-4019-819c-527a87bf4215"
+        },
+        {
+          "title": "Harold en Italie",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Harold en Italie, op. 16",
+          "sourceUrl": "https://musicbrainz.org/work/f1add72b-eb01-407b-8b92-a227a13caee4"
+        },
+        {
+          "title": "Grande messe des morts",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Requiem, op. 5 « Grande Messe des Morts »",
+          "sourceUrl": "https://musicbrainz.org/work/f67ae3bd-22a9-418c-9624-e52410c4d3ec"
+        }
+      ]
+    },
+    {
+      "composerId": "mendelssohn",
+      "context": "德国浪漫主义时期作曲家；萨克森王国 / 汉堡传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "如果资料里出现風琴 / 钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《A Midsummer Night's Dream》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接舒曼或格里格，听抒情小品和民族色彩的分叉。",
+      "works": [
+        {
+          "title": "A Midsummer Night's Dream",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "A Midsummer Night’s Dream: Overture",
+          "sourceUrl": "https://musicbrainz.org/work/dbe3664c-315d-4eea-839c-85a012bcefd8"
+        },
+        {
+          "title": "Violin Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Finale from the Violin Concerto",
+          "sourceUrl": "https://musicbrainz.org/work/69fabc36-4b75-4e25-a5b2-4d7251c6b53e"
+        },
+        {
+          "title": "Songs Without Words",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "chopin",
+      "context": "波兰作曲家、钢琴家（1810－1849）；法國 / 俄罗斯帝国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Nocturnes, Op. 9》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接李斯特和德彪西，分别听钢琴的炫技扩张和色彩转向。",
+      "works": [
+        {
+          "title": "Nocturnes, Op. 9",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Nocturnes, op. 9",
+          "sourceUrl": "https://musicbrainz.org/work/660d0d25-4253-4d30-a818-61fc94e375bf"
+        },
+        {
+          "title": "Ballade No. 1",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Ballade no. 1 in G minor, op. 23",
+          "sourceUrl": "https://musicbrainz.org/work/f94364c5-b4ca-3555-af9e-86dff67757af"
+        },
+        {
+          "title": "Preludes, Op. 28",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "24 Préludes, op. 28: No. 9 in E major. Largo",
+          "sourceUrl": "https://musicbrainz.org/work/cfaad147-1f25-471c-8be0-4d2b8bdecb94"
+        }
+      ]
+    },
+    {
+      "composerId": "schumann",
+      "context": "德国浪漫主义作曲家；萨克森王国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Carnaval》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接勃拉姆斯，听同一德奥语境里更厚重的结构回应。",
+      "works": [
+        {
+          "title": "Carnaval",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Carnaval, op. 9: XII. Chopin",
+          "sourceUrl": "https://musicbrainz.org/work/cea4364b-5e48-3457-a112-29507b422a45"
+        },
+        {
+          "title": "Dichterliebe",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Dichterliebe, op. 48: VII. Ich grolle nicht",
+          "sourceUrl": "https://musicbrainz.org/work/564410f4-ebfc-3646-9560-3e020cc0dfd9"
+        },
+        {
+          "title": "Piano Quintet",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Piano Quintet in E-flat major, op. 44: I. Allegro brillante",
+          "sourceUrl": "https://musicbrainz.org/work/a4ca91dd-b768-31ce-9b51-c9265ca4d7a3"
+        }
+      ]
+    },
+    {
+      "composerId": "liszt",
+      "context": "匈牙利浪漫主义作曲家，钢琴演奏家；匈牙利王国 / 奧地利帝國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴 / 風琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Piano Sonata in B minor》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接瓦格纳和拉赫玛尼诺夫，听和声与炫技的长期影响。",
+      "works": [
+        {
+          "title": "Piano Sonata in B minor",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Les Preludes",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Les Préludes, S. 97",
+          "sourceUrl": "https://musicbrainz.org/work/5e852053-64ba-3013-a86b-daf146791dda"
+        },
+        {
+          "title": "Annees de pelerinage",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Années de pèlerinage",
+          "sourceUrl": "https://musicbrainz.org/work/29954628-3a98-41f9-87a1-14dc00bcfbe6"
+        }
+      ]
+    },
+    {
+      "composerId": "wagner",
+      "context": "德國浪漫主義時期作曲家；萨克森王国 / 德國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Tristan und Isolde》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接布鲁克纳、马勒和理查德·施特劳斯，听后瓦格纳时代的扩张。",
+      "works": [
+        {
+          "title": "Tristan und Isolde",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Tristan und Isolde: Liebestod",
+          "sourceUrl": "https://musicbrainz.org/work/b76a48f8-9f47-4cf4-a0da-1de898f4c5ee"
+        },
+        {
+          "title": "Der Ring des Nibelungen",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Der Ring des Nibelungen, WWV 86",
+          "sourceUrl": "https://musicbrainz.org/work/597e017a-2c97-40c0-9eeb-430a0461e4ad"
+        },
+        {
+          "title": "Parsifal",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Parsifal",
+          "sourceUrl": "https://musicbrainz.org/work/9181dd6e-2106-4651-9cb7-b1eff046c879"
+        }
+      ]
+    },
+    {
+      "composerId": "verdi",
+      "context": "意大利作曲家 (1813–1901)；帕爾馬公國 / 意大利王國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《La traviata》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接普契尼，听意大利歌剧如何走向更电影化的情感线。",
+      "works": [
+        {
+          "title": "La traviata",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "La traviata: Preludio",
+          "sourceUrl": "https://musicbrainz.org/work/f9b14267-0661-346a-a7f9-7c923b93e6f6"
+        },
+        {
+          "title": "Aida",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Aida",
+          "sourceUrl": "https://musicbrainz.org/work/6675ed9c-9b8b-43f0-9cd7-3df843b6e8d8"
+        },
+        {
+          "title": "Requiem",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Messa da requiem: Ia. Requiem: Requiem aeternam",
+          "sourceUrl": "https://musicbrainz.org/work/09fb49a9-c7bb-3fe3-b704-3e6cb4a6b05e"
+        }
+      ]
+    },
+    {
+      "composerId": "franck",
+      "context": "比利时裔法国作曲家、管风琴演奏家和音乐教育家；荷蘭聯合王國 / 比利時传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现管风琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphony in D minor》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接福雷和德彪西，法国传统会从厚重走向透明。",
+      "works": [
+        {
+          "title": "Symphony in D minor",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Violin Sonata",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Prelude, Chorale and Fugue",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "bruckner",
+      "context": "奥地利浪漫主义时期作曲家；奧地利帝國 / 內萊塔尼亞传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现風琴 / 钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphony No. 4》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接马勒，听同样庞大的交响体量如何转向个人世界。",
+      "works": [
+        {
+          "title": "Symphony No. 4",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 4 in E-flat major, WAB 104 “Romantische”: II. Andante, quasi allegretto",
+          "sourceUrl": "https://musicbrainz.org/work/7ae5d4c7-f6e8-313c-b8aa-b07a3f3c25aa"
+        },
+        {
+          "title": "Symphony No. 7",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 7",
+          "sourceUrl": "https://musicbrainz.org/work/52405285-15f2-4f22-a604-bd588197c962"
+        },
+        {
+          "title": "Te Deum",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Te Deum in C major: I. Te Deum. Allegro moderato",
+          "sourceUrl": "https://musicbrainz.org/work/953a26be-f6ff-3b06-9d35-a7677f3e6910"
+        }
+      ]
+    },
+    {
+      "composerId": "brahms",
+      "context": "德国作曲家；汉堡 / 德國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现钢琴 / 大提琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphony No. 1》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接德沃夏克和勋伯格，分别听传统的民族化与裂变。",
+      "works": [
+        {
+          "title": "Symphony No. 1",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 1 in E-flat major, op. 28",
+          "sourceUrl": "https://musicbrainz.org/work/6755a742-5371-43de-b389-9415c6dbab89"
+        },
+        {
+          "title": "German Requiem",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "A German Requiem, op. 45: I. Blessed Are They That Mourn",
+          "sourceUrl": "https://musicbrainz.org/work/dab25f7b-1dcb-40dd-9292-12e287e19f0a"
+        },
+        {
+          "title": "Clarinet Quintet",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "bizet",
+      "context": "法国浪漫主义作曲家（1838—1875）；法國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "把歌劇 / 交響曲当作入口，先听体裁习惯，再听个人笔触。"
+      ],
+      "entry": "入口可以从《Carmen》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接柴科夫斯基或德彪西，比较戏剧色彩与法式色彩的差异。",
+      "works": [
+        {
+          "title": "Carmen",
+          "note": "先听人物语气和乐队色彩如何推动戏剧。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Carmen : Prélude",
+          "sourceUrl": "https://musicbrainz.org/work/f9ba78e4-9a29-30a1-bbbc-5790ac2c82eb"
+        },
+        {
+          "title": "L'Arlesienne Suites",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Symphony in C",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony in C major \"Roma\"",
+          "sourceUrl": "https://musicbrainz.org/work/395011dc-b1b1-4cfa-83ec-d518815bd413"
+        }
+      ]
+    },
+    {
+      "composerId": "mussorgsky",
+      "context": "俄罗斯作曲家；俄罗斯帝国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Pictures at an Exhibition》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接里姆斯基-科萨科夫和肖斯塔科维奇，听俄罗斯色彩的两种方向。",
+      "works": [
+        {
+          "title": "Pictures at an Exhibition",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Pictures at an Exhibition",
+          "sourceUrl": "https://musicbrainz.org/work/fef21cee-269d-45cb-b41e-f90980979aca"
+        },
+        {
+          "title": "Boris Godunov",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Boris Godunov (Symphonic Synthesis)",
+          "sourceUrl": "https://musicbrainz.org/work/148120b7-a1a9-4666-9be9-0fcf126a3fc5"
+        },
+        {
+          "title": "Night on Bald Mountain",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Night on Bald Mountain",
+          "sourceUrl": "https://musicbrainz.org/work/ae433568-e6d6-4d46-a10c-5f4513a60070"
+        }
+      ]
+    },
+    {
+      "composerId": "tchaikovsky",
+      "context": "俄羅斯作曲家（1840－1893）；俄罗斯帝国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。"
+      ],
+      "entry": "入口可以从《Symphony No. 6》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接拉赫玛尼诺夫和普罗科菲耶夫，俄罗斯抒情会进入新的世纪。",
+      "works": [
+        {
+          "title": "Symphony No. 6",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 6 in B minor, op. 74 “Pathétique”",
+          "sourceUrl": "https://musicbrainz.org/work/15e0a721-5332-3452-8a56-e00af7b9e4ca"
+        },
+        {
+          "title": "Swan Lake",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Swan Lake",
+          "sourceUrl": "https://musicbrainz.org/work/1b1ebd2f-62db-4663-959e-e30251713d71"
+        },
+        {
+          "title": "Violin Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "dvorak",
+      "context": "捷克作曲家（1841—1904）；波希米亞王國 / 內萊塔尼亞传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "如果资料里出现管风琴 / 钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Symphony No. 9》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接斯美塔那和雅纳切克，听捷克音乐从田园到语言节奏。",
+      "works": [
+        {
+          "title": "Symphony No. 9",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 9 in E minor, Op. 95 “From the New World”",
+          "sourceUrl": "https://musicbrainz.org/work/90379c91-2dce-4ba4-9900-dd32763ee0b4"
+        },
+        {
+          "title": "Cello Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Cello Concerto in B minor, op. 104: I. Allegro",
+          "sourceUrl": "https://musicbrainz.org/work/710830c6-79d6-30ee-956d-f7079681ddf5"
+        },
+        {
+          "title": "Slavonic Dances",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Slavonic Dances, B. 172",
+          "sourceUrl": "https://musicbrainz.org/work/7b5c805e-3db9-405d-99db-6be005cb20c4"
+        }
+      ]
+    },
+    {
+      "composerId": "grieg",
+      "context": "挪威浪漫主义作曲家；挪威传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Peer Gynt Suites》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接西贝柳斯，北欧色彩会变得更辽阔、更冷峻。",
+      "works": [
+        {
+          "title": "Peer Gynt Suites",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "Piano Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Grieg’s Piano Concerto",
+          "sourceUrl": "https://musicbrainz.org/work/101ef8f7-e7aa-4c28-8cf8-1c516c14f1ba"
+        },
+        {
+          "title": "Lyric Pieces",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Lyric Pieces: Melody",
+          "sourceUrl": "https://musicbrainz.org/work/ca423b31-c476-4baa-92fd-7a559eb902d2"
+        }
+      ]
+    },
+    {
+      "composerId": "rimsky",
+      "context": "俄羅斯浪漫主义作曲家；俄罗斯帝国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Scheherazade》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接斯特拉文斯基，能听见俄罗斯色彩被切成更锋利的节奏。",
+      "works": [
+        {
+          "title": "Scheherazade",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Scheherazade",
+          "sourceUrl": "https://musicbrainz.org/work/10d461a2-96f8-30e1-8590-55960a03c11f"
+        },
+        {
+          "title": "Russian Easter Festival Overture",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Russian Easter Festival Overture, op. 36",
+          "sourceUrl": "https://musicbrainz.org/work/840155b0-c12d-365c-bd5f-029136aa816e"
+        },
+        {
+          "title": "The Snow Maiden",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Snow Maiden",
+          "sourceUrl": "https://musicbrainz.org/work/4912294f-f827-4b1b-8097-65af3939dd77"
+        }
+      ]
+    },
+    {
+      "composerId": "faure",
+      "context": "法國作曲家，風琴師，鋼琴家和老師；法國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "如果资料里出现管风琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Requiem》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接德彪西和拉威尔，法国音乐会从柔和调性进入色彩空间。",
+      "works": [
+        {
+          "title": "Requiem",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Requiem, op. 48: III. Sanctus",
+          "sourceUrl": "https://musicbrainz.org/work/97d4839c-3b4c-3fd2-89e0-50f2f3f45822"
+        },
+        {
+          "title": "Pavane",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Pavane, op. 50",
+          "sourceUrl": "https://musicbrainz.org/work/fea62425-85b7-4070-8a5e-9b9658e2ade0"
+        },
+        {
+          "title": "Piano Quartet No. 1",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Piano Quartet no. 1 in C minor, op. 15: III. Adagio",
+          "sourceUrl": "https://musicbrainz.org/work/c4be18b8-8f0b-3bbf-80a4-82e8e628bbee"
+        }
+      ]
+    },
+    {
+      "composerId": "elgar",
+      "context": "英國作曲家；英国 / 大不列颠及爱尔兰联合王国传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现風琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Enigma Variations》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接沃恩·威廉斯和布里顿，英国音乐会从帝国气质转向田园和现代。",
+      "works": [
+        {
+          "title": "Enigma Variations",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "“Nimrod” from Enigma Variations",
+          "sourceUrl": "https://musicbrainz.org/work/310c6703-f100-490a-bb9b-3b28a8b59d32"
+        },
+        {
+          "title": "Cello Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Cello Concerto in E minor, op. 85: III. Adagio",
+          "sourceUrl": "https://musicbrainz.org/work/6f410283-2fa3-35e3-bd03-ffcb4a7954a7"
+        },
+        {
+          "title": "Pomp and Circumstance",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Pomp and Circumstance",
+          "sourceUrl": "https://musicbrainz.org/work/2dfc5b22-c7a9-4b0d-9a3c-e7435e173cb1"
+        }
+      ]
+    },
+    {
+      "composerId": "mahler",
+      "context": "奧地利浪漫主义作曲家（1860－1911）；奧地利帝國 / 內萊塔尼亞传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Symphony No. 2》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接勋伯格和肖斯塔科维奇，听大交响传统如何进入现代焦虑。",
+      "works": [
+        {
+          "title": "Symphony No. 2",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 2 “Resurrection”",
+          "sourceUrl": "https://musicbrainz.org/work/ad8df966-dba7-43d0-8d0e-91e69df5b5ef"
+        },
+        {
+          "title": "Das Lied von der Erde",
+          "note": "先听旋律如何被延长、回忆或突然改写。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Das Lied von der Erde",
+          "sourceUrl": "https://musicbrainz.org/work/14514e77-f06c-4d24-a4d5-9a5962acae64"
+        },
+        {
+          "title": "Symphony No. 9",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 9 in D major: I. Andante comodo",
+          "sourceUrl": "https://musicbrainz.org/work/22cc1e5f-0796-3bbf-9cb4-61aea8825917"
+        }
+      ]
+    },
+    {
+      "composerId": "debussy",
+      "context": "法国现代主义时期作曲家；法國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Prelude to the Afternoon of a Faun》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接拉威尔、萨蒂和福雷，听法国音乐的色彩、线条和留白。",
+      "works": [
+        {
+          "title": "Prelude to the Afternoon of a Faun",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        },
+        {
+          "title": "La mer",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "La Mer",
+          "sourceUrl": "https://musicbrainz.org/work/77bb353f-9eac-44f9-be42-3d613d41925b"
+        },
+        {
+          "title": "Clair de lune",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Clair de Lune",
+          "sourceUrl": "https://musicbrainz.org/work/c28179d7-9a4c-44ad-90e4-c96c3e2cfa94"
+        }
+      ]
+    },
+    {
+      "composerId": "strauss",
+      "context": "德国浪漫主义作曲家；德國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Also sprach Zarathustra》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接马勒或勋伯格，听后浪漫主义在现代门口的两条路。",
+      "works": [
+        {
+          "title": "Also sprach Zarathustra",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Also sprach Zarathustra (2001)",
+          "sourceUrl": "https://musicbrainz.org/work/e782d5e1-7142-4607-83e9-8aad5a92c123"
+        },
+        {
+          "title": "Der Rosenkavalier",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Der Rosenkavalier",
+          "sourceUrl": "https://musicbrainz.org/work/18e6d250-1e75-499c-804b-865da45f8ddb"
+        },
+        {
+          "title": "Four Last Songs",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "sibelius",
+      "context": "芬蘭作曲家（Jean Sibelius，1865—1957）；芬蘭 / 芬兰大公国传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。"
+      ],
+      "entry": "入口可以从《Symphony No. 5》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接尼尔森或肖斯塔科维奇，听北方交响如何保留张力。",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 5 in E-flat major, op. 82: III. Allegro molto",
+          "sourceUrl": "https://musicbrainz.org/work/4b9c0f1f-05ba-371e-a495-b911b3d8b89f"
+        },
+        {
+          "title": "Finlandia",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Finlandia",
+          "sourceUrl": "https://musicbrainz.org/work/625c4a60-53c9-4ca1-b2a8-8db34c9e88c6"
+        },
+        {
+          "title": "Violin Concerto",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Violin Concerto in D minor, op. 47: I. Allegro moderato",
+          "sourceUrl": "https://musicbrainz.org/work/9159906a-0a5c-30fc-84e9-950f69b5170c"
+        }
+      ]
+    },
+    {
+      "composerId": "satie",
+      "context": "法国作曲家；法國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Gymnopedies》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接德彪西和普朗克，听法国现代性里的留白与机智。",
+      "works": [
+        {
+          "title": "Gymnopedies",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Gymnopédies",
+          "sourceUrl": "https://musicbrainz.org/work/c8dd2fee-9480-4c2f-89a2-eada0e3d5302"
+        },
+        {
+          "title": "Gnossiennes",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Trois Gnossiennes",
+          "sourceUrl": "https://musicbrainz.org/work/e7b9f29a-588d-4a4b-b986-8999c2c86dbf"
+        },
+        {
+          "title": "Parade",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Parade",
+          "sourceUrl": "https://musicbrainz.org/work/65775acf-95f0-350c-ba5d-60d9386e463f"
+        }
+      ]
+    },
+    {
+      "composerId": "rachmaninoff",
+      "context": "俄国作曲家、指挥家及钢琴演奏家；俄罗斯帝国 / 美國传统或身份背景。",
+      "listenFor": [
+        "旋律更像叙事线，常被和声拖长或突然改写。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Piano Concerto No. 2》开始，先抓旋律和音色怎样拉长情绪，再回到整体气质。",
+      "compare": "接普罗科菲耶夫，听同一俄罗斯传统如何变得更锋利。",
+      "works": [
+        {
+          "title": "Piano Concerto No. 2",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Piano Concerto no. 2 in C minor, op. 18: I. Moderato",
+          "sourceUrl": "https://musicbrainz.org/work/4661a9a2-3986-30a8-a044-b79359dfd4fc"
+        },
+        {
+          "title": "Rhapsody on a Theme of Paganini",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Rhapsody on a Theme of Paganini, op. 43",
+          "sourceUrl": "https://musicbrainz.org/work/17eea09b-0497-370c-a0a2-4f7f2d49300f"
+        },
+        {
+          "title": "All-Night Vigil",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "schoenberg",
+      "context": "奥地利作曲家、音乐理论家（1874—1951）；奧地利 / 美國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Verklarte Nacht》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接韦伯恩和贝尔格，听第二维也纳乐派的压缩与抒情。",
+      "works": [
+        {
+          "title": "Verklarte Nacht",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Verklärte Nacht, op. 4",
+          "sourceUrl": "https://musicbrainz.org/work/47ac23fb-acab-42b6-8f81-10550f8b1f83"
+        },
+        {
+          "title": "Pierrot lunaire",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Dreimal sieben Gedichte aus Albert Girauds »Pierrot lunaire«, op. 21: II. Teil: 13. „Enthauptung“",
+          "sourceUrl": "https://musicbrainz.org/work/a6e60a2c-ad8f-446d-bf9a-06a42f077c02"
+        },
+        {
+          "title": "Suite for Piano, Op. 25",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "ravel",
+      "context": "法国作曲家和钢琴家；法國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Daphnis et Chloe》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接德彪西和斯特拉文斯基，比较色彩的柔化与节奏的锋利。",
+      "works": [
+        {
+          "title": "Daphnis et Chloe",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Daphnis et Chloé",
+          "sourceUrl": "https://musicbrainz.org/work/a55d2dfe-fb81-42e8-9e0f-3e6fd9654ca1"
+        },
+        {
+          "title": "Bolero",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Boléro",
+          "sourceUrl": "https://musicbrainz.org/work/487527b9-a525-33f4-b948-ea41b9a2672f"
+        },
+        {
+          "title": "Gaspard de la nuit",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Gaspard de la nuit",
+          "sourceUrl": "https://musicbrainz.org/work/2fce1e89-1685-43f7-97b2-5d0dd8c6fb70"
+        }
+      ]
+    },
+    {
+      "composerId": "bartok",
+      "context": "匈牙利现代主义时期作曲家（1881—1945）；匈牙利 / 美國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Concerto for Orchestra》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接斯特拉文斯基和普罗科菲耶夫，听节奏如何成为现代音乐的骨骼。",
+      "works": [
+        {
+          "title": "Concerto for Orchestra",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Concerto for Orchestra, Sz. 116, BB 123: IV. Intermezzo interrotto. Allegretto",
+          "sourceUrl": "https://musicbrainz.org/work/8961fa6a-9d99-3bb9-9890-dd1b665d6010"
+        },
+        {
+          "title": "Music for Strings, Percussion and Celesta",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Music for Strings, Percussion and Celesta, Sz. 106, BB 114",
+          "sourceUrl": "https://musicbrainz.org/work/0c680f6b-c5cf-4045-a689-df318e794383"
+        },
+        {
+          "title": "Mikrokosmos",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Mikrokosmos, Sz. 107, BB 105",
+          "sourceUrl": "https://musicbrainz.org/work/05e73b3f-7664-4745-ab48-d140dd106a5e"
+        }
+      ]
+    },
+    {
+      "composerId": "stravinsky",
+      "context": "俄罗斯现代主义作曲家；法國 / 俄罗斯帝国传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《The Rite of Spring》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接巴托克和普罗科菲耶夫，听现代节奏的不同硬度。",
+      "works": [
+        {
+          "title": "The Rite of Spring",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Rite of Spring",
+          "sourceUrl": "https://musicbrainz.org/work/ce43a3ab-8642-4573-90e9-bb391ab3bb56"
+        },
+        {
+          "title": "The Firebird",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Firebird: Lullaby (The Firebird)",
+          "sourceUrl": "https://musicbrainz.org/work/c612e5bf-4c90-4232-a88e-d51ac7417d2c"
+        },
+        {
+          "title": "Symphony of Psalms",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony of Psalms",
+          "sourceUrl": "https://musicbrainz.org/work/84070a93-3b55-4c11-a15c-7f4efec7df7f"
+        }
+      ]
+    },
+    {
+      "composerId": "webern",
+      "context": "奥地利作曲家；奧地利传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Five Movements for String Quartet》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接勋伯格和战后先锋派，听密度如何被压缩到极限。",
+      "works": [
+        {
+          "title": "Five Movements for String Quartet",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Five Movements for String Quartet, op. 5",
+          "sourceUrl": "https://musicbrainz.org/work/fafa518d-4f22-45b7-b784-d744f8072240"
+        },
+        {
+          "title": "Symphony, Op. 21",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony, op. 21",
+          "sourceUrl": "https://musicbrainz.org/work/2195c606-ddb5-44c6-8993-4c5ea1cbb1ef"
+        },
+        {
+          "title": "Variations for Piano",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Variations for Piano, op. 27",
+          "sourceUrl": "https://musicbrainz.org/work/26f762c4-0724-4732-93d9-e47510ab8782"
+        }
+      ]
+    },
+    {
+      "composerId": "prokofiev",
+      "context": "俄罗斯现代主义时期作曲家（1891—1953）；俄罗斯帝国 / 蘇聯传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。",
+        "如果资料里出现钢琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Romeo and Juliet》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接肖斯塔科维奇，听苏联时代下更黑暗的戏剧张力。",
+      "works": [
+        {
+          "title": "Romeo and Juliet",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Romeo and Juliet",
+          "sourceUrl": "https://musicbrainz.org/work/fe99ac3d-e454-4023-b421-c7a7cfb2c0ce"
+        },
+        {
+          "title": "Piano Concerto No. 3",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Piano Concerto no. 3 in C major, op. 26: I. Andante – Allegro",
+          "sourceUrl": "https://musicbrainz.org/work/582f07ea-9dd9-3e74-8dc0-b45c55994b6e"
+        },
+        {
+          "title": "Classical Symphony",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "MISS",
+          "sourceName": "",
+          "sourceTitle": "",
+          "sourceUrl": ""
+        }
+      ]
+    },
+    {
+      "composerId": "hindemith",
+      "context": "德国作曲家，音乐理论家，音乐教育家，中提琴家，指挥家；德國 / 西德传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "如果资料里出现風琴 / 中提琴，可以特别留意这些音色或键盘写法。"
+      ],
+      "entry": "入口可以从《Mathis der Maler》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接巴托克或布里顿，听现代主义如何保持手工艺质感。",
+      "works": [
+        {
+          "title": "Mathis der Maler",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Mathis der Maler",
+          "sourceUrl": "https://musicbrainz.org/work/dc4a03a4-cff9-42f4-a470-3410f0d657a9"
+        },
+        {
+          "title": "Symphonic Metamorphosis",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphonic Metamorphosis after Themes by Carl Maria von Weber: IV. Marsch",
+          "sourceUrl": "https://musicbrainz.org/work/99d412a7-7025-3b7d-9342-6b4a9c37bda9"
+        },
+        {
+          "title": "Ludus Tonalis",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Ludus tonalis",
+          "sourceUrl": "https://musicbrainz.org/work/41f04f3d-ea8f-42d8-985f-af2e3e0922c7"
+        }
+      ]
+    },
+    {
+      "composerId": "gershwin",
+      "context": "美國作曲家和鋼琴家（1838—1937）；美國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Rhapsody in Blue》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接科普兰和伯恩斯坦，听美国音乐如何继续进入音乐厅。",
+      "works": [
+        {
+          "title": "Rhapsody in Blue",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Rhapsody in Blue",
+          "sourceUrl": "https://musicbrainz.org/work/bf7e3ad3-4d47-3425-aa5f-8cc8c91d53ed"
+        },
+        {
+          "title": "An American in Paris",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "An American in Paris",
+          "sourceUrl": "https://musicbrainz.org/work/7e7d799a-babe-3d9c-b271-9ad417ac650f"
+        },
+        {
+          "title": "Porgy and Bess",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Porgy and Bess",
+          "sourceUrl": "https://musicbrainz.org/work/1094de73-1671-4a6f-a870-3442756cab2f"
+        }
+      ]
+    },
+    {
+      "composerId": "poulenc",
+      "context": "法国现代主义时期作曲家；法國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "把注意力放在泛音、踏板、配器边缘和模糊的和声轮廓。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。"
+      ],
+      "entry": "入口可以从《Gloria》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接萨蒂和拉威尔，听法国现代音乐的轻、准与转身。",
+      "works": [
+        {
+          "title": "Gloria",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Gloria, for Soprano, Chorus and Orchestra, FP 177: I. Gloria",
+          "sourceUrl": "https://musicbrainz.org/work/dfde29b4-1d11-4747-9a5e-ef10eb61b754"
+        },
+        {
+          "title": "Dialogues des Carmelites",
+          "note": "留意音色边缘、踏板感和模糊的和声转向。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Dialogues des Carmélites",
+          "sourceUrl": "https://musicbrainz.org/work/0769979a-558f-4eaa-b947-f1754de6c00f"
+        },
+        {
+          "title": "Concerto for Two Pianos",
+          "note": "注意独奏与合奏之间的距离、回应和推动。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Concerto for Two Pianos and Orchestra in D minor, FP 61: II. Larghetto",
+          "sourceUrl": "https://musicbrainz.org/work/15d58784-cef7-3596-ae2f-f6f60795a032"
+        }
+      ]
+    },
+    {
+      "composerId": "copland",
+      "context": "美国作曲家，指挥家，钢琴家；美國传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "留意木管、舞曲节奏和开阔音区，它们常制造风景感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。"
+      ],
+      "entry": "入口可以从《Appalachian Spring》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接伯恩斯坦和格什温，听美国声音在舞台和交响之间移动。",
+      "works": [
+        {
+          "title": "Appalachian Spring",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Appalachian Spring",
+          "sourceUrl": "https://musicbrainz.org/work/5c4dd92e-9eee-41b0-bc5b-48d58bd81551"
+        },
+        {
+          "title": "Fanfare for the Common Man",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Fanfare for the Common Man",
+          "sourceUrl": "https://musicbrainz.org/work/f846bc6f-ff20-3d4c-b49f-c9d8cdf1e588"
+        },
+        {
+          "title": "Billy the Kid",
+          "note": "先听舞曲感、风景感和木管色彩。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Billy the Kid",
+          "sourceUrl": "https://musicbrainz.org/work/68d0ff5f-1297-4461-af8c-5c1f2cf397c5"
+        }
+      ]
+    },
+    {
+      "composerId": "shostakovich",
+      "context": "俄罗斯现代主义时期作曲家（1906－1975）；俄罗斯帝国 / 蘇聯传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《Symphony No. 5》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接马勒、普罗科菲耶夫和布里顿，听二十世纪的公共压力和私人声音。",
+      "works": [
+        {
+          "title": "Symphony No. 5",
+          "note": "先抓主题轮廓和乐章之间的重量分配。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Symphony no. 5 in D minor, op. 47: II. Allegretto",
+          "sourceUrl": "https://musicbrainz.org/work/d8a46a99-3beb-3136-afb1-f0883399c706"
+        },
+        {
+          "title": "String Quartet No. 8",
+          "note": "把它当作室内对话，听材料怎样被拆开再组合。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "String Quartet no. 8 in C minor, op. 110: IV. Largo",
+          "sourceUrl": "https://musicbrainz.org/work/60162d2a-1268-363f-b089-c622ee87e970"
+        },
+        {
+          "title": "Piano Trio No. 2",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Piano Trio no. 2 in E minor, op. 67: IV. Allegretto",
+          "sourceUrl": "https://musicbrainz.org/work/089b5ee2-9e32-3090-be0e-9b4d9267572a"
+        }
+      ]
+    },
+    {
+      "composerId": "britten",
+      "context": "英国现代主义时期作曲家；英国传统或身份背景。",
+      "listenFor": [
+        "调性、节奏和音色可能不再服务于传统终止感。",
+        "注意留白、和声归宿和声部秩序，庄严感常来自克制。",
+        "听冲突如何被推上前台，尤其是转调、强弱和声部对抗。"
+      ],
+      "entry": "入口可以从《War Requiem》开始，先抓音色、节奏和动机怎样组织时间，再回到整体气质。",
+      "compare": "接肖斯塔科维奇和普朗克，听战争之后的宗教感与舞台心理。",
+      "works": [
+        {
+          "title": "War Requiem",
+          "note": "先听文字和声部怎样互相托住，别急着追旋律主线。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "War Requiem, op. 66: II. Dies irae",
+          "sourceUrl": "https://musicbrainz.org/work/300480aa-905e-365c-8a33-53bea289a749"
+        },
+        {
+          "title": "Peter Grimes",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "CHECK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "Peter Grimes: Prologue: \"Peter Grimes!\" (Hobson)",
+          "sourceUrl": "https://musicbrainz.org/work/5ecd048c-c93d-3c8c-b752-86c3b5715aab"
+        },
+        {
+          "title": "Young Person's Guide to the Orchestra",
+          "note": "先听音色、节奏和短动机怎样建立秩序。",
+          "sourceStatus": "OK",
+          "sourceName": "MusicBrainz",
+          "sourceTitle": "The Young Person’s Guide to the Orchestra, op. 34",
+          "sourceUrl": "https://musicbrainz.org/work/ace72a0f-a21f-4ebd-a994-3957aaf14d9f"
+        }
+      ]
+    }
+  ]
+}
