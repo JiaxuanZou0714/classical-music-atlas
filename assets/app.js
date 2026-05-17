@@ -33,7 +33,6 @@ let composers = [];
 let composerSources = new Map();
 let workSources = new Map();
 let listeningGuides = new Map();
-let periodGuides = new Map();
 let activePeriod = "all";
 let activeMood = "";
 let searchValue = "";
@@ -76,7 +75,6 @@ function hydrateListeningGuides(guideData) {
   if (!guideData) return;
 
   listeningGuides = new Map((guideData.composers || []).map((guide) => [guide.composerId, guide]));
-  periodGuides = new Map((guideData.periods || []).map((guide) => [guide.id, guide]));
 }
 
 function initHome() {
@@ -208,6 +206,7 @@ function renderTimeline(target, data, options) {
   }
 
   const lanes = assignLanes(data, options.preview ? 15 : 24);
+  const selectedComposer = !options.preview && options.selectedId ? data.find((composer) => composer.id === options.selectedId) : null;
   const laneHeight = options.preview ? 24 : 22;
   const topOffset = options.preview ? 58 : 68;
   const height = topOffset + (Math.max(...lanes.map((item) => item.lane)) + 2) * laneHeight;
@@ -228,7 +227,7 @@ function renderTimeline(target, data, options) {
     bar.style.setProperty("--period-color", getPeriodColor(composer.period));
     bar.textContent = composer.nameZh;
     bar.setAttribute("aria-label", `${composer.nameZh}，${composer.birth} 至 ${composer.death}`);
-    bar.classList.toggle("is-active", composer.id === options.selectedId);
+    applyComposerBarState(bar, composer, selectedComposer);
 
     if (options.preview) {
       bar.addEventListener("mouseenter", () => renderPreviewNote(composer));
@@ -373,14 +372,15 @@ function shortestLane(laneEnds) {
   return laneEnds.reduce((bestIndex, end, index, list) => (end < list[bestIndex] ? index : bestIndex), 0);
 }
 
-function selectComposer(id) {
+function selectComposer(id, options = {}) {
   const composer = composers.find((item) => item.id === id);
   if (!composer) return;
 
-  document.querySelectorAll(".composer-bar").forEach((bar) => {
-    bar.classList.toggle("is-active", bar.dataset.id === id);
-  });
+  updateTimelineFocus(composer);
   renderDetail(composer);
+  if (options.pan) {
+    panTimelineToComposer(composer, "full", { min: MIN_YEAR, max: MAX_YEAR });
+  }
 }
 
 function renderDetail(composer) {
@@ -399,23 +399,20 @@ function renderDetail(composer) {
     ${renderPublicFacts(source)}
     ${renderListeningGuide(composer)}
     ${renderWorkGuides(composer)}
-    ${renderSourceLinks(source)}
+    ${renderListeningPath(composer)}
+    ${renderSourceDrawer(source)}
   `;
+  bindDetailActions(target);
 }
 
 function renderPublicFacts(source) {
   if (!source) return "";
 
   const facts = [
-    source.description && ["资料", source.description],
     source.birthPlace && ["生于", source.birthPlace],
     source.deathPlace && ["卒于", source.deathPlace],
     source.citizenship?.length && ["归属", source.citizenship.slice(0, 2).join(" / ")],
-    source.occupations?.length && ["身份", source.occupations.slice(0, 3).join(" / ")],
-    source.movements?.length && ["流派", source.movements.slice(0, 2).join(" / ")],
-    !source.movements?.length && source.genres?.length && ["体裁", source.genres.slice(0, 2).join(" / ")],
-    source.instruments?.length && ["乐器", source.instruments.slice(0, 3).join(" / ")],
-    source.notableWorks?.length && ["名作", source.notableWorks.slice(0, 2).join(" / ")]
+    source.occupations?.length && ["身份", source.occupations.slice(0, 3).join(" / ")]
   ].filter(Boolean);
 
   if (!facts.length) return "";
@@ -432,20 +429,48 @@ function renderPublicFacts(source) {
   `;
 }
 
+function renderSourceDrawer(source) {
+  if (!source) return "";
+
+  const extraFacts = [
+    source.description && ["资料", source.description],
+    source.movements?.length && ["流派", source.movements.slice(0, 2).join(" / ")],
+    !source.movements?.length && source.genres?.length && ["体裁", source.genres.slice(0, 2).join(" / ")],
+    source.instruments?.length && ["乐器", source.instruments.slice(0, 3).join(" / ")],
+    source.notableWorks?.length && ["名作", source.notableWorks.slice(0, 2).join(" / ")]
+  ].filter(Boolean);
+  const links = source.sourceLinks || [];
+
+  if (!extraFacts.length && !links.length) return "";
+
+  return `
+    <details class="source-drawer">
+      <summary>资料来源</summary>
+      ${extraFacts.length ? `
+        <dl class="source-extra-facts">
+          ${extraFacts.map(([label, value]) => `
+            <div>
+              <dt>${escapeHtml(label)}</dt>
+              <dd>${escapeHtml(value)}</dd>
+            </div>
+          `).join("")}
+        </dl>
+      ` : ""}
+      ${renderSourceLinks(source)}
+    </details>
+  `;
+}
+
 function renderListeningGuide(composer) {
   const guide = listeningGuides.get(composer.id) || buildFallbackGuide(composer);
-  const periodGuide = periodGuides.get(composer.period);
   const listenFor = (guide.listenFor?.length ? guide.listenFor : [composer.vibe]).slice(0, 2);
 
   return `
     <section class="listening-guide" aria-label="鉴赏指南">
       <p class="detail-section-label">鉴赏指南</p>
-      <p class="guide-context">${escapeHtml(guide.context || periodGuide?.short || composer.vibe)}</p>
       <ul class="guide-list">
         ${listenFor.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}
       </ul>
-      <p class="guide-route">${escapeHtml(guide.entry || "")}</p>
-      <p class="guide-route">${escapeHtml(guide.compare || composer.next)}</p>
     </section>
   `;
 }
@@ -453,8 +478,8 @@ function renderListeningGuide(composer) {
 function renderWorkGuides(composer) {
   const guide = listeningGuides.get(composer.id);
   const workGuides = guide?.works?.length
-    ? guide.works
-    : composer.works.map((title) => ({ title, note: "先记住最清楚的主题，再听它下一次出现时变了什么。" }));
+    ? guide.works.slice(0, 3)
+    : composer.works.slice(0, 3).map((title) => ({ title, note: "先记住最清楚的主题，再听它下一次出现时变了什么。" }));
 
   return `
     <div class="detail-works" aria-label="先听这三首">
@@ -471,9 +496,97 @@ function renderWorkGuides(composer) {
   `;
 }
 
+function renderListeningPath(composer) {
+  const path = buildListeningPath(composer);
+  if (path.length < 2) return "";
+
+  return `
+    <nav class="listening-path" aria-label="聆听路径">
+      <p class="detail-section-label">路径</p>
+      <div>
+        ${path.map((item, index) => {
+          const label = escapeHtml(item.nameZh);
+          if (index === 0) return `<span class="path-node is-current" aria-current="true">${label}</span>`;
+          return `<button class="path-node" type="button" data-path-id="${escapeHtml(item.id)}">${label}</button>`;
+        }).join('<span class="path-arrow" aria-hidden="true">→</span>')}
+      </div>
+    </nav>
+  `;
+}
+
+function buildListeningPath(composer) {
+  const path = [composer];
+  let current = composer;
+
+  while (path.length < 3) {
+    const nextComposer = findMentionedComposer(current.next, path);
+    if (!nextComposer) break;
+    path.push(nextComposer);
+    current = nextComposer;
+  }
+
+  if (path.length === 1) {
+    const neighbor = composers
+      .filter((candidate) => candidate.id !== composer.id && candidate.birth >= composer.birth)
+      .sort((a, b) => a.birth - b.birth)[0];
+    if (neighbor) path.push(neighbor);
+  }
+
+  return path;
+}
+
+function findMentionedComposer(text, excluded) {
+  const haystack = String(text || "").toLowerCase();
+  if (!haystack) return null;
+  const excludedIds = new Set(excluded.map((composer) => composer.id));
+
+  return composers
+    .filter((composer) => !excludedIds.has(composer.id))
+    .map((composer) => ({ composer, index: mentionIndex(haystack, composer) }))
+    .filter((item) => item.index !== -1)
+    .sort((a, b) => a.index - b.index || a.composer.birth - b.composer.birth)[0]?.composer || null;
+}
+
+function mentionIndex(haystack, composer) {
+  const names = [
+    composer.nameZh,
+    composer.nameEn,
+    composer.nameEn.split(/\s+/).at(-1)
+  ].filter(Boolean);
+  const indexes = names
+    .map((name) => haystack.indexOf(name.toLowerCase()))
+    .filter((index) => index !== -1);
+  return indexes.length ? Math.min(...indexes) : -1;
+}
+
+function bindDetailActions(target) {
+  target.querySelectorAll("[data-path-id]").forEach((button) => {
+    button.addEventListener("click", () => {
+      ensureComposerVisible(button.dataset.pathId);
+      selectComposer(button.dataset.pathId, { pan: true });
+    });
+  });
+}
+
+function ensureComposerVisible(id) {
+  const isVisible = [...document.querySelectorAll('[data-timeline="full"] .composer-bar')].some((bar) => bar.dataset.id === id);
+  if (isVisible) return;
+
+  activePeriod = "all";
+  activeMood = "";
+  searchValue = "";
+
+  const search = document.querySelector("[data-search]");
+  if (search) search.value = "";
+  updatePressedState("[data-period]", activePeriod);
+  document.querySelectorAll("[data-mood]").forEach((button) => {
+    button.setAttribute("aria-pressed", "false");
+  });
+  updateTimeline();
+}
+
 function buildFallbackGuide(composer) {
   return {
-    context: composer.vibe,
     listenFor: [composer.vibe],
     entry: `入口可以从《${composer.works[0]}》开始。`,
     compare: composer.next
@@ -503,6 +616,27 @@ function renderSourceLinks(source) {
       ${links.map((link) => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(link.label)}</a>`).join("")}
     </div>
   `;
+}
+
+function updateTimelineFocus(selectedComposer) {
+  document.querySelectorAll('[data-timeline="full"] .composer-bar').forEach((bar) => {
+    const composer = composers.find((item) => item.id === bar.dataset.id);
+    if (composer) applyComposerBarState(bar, composer, selectedComposer);
+  });
+}
+
+function applyComposerBarState(bar, composer, selectedComposer) {
+  const isActive = composer.id === selectedComposer?.id;
+  const isRelated = Boolean(selectedComposer) && isRelatedComposer(composer, selectedComposer);
+
+  bar.classList.toggle("is-active", isActive);
+  bar.classList.toggle("is-related", isRelated && !isActive);
+  bar.classList.toggle("is-muted", Boolean(selectedComposer) && !isActive && !isRelated);
+  bar.toggleAttribute("aria-current", isActive);
+}
+
+function isRelatedComposer(composer, selectedComposer) {
+  return composer.period === selectedComposer.period || (composer.birth <= selectedComposer.death && composer.death >= selectedComposer.birth);
 }
 
 function workSourceKey(composerId, title) {
