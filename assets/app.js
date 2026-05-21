@@ -89,6 +89,7 @@ function initTimelinePage() {
   const params = new URLSearchParams(window.location.search);
   activePeriod = params.get("period") || "all";
   activeMood = params.get("mood") || "";
+  searchValue = (params.get("q") || "").trim().toLowerCase();
 
   renderPeriodFilters();
   bindTimelineControls();
@@ -117,8 +118,11 @@ function bindTimelineControls() {
   const periodFilters = document.querySelector("[data-period-filters]");
   const moodButtons = document.querySelectorAll("[data-mood]");
 
+  if (search && searchValue) search.value = searchValue;
+
   search?.addEventListener("input", (event) => {
     searchValue = event.target.value.trim().toLowerCase();
+    syncUrlState();
     updateTimeline();
   });
 
@@ -127,6 +131,7 @@ function bindTimelineControls() {
     if (!button) return;
     activePeriod = button.dataset.period;
     updatePressedState("[data-period]", activePeriod);
+    syncUrlState();
     updateTimeline();
   });
 
@@ -135,9 +140,29 @@ function bindTimelineControls() {
     button.addEventListener("click", () => {
       activeMood = activeMood === button.dataset.mood ? "" : button.dataset.mood;
       moodButtons.forEach((item) => item.setAttribute("aria-pressed", item.dataset.mood === activeMood ? "true" : "false"));
+      syncUrlState();
       updateTimeline();
     });
   });
+}
+
+function syncUrlState() {
+  if (page !== "timeline") return;
+
+  const params = new URLSearchParams(window.location.search);
+  if (activePeriod && activePeriod !== "all") params.set("period", activePeriod);
+  else params.delete("period");
+
+  if (activeMood) params.set("mood", activeMood);
+  else params.delete("mood");
+
+  if (searchValue) params.set("q", searchValue);
+  else params.delete("q");
+
+  params.delete("focus");
+  const query = params.toString();
+  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}`;
+  window.history.replaceState({}, "", nextUrl);
 }
 
 function updateTimeline() {
