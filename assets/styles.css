@@ -27,6 +27,10 @@
   --radius-md: 0.5rem;
   --shadow-preview: 0 1rem 3rem oklch(26% 0.045 238 / 0.12);
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-fast: 160ms;
+  --motion-base: 280ms;
+  --motion-slow: 560ms;
   --font-display: "Iowan Old Style", "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
   --font-body: "Aptos", "Segoe UI", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
 }
@@ -56,6 +60,39 @@ body {
   overflow-x: hidden;
   overflow-wrap: break-word;
   text-rendering: optimizeLegibility;
+}
+
+.is-motion-ready .site-header,
+.is-motion-ready .hero-copy,
+.is-motion-ready .atlas-panel,
+.is-motion-ready .timeline-intro > *,
+.is-motion-ready .explorer-controls,
+.is-motion-ready .timeline-workspace,
+.is-motion-ready .composer-detail {
+  animation: page-rise-in var(--motion-slow) var(--ease-soft) both;
+}
+
+.is-motion-ready .site-header {
+  animation-delay: 40ms;
+}
+
+.is-motion-ready .hero-copy,
+.is-motion-ready .timeline-intro > :first-child {
+  animation-delay: 80ms;
+}
+
+.is-motion-ready .atlas-panel,
+.is-motion-ready .timeline-intro > p,
+.is-motion-ready .explorer-controls {
+  animation-delay: 150ms;
+}
+
+.is-motion-ready .timeline-workspace {
+  animation-delay: 210ms;
+}
+
+.is-motion-ready .composer-detail {
+  animation-delay: 260ms;
 }
 
 a {
@@ -228,10 +265,10 @@ h2 {
   border-radius: var(--radius-sm);
   padding: 0.7rem 1rem;
   transition:
-    background-color 180ms var(--ease-out),
-    color 180ms var(--ease-out),
-    border-color 180ms var(--ease-out),
-    transform 180ms var(--ease-out);
+    background-color var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out),
+    border-color var(--motion-fast) var(--ease-out),
+    transform var(--motion-fast) var(--ease-out);
 }
 
 .button:hover {
@@ -328,17 +365,17 @@ h2 {
 }
 
 ::view-transition-group(atlas-map) {
-  animation-timing-function: var(--ease-out);
-  animation-duration: 880ms;
+  animation-timing-function: var(--ease-soft);
+  animation-duration: 640ms;
   z-index: 2;
 }
 
 ::view-transition-old(root) {
-  animation: atlas-root-out 100ms var(--ease-out) both;
+  animation: atlas-root-out 120ms var(--ease-out) both;
 }
 
 ::view-transition-new(root) {
-  animation: atlas-root-in 300ms var(--ease-out) 360ms both;
+  animation: atlas-root-in 240ms var(--ease-out) 180ms both;
 }
 
 ::view-transition-old(atlas-map),
@@ -348,11 +385,11 @@ h2 {
 }
 
 ::view-transition-old(atlas-map) {
-  animation: atlas-map-old 300ms var(--ease-out) both;
+  animation: atlas-map-old 220ms var(--ease-out) both;
 }
 
 ::view-transition-new(atlas-map) {
-  animation: atlas-map-new 880ms var(--ease-out) both;
+  animation: atlas-map-new 640ms var(--ease-soft) both;
 }
 
 @keyframes atlas-root-out {
@@ -380,13 +417,25 @@ h2 {
 
 @keyframes atlas-map-new {
   from {
-    opacity: 0.72;
-    transform: scale(0.988);
+    opacity: 0.78;
+    transform: scale(0.994);
   }
 
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes page-rise-in {
+  from {
+    opacity: 0;
+    translate: 0 0.7rem;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
   }
 }
 
@@ -416,6 +465,10 @@ h2 {
   border-block-start: 1px solid var(--rule);
   padding-block-start: var(--space-3);
   color: var(--ink-soft);
+}
+
+.timeline-note:not(:empty) {
+  animation: detail-rise-in var(--motion-base) var(--ease-soft) both;
 }
 
 .timeline-note:empty {
@@ -448,6 +501,10 @@ h2 {
   min-width: 66rem;
   min-height: 36rem;
   isolation: isolate;
+}
+
+.is-motion-ready .period-band {
+  animation: band-wash-in 460ms var(--ease-soft) both;
 }
 
 .timeline:empty::after {
@@ -521,12 +578,17 @@ h2 {
   text-align: start;
   white-space: nowrap;
   transition:
-    transform 160ms var(--ease-out),
-    opacity 160ms var(--ease-out),
-    filter 160ms var(--ease-out),
-    border-color 160ms var(--ease-out),
-    background-color 160ms var(--ease-out),
-    box-shadow 160ms var(--ease-out);
+    transform var(--motion-fast) var(--ease-out),
+    opacity var(--motion-fast) var(--ease-out),
+    filter var(--motion-fast) var(--ease-out),
+    border-color var(--motion-fast) var(--ease-out),
+    background-color var(--motion-fast) var(--ease-out),
+    box-shadow var(--motion-fast) var(--ease-out);
+}
+
+.is-motion-ready .composer-bar {
+  animation: map-mark-in 360ms var(--ease-soft) backwards;
+  animation-delay: var(--bar-delay, 0ms);
 }
 
 .composer-bar:hover,
@@ -669,15 +731,20 @@ h2 {
   color: var(--ink-soft);
   padding: 0.36rem 0.68rem;
   transition:
-    border-color 160ms var(--ease-out),
-    color 160ms var(--ease-out),
-    background-color 160ms var(--ease-out);
+    border-color var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out),
+    background-color var(--motion-fast) var(--ease-out),
+    translate var(--motion-fast) var(--ease-out);
 }
 
 .chip:hover,
 .chip[aria-pressed="true"] {
   border-color: var(--concert-red);
   color: var(--concert-red);
+}
+
+.chip:hover {
+  translate: 0 -1px;
 }
 
 .chip[aria-pressed="true"] {
@@ -702,6 +769,10 @@ h2 {
   align-self: start;
   border-block-start: 1px solid var(--rule);
   padding-block-start: var(--space-4);
+}
+
+.composer-detail [data-detail].is-detail-entering {
+  animation: detail-rise-in var(--motion-base) var(--ease-soft) both;
 }
 
 .composer-detail h2 {
@@ -900,6 +971,7 @@ h2 {
   color: var(--ink-soft);
   cursor: pointer;
   font-size: 0.82rem;
+  transition: color var(--motion-fast) var(--ease-out);
 }
 
 .source-drawer summary:hover,
@@ -953,6 +1025,40 @@ h2 {
 .empty-state {
   padding: var(--space-8);
   color: var(--ink-soft);
+}
+
+@keyframes band-wash-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes map-mark-in {
+  from {
+    opacity: 0;
+    translate: 0 0.3rem;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes detail-rise-in {
+  from {
+    opacity: 0;
+    translate: 0 0.35rem;
+  }
+
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
 }
 
 @media (min-width: 48rem) {
@@ -1083,6 +1189,7 @@ h2 {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
     animation-iteration-count: 1 !important;
   }
 }

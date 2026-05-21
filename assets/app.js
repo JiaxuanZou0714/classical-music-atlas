@@ -51,7 +51,15 @@ async function init() {
     if (page === "timeline") initTimelinePage();
   } catch (error) {
     renderLoadError();
+  } finally {
+    enablePageMotion();
   }
+}
+
+function enablePageMotion() {
+  window.requestAnimationFrame(() => {
+    document.body.classList.add("is-motion-ready");
+  });
 }
 
 async function fetchJson(path, fallback) {
@@ -237,7 +245,7 @@ function renderTimeline(target, data, options) {
   const height = topOffset + (Math.max(...lanes.map((item) => item.lane)) + 2) * laneHeight;
   target.style.minHeight = `${Math.max(options.preview ? 250 : 560, height)}px`;
 
-  lanes.forEach(({ composer, lane }) => {
+  lanes.forEach(({ composer, lane }, index) => {
     const bar = document.createElement(options.preview ? "a" : "button");
     if (options.preview) {
       bar.href = `timeline.html?focus=${encodeURIComponent(composer.id)}`;
@@ -250,6 +258,7 @@ function renderTimeline(target, data, options) {
     bar.style.width = `${Math.max(4, toPercent(composer.death) - toPercent(composer.birth))}%`;
     bar.style.top = `${topOffset + lane * laneHeight}px`;
     bar.style.setProperty("--period-color", getPeriodColor(composer.period));
+    bar.style.setProperty("--bar-delay", `${composerBarDelay(index, lane, options.preview)}ms`);
     bar.textContent = composer.nameZh;
     bar.setAttribute("aria-label", `${composer.nameZh}，${composer.birth} 至 ${composer.death}`);
     applyComposerBarState(bar, composer, selectedComposer);
@@ -281,6 +290,12 @@ function bindTimelineNavigation(mode, range) {
   });
 
   bindDragPan(frame);
+}
+
+function composerBarDelay(index, lane, isPreview) {
+  const indexStep = isPreview ? 8 : 4;
+  const laneStep = isPreview ? 10 : 7;
+  return Math.min(isPreview ? 190 : 280, index * indexStep + lane * laneStep);
 }
 
 function bindDragPan(frame) {
@@ -413,6 +428,7 @@ function renderDetail(composer) {
   if (!target || !composer) return;
   const source = composerSources.get(composer.id);
 
+  target.classList.remove("is-detail-entering");
   target.innerHTML = `
     <h2>${escapeHtml(composer.nameZh)}</h2>
     <p class="detail-meta">
@@ -427,7 +443,16 @@ function renderDetail(composer) {
     ${renderListeningPath(composer)}
     ${renderSourceDrawer(source)}
   `;
+  animateDetail(target);
   bindDetailActions(target);
+}
+
+function animateDetail(target) {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (!document.body.classList.contains("is-motion-ready")) return;
+  window.requestAnimationFrame(() => {
+    target.classList.add("is-detail-entering");
+  });
 }
 
 function renderPublicFacts(source) {
